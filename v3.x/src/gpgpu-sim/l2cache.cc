@@ -288,13 +288,13 @@ void memory_partition_unit::dram_cycle()
             int spid = (p + last_issued_partition + 1) % m_config->m_n_sub_partition_per_memory_channel; 
             if (!m_sub_partition[spid]->L2_dram_queue_empty() && can_issue_to_dram(spid)) {
 		    mem_fetch *mf = m_sub_partition[spid]->L2_dram_queue_top();
-		    // if(mf){
+		    // if(mf&&(mf->get_sid()==1)&&!(mf->get_inst().empty())){
 		    // 	    FILE *pFile;
 		    // 	    pFile = fopen("mem_flow.txt","a");
 		    // 	    if(pFile!=NULL){
 		    // 		    mf->print(pFile,true);
-		    // 		    fprintf(pFile,"L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition%u \n",m_id);
-		    // 		    fprintf(pFile,"core cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
+		    // 		    //fprintf(pFile,"sh \n",m_id);
+		    // 		    fprintf(pFile,"core1's cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
 		    // 		    fclose(pFile);
 		    // 	    }}
 		    // FILE *pFile=fopen("L2_dram_stats.txt","a");

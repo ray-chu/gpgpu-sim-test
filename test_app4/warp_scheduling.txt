@@ -1,0 +1,5640 @@
+warp1 has been issued
+core1's cycle: 151 
+warp1 has been issued
+core1's cycle: 152 
+warp2 has been issued
+core1's cycle: 153 
+warp2 has been issued
+core1's cycle: 154 
+warp3 has been issued
+core1's cycle: 155 
+warp3 has been issued
+core1's cycle: 156 
+warp4 has been issued
+core1's cycle: 157 
+warp4 has been issued
+core1's cycle: 158 
+warp5 has been issued
+core1's cycle: 159 
+warp5 has been issued
+core1's cycle: 160 
+warp6 has been issued
+core1's cycle: 161 
+warp6 has been issued
+core1's cycle: 162 
+warp7 has been issued
+core1's cycle: 163 
+warp7 has been issued
+core1's cycle: 164 
+warp8 has been issued
+core1's cycle: 165 
+warp8 has been issued
+core1's cycle: 166 
+warp9 has been issued
+core1's cycle: 167 
+warp9 has been issued
+core1's cycle: 168 
+warp10 has been issued
+core1's cycle: 169 
+warp10 has been issued
+core1's cycle: 170 
+warp0 has been issued
+core1's cycle: 171 
+warp0 has been issued
+core1's cycle: 172 
+warp1 has been issued
+core1's cycle: 173 
+warp1 has been issued
+core1's cycle: 174 
+warp2 has been issued
+core1's cycle: 175 
+warp2 has been issued
+core1's cycle: 176 
+warp3 has been issued
+core1's cycle: 177 
+warp3 has been issued
+core1's cycle: 178 
+warp4 has been issued
+core1's cycle: 179 
+warp4 has been issued
+core1's cycle: 180 
+warp0 has been issued
+core1's cycle: 181 
+warp0 has been issued
+core1's cycle: 182 
+warp5 has been issued
+core1's cycle: 183 
+warp5 has been issued
+core1's cycle: 184 
+warp1 has been issued
+core1's cycle: 185 
+warp2 has been issued
+core1's cycle: 186 
+warp6 has been issued
+core1's cycle: 187 
+warp6 has been issued
+core1's cycle: 188 
+warp3 has been issued
+core1's cycle: 189 
+warp4 has been issued
+core1's cycle: 190 
+warp7 has been issued
+core1's cycle: 191 
+warp7 has been issued
+core1's cycle: 192 
+warp0 has been issued
+core1's cycle: 193 
+warp8 has been issued
+core1's cycle: 194 
+warp8 has been issued
+core1's cycle: 195 
+warp5 has been issued
+core1's cycle: 196 
+warp2 has been issued
+core1's cycle: 197 
+warp1 has been issued
+core1's cycle: 198 
+warp2 has been issued
+core1's cycle: 199 
+warp2 has been issued
+core1's cycle: 200 
+warp1 has been issued
+core1's cycle: 201 
+warp1 has been issued
+core1's cycle: 202 
+warp3 has been issued
+core1's cycle: 203 
+warp0 has been issued
+core1's cycle: 204 
+warp3 has been issued
+core1's cycle: 205 
+warp3 has been issued
+core1's cycle: 206 
+warp0 has been issued
+core1's cycle: 207 
+warp0 has been issued
+core1's cycle: 208 
+warp4 has been issued
+core1's cycle: 209 
+warp5 has been issued
+core1's cycle: 210 
+warp4 has been issued
+core1's cycle: 211 
+warp4 has been issued
+core1's cycle: 212 
+warp5 has been issued
+core1's cycle: 213 
+warp5 has been issued
+core1's cycle: 214 
+warp6 has been issued
+core1's cycle: 215 
+warp7 has been issued
+core1's cycle: 216 
+warp8 has been issued
+core1's cycle: 217 
+warp9 has been issued
+core1's cycle: 218 
+warp9 has been issued
+core1's cycle: 219 
+warp10 has been issued
+core1's cycle: 220 
+warp10 has been issued
+core1's cycle: 221 
+warp11 has been issued
+core1's cycle: 222 
+warp11 has been issued
+core1's cycle: 223 
+warp12 has been issued
+core1's cycle: 224 
+warp12 has been issued
+core1's cycle: 225 
+warp6 has been issued
+core1's cycle: 226 
+warp7 has been issued
+core1's cycle: 227 
+warp6 has been issued
+core1's cycle: 228 
+warp6 has been issued
+core1's cycle: 229 
+warp7 has been issued
+core1's cycle: 230 
+warp7 has been issued
+core1's cycle: 231 
+warp8 has been issued
+core1's cycle: 232 
+warp9 has been issued
+core1's cycle: 233 
+warp8 has been issued
+core1's cycle: 234 
+warp8 has been issued
+core1's cycle: 235 
+warp10 has been issued
+core1's cycle: 236 
+warp11 has been issued
+core1's cycle: 237 
+warp11 has been issued
+core1's cycle: 238 
+warp12 has been issued
+core1's cycle: 239 
+warp12 has been issued
+core1's cycle: 240 
+warp13 has been issued
+core1's cycle: 241 
+warp13 has been issued
+core1's cycle: 242 
+warp14 has been issued
+core1's cycle: 243 
+warp14 has been issued
+core1's cycle: 244 
+warp9 has been issued
+core1's cycle: 245 
+warp15 has been issued
+core1's cycle: 246 
+warp15 has been issued
+core1's cycle: 247 
+warp9 has been issued
+core1's cycle: 248 
+warp9 has been issued
+core1's cycle: 249 
+warp10 has been issued
+core1's cycle: 250 
+warp11 has been issued
+core1's cycle: 251 
+warp10 has been issued
+core1's cycle: 252 
+warp10 has been issued
+core1's cycle: 253 
+warp12 has been issued
+core1's cycle: 254 
+warp13 has been issued
+core1's cycle: 255 
+warp13 has been issued
+core1's cycle: 256 
+warp14 has been issued
+core1's cycle: 257 
+warp14 has been issued
+core1's cycle: 258 
+warp15 has been issued
+core1's cycle: 259 
+warp15 has been issued
+core1's cycle: 260 
+warp16 has been issued
+core1's cycle: 261 
+warp16 has been issued
+core1's cycle: 262 
+warp11 has been issued
+core1's cycle: 263 
+warp17 has been issued
+core1's cycle: 264 
+warp17 has been issued
+core1's cycle: 265 
+warp11 has been issued
+core1's cycle: 266 
+warp11 has been issued
+core1's cycle: 267 
+warp12 has been issued
+core1's cycle: 268 
+warp13 has been issued
+core1's cycle: 269 
+warp12 has been issued
+core1's cycle: 270 
+warp12 has been issued
+core1's cycle: 271 
+warp14 has been issued
+core1's cycle: 272 
+warp15 has been issued
+core1's cycle: 273 
+warp16 has been issued
+core1's cycle: 274 
+warp16 has been issued
+core1's cycle: 275 
+warp17 has been issued
+core1's cycle: 276 
+warp17 has been issued
+core1's cycle: 277 
+warp18 has been issued
+core1's cycle: 278 
+warp18 has been issued
+core1's cycle: 279 
+warp13 has been issued
+core1's cycle: 280 
+warp19 has been issued
+core1's cycle: 281 
+warp19 has been issued
+core1's cycle: 282 
+warp13 has been issued
+core1's cycle: 283 
+warp13 has been issued
+core1's cycle: 284 
+warp14 has been issued
+core1's cycle: 285 
+warp15 has been issued
+core1's cycle: 286 
+warp14 has been issued
+core1's cycle: 287 
+warp14 has been issued
+core1's cycle: 288 
+warp15 has been issued
+core1's cycle: 289 
+warp15 has been issued
+core1's cycle: 290 
+warp16 has been issued
+core1's cycle: 291 
+warp17 has been issued
+core1's cycle: 292 
+warp18 has been issued
+core1's cycle: 293 
+warp18 has been issued
+core1's cycle: 294 
+warp19 has been issued
+core1's cycle: 295 
+warp19 has been issued
+core1's cycle: 296 
+warp16 has been issued
+core1's cycle: 302 
+warp17 has been issued
+core1's cycle: 303 
+warp16 has been issued
+core1's cycle: 304 
+warp16 has been issued
+core1's cycle: 305 
+warp17 has been issued
+core1's cycle: 306 
+warp17 has been issued
+core1's cycle: 307 
+warp18 has been issued
+core1's cycle: 308 
+warp19 has been issued
+core1's cycle: 309 
+warp18 has been issued
+core1's cycle: 319 
+warp19 has been issued
+core1's cycle: 320 
+warp18 has been issued
+core1's cycle: 321 
+warp18 has been issued
+core1's cycle: 322 
+warp19 has been issued
+core1's cycle: 323 
+warp19 has been issued
+core1's cycle: 324 
+warp2 has been issued
+core1's cycle: 360 
+warp1 has been issued
+core1's cycle: 361 
+warp3 has been issued
+core1's cycle: 362 
+warp0 has been issued
+core1's cycle: 363 
+warp4 has been issued
+core1's cycle: 364 
+warp5 has been issued
+core1's cycle: 365 
+warp6 has been issued
+core1's cycle: 366 
+warp7 has been issued
+core1's cycle: 367 
+warp8 has been issued
+core1's cycle: 368 
+warp9 has been issued
+core1's cycle: 369 
+warp10 has been issued
+core1's cycle: 370 
+warp2 has been issued
+core1's cycle: 371 
+warp11 has been issued
+core1's cycle: 372 
+warp1 has been issued
+core1's cycle: 373 
+warp0 has been issued
+core1's cycle: 374 
+warp1 has been issued
+core1's cycle: 375 
+warp0 has been issued
+core1's cycle: 376 
+warp2 has been issued
+core1's cycle: 377 
+warp3 has been issued
+core1's cycle: 378 
+warp1 has been issued
+core1's cycle: 379 
+warp0 has been issued
+core1's cycle: 380 
+warp2 has been issued
+core1's cycle: 381 
+warp3 has been issued
+core1's cycle: 382 
+warp4 has been issued
+core1's cycle: 383 
+warp5 has been issued
+core1's cycle: 384 
+warp3 has been issued
+core1's cycle: 385 
+warp4 has been issued
+core1's cycle: 386 
+warp5 has been issued
+core1's cycle: 387 
+warp6 has been issued
+core1's cycle: 388 
+warp4 has been issued
+core1's cycle: 389 
+warp1 has been issued
+core1's cycle: 390 
+warp1 has been issued
+core1's cycle: 391 
+warp0 has been issued
+core1's cycle: 392 
+warp0 has been issued
+core1's cycle: 393 
+warp1 has been issued
+core1's cycle: 394 
+warp0 has been issued
+core1's cycle: 395 
+warp2 has been issued
+core1's cycle: 396 
+warp2 has been issued
+core1's cycle: 397 
+warp3 has been issued
+core1's cycle: 398 
+warp3 has been issued
+core1's cycle: 399 
+warp2 has been issued
+core1's cycle: 400 
+warp3 has been issued
+core1's cycle: 401 
+warp4 has been issued
+core1's cycle: 402 
+warp4 has been issued
+core1's cycle: 403 
+warp1 has been issued
+core1's cycle: 404 
+warp0 has been issued
+core1's cycle: 405 
+warp4 has been issued
+core1's cycle: 406 
+warp5 has been issued
+core1's cycle: 407 
+warp6 has been issued
+core1's cycle: 408 
+warp7 has been issued
+core1's cycle: 409 
+warp2 has been issued
+core1's cycle: 410 
+warp3 has been issued
+core1's cycle: 411 
+warp6 has been issued
+core1's cycle: 412 
+warp7 has been issued
+core1's cycle: 413 
+warp8 has been issued
+core1's cycle: 414 
+warp9 has been issued
+core1's cycle: 415 
+warp4 has been issued
+core1's cycle: 416 
+warp7 has been issued
+core1's cycle: 417 
+warp5 has been issued
+core1's cycle: 418 
+warp5 has been issued
+core1's cycle: 419 
+warp8 has been issued
+core1's cycle: 420 
+warp5 has been issued
+core1's cycle: 421 
+warp9 has been issued
+core1's cycle: 422 
+warp6 has been issued
+core1's cycle: 423 
+warp6 has been issued
+core1's cycle: 424 
+warp8 has been issued
+core1's cycle: 425 
+warp6 has been issued
+core1's cycle: 426 
+warp9 has been issued
+core1's cycle: 427 
+warp7 has been issued
+core1's cycle: 428 
+warp7 has been issued
+core1's cycle: 429 
+warp10 has been issued
+core1's cycle: 430 
+warp5 has been issued
+core1's cycle: 431 
+warp7 has been issued
+core1's cycle: 432 
+warp10 has been issued
+core1's cycle: 433 
+warp11 has been issued
+core1's cycle: 434 
+warp12 has been issued
+core1's cycle: 435 
+warp6 has been issued
+core1's cycle: 436 
+warp8 has been issued
+core1's cycle: 437 
+warp8 has been issued
+core1's cycle: 438 
+warp9 has been issued
+core1's cycle: 439 
+warp9 has been issued
+core1's cycle: 440 
+warp8 has been issued
+core1's cycle: 441 
+warp7 has been issued
+core1's cycle: 442 
+warp9 has been issued
+core1's cycle: 443 
+warp10 has been issued
+core1's cycle: 444 
+warp11 has been issued
+core1's cycle: 445 
+warp12 has been issued
+core1's cycle: 446 
+warp13 has been issued
+core1's cycle: 447 
+warp11 has been issued
+core1's cycle: 448 
+warp12 has been issued
+core1's cycle: 449 
+warp14 has been issued
+core1's cycle: 450 
+warp8 has been issued
+core1's cycle: 451 
+warp12 has been issued
+core1's cycle: 452 
+warp9 has been issued
+core1's cycle: 453 
+warp15 has been issued
+core1's cycle: 454 
+warp10 has been issued
+core1's cycle: 455 
+warp10 has been issued
+core1's cycle: 456 
+warp16 has been issued
+core1's cycle: 457 
+warp10 has been issued
+core1's cycle: 458 
+warp11 has been issued
+core1's cycle: 459 
+warp11 has been issued
+core1's cycle: 460 
+warp13 has been issued
+core1's cycle: 461 
+warp11 has been issued
+core1's cycle: 462 
+warp12 has been issued
+core1's cycle: 463 
+warp12 has been issued
+core1's cycle: 464 
+warp13 has been issued
+core1's cycle: 465 
+warp12 has been issued
+core1's cycle: 466 
+warp14 has been issued
+core1's cycle: 467 
+warp10 has been issued
+core1's cycle: 468 
+warp13 has been issued
+core1's cycle: 469 
+warp14 has been issued
+core1's cycle: 470 
+warp15 has been issued
+core1's cycle: 471 
+warp11 has been issued
+core1's cycle: 472 
+warp14 has been issued
+core1's cycle: 473 
+warp15 has been issued
+core1's cycle: 474 
+warp16 has been issued
+core1's cycle: 475 
+warp17 has been issued
+core1's cycle: 476 
+warp12 has been issued
+core1's cycle: 477 
+warp15 has been issued
+core1's cycle: 478 
+warp16 has been issued
+core1's cycle: 479 
+warp13 has been issued
+core1's cycle: 480 
+warp13 has been issued
+core1's cycle: 481 
+warp16 has been issued
+core1's cycle: 482 
+warp13 has been issued
+core1's cycle: 483 
+warp14 has been issued
+core1's cycle: 484 
+warp14 has been issued
+core1's cycle: 485 
+warp18 has been issued
+core1's cycle: 486 
+warp14 has been issued
+core1's cycle: 487 
+warp17 has been issued
+core1's cycle: 488 
+warp15 has been issued
+core1's cycle: 489 
+warp15 has been issued
+core1's cycle: 490 
+warp17 has been issued
+core1's cycle: 491 
+warp15 has been issued
+core1's cycle: 492 
+warp13 has been issued
+core1's cycle: 493 
+warp16 has been issued
+core1's cycle: 494 
+warp19 has been issued
+core1's cycle: 495 
+warp14 has been issued
+core1's cycle: 497 
+warp16 has been issued
+core1's cycle: 525 
+warp16 has been issued
+core1's cycle: 527 
+warp15 has been issued
+core1's cycle: 531 
+warp17 has been issued
+core1's cycle: 532 
+warp18 has been issued
+core1's cycle: 533 
+warp19 has been issued
+core1's cycle: 534 
+warp18 has been issued
+core1's cycle: 535 
+warp16 has been issued
+core1's cycle: 537 
+warp19 has been issued
+core1's cycle: 538 
+warp17 has been issued
+core1's cycle: 543 
+warp17 has been issued
+core1's cycle: 544 
+warp17 has been issued
+core1's cycle: 546 
+warp18 has been issued
+core1's cycle: 549 
+warp19 has been issued
+core1's cycle: 550 
+warp17 has been issued
+core1's cycle: 556 
+warp18 has been issued
+core1's cycle: 560 
+warp18 has been issued
+core1's cycle: 561 
+warp19 has been issued
+core1's cycle: 562 
+warp19 has been issued
+core1's cycle: 563 
+warp18 has been issued
+core1's cycle: 564 
+warp19 has been issued
+core1's cycle: 565 
+warp18 has been issued
+core1's cycle: 574 
+warp19 has been issued
+core1's cycle: 575 
+warp1 has been issued
+core1's cycle: 592 
+warp1 has been issued
+core1's cycle: 593 
+warp0 has been issued
+core1's cycle: 594 
+warp0 has been issued
+core1's cycle: 595 
+warp2 has been issued
+core1's cycle: 596 
+warp2 has been issued
+core1's cycle: 597 
+warp3 has been issued
+core1's cycle: 598 
+warp3 has been issued
+core1's cycle: 599 
+warp4 has been issued
+core1's cycle: 600 
+warp4 has been issued
+core1's cycle: 601 
+warp5 has been issued
+core1's cycle: 602 
+warp5 has been issued
+core1's cycle: 603 
+warp6 has been issued
+core1's cycle: 604 
+warp6 has been issued
+core1's cycle: 605 
+warp7 has been issued
+core1's cycle: 606 
+warp7 has been issued
+core1's cycle: 607 
+warp8 has been issued
+core1's cycle: 608 
+warp8 has been issued
+core1's cycle: 609 
+warp9 has been issued
+core1's cycle: 610 
+warp9 has been issued
+core1's cycle: 611 
+warp0 has been issued
+core1's cycle: 612 
+warp1 has been issued
+core1's cycle: 613 
+warp2 has been issued
+core1's cycle: 614 
+warp3 has been issued
+core1's cycle: 615 
+warp10 has been issued
+core1's cycle: 616 
+warp10 has been issued
+core1's cycle: 617 
+warp6 has been issued
+core1's cycle: 618 
+warp11 has been issued
+core1's cycle: 619 
+warp11 has been issued
+core1's cycle: 620 
+warp4 has been issued
+core1's cycle: 621 
+warp12 has been issued
+core1's cycle: 622 
+warp12 has been issued
+core1's cycle: 623 
+warp13 has been issued
+core1's cycle: 624 
+warp13 has been issued
+core1's cycle: 625 
+warp0 has been issued
+core1's cycle: 626 
+warp1 has been issued
+core1's cycle: 627 
+warp2 has been issued
+core1's cycle: 628 
+warp3 has been issued
+core1's cycle: 629 
+warp14 has been issued
+core1's cycle: 630 
+warp14 has been issued
+core1's cycle: 631 
+warp6 has been issued
+core1's cycle: 632 
+warp7 has been issued
+core1's cycle: 633 
+warp4 has been issued
+core1's cycle: 634 
+warp15 has been issued
+core1's cycle: 635 
+warp15 has been issued
+core1's cycle: 636 
+warp16 has been issued
+core1's cycle: 637 
+warp16 has been issued
+core1's cycle: 638 
+warp0 has been issued
+core1's cycle: 639 
+warp1 has been issued
+core1's cycle: 640 
+warp2 has been issued
+core1's cycle: 641 
+warp3 has been issued
+core1's cycle: 642 
+warp17 has been issued
+core1's cycle: 643 
+warp17 has been issued
+core1's cycle: 644 
+warp6 has been issued
+core1's cycle: 645 
+warp7 has been issued
+core1's cycle: 646 
+warp4 has been issued
+core1's cycle: 647 
+warp18 has been issued
+core1's cycle: 648 
+warp18 has been issued
+core1's cycle: 649 
+warp19 has been issued
+core1's cycle: 650 
+warp19 has been issued
+core1's cycle: 651 
+warp0 has been issued
+core1's cycle: 652 
+warp1 has been issued
+core1's cycle: 653 
+warp2 has been issued
+core1's cycle: 654 
+warp3 has been issued
+core1's cycle: 655 
+warp10 has been issued
+core1's cycle: 656 
+warp8 has been issued
+core1's cycle: 657 
+warp6 has been issued
+core1's cycle: 658 
+warp7 has been issued
+core1's cycle: 659 
+warp4 has been issued
+core1's cycle: 660 
+warp0 has been issued
+core1's cycle: 665 
+warp1 has been issued
+core1's cycle: 666 
+warp2 has been issued
+core1's cycle: 667 
+warp3 has been issued
+core1's cycle: 668 
+warp10 has been issued
+core1's cycle: 669 
+warp8 has been issued
+core1's cycle: 670 
+warp6 has been issued
+core1's cycle: 671 
+warp7 has been issued
+core1's cycle: 672 
+warp4 has been issued
+core1's cycle: 673 
+warp5 has been issued
+core1's cycle: 675 
+warp0 has been issued
+core1's cycle: 678 
+warp1 has been issued
+core1's cycle: 679 
+warp2 has been issued
+core1's cycle: 680 
+warp3 has been issued
+core1's cycle: 681 
+warp8 has been issued
+core1's cycle: 683 
+warp10 has been issued
+core1's cycle: 684 
+warp6 has been issued
+core1's cycle: 685 
+warp4 has been issued
+core1's cycle: 686 
+warp7 has been issued
+core1's cycle: 687 
+warp5 has been issued
+core1's cycle: 688 
+warp0 has been issued
+core1's cycle: 691 
+warp1 has been issued
+core1's cycle: 692 
+warp2 has been issued
+core1's cycle: 693 
+warp3 has been issued
+core1's cycle: 694 
+warp8 has been issued
+core1's cycle: 696 
+warp10 has been issued
+core1's cycle: 697 
+warp6 has been issued
+core1's cycle: 698 
+warp4 has been issued
+core1's cycle: 699 
+warp7 has been issued
+core1's cycle: 700 
+warp5 has been issued
+core1's cycle: 701 
+warp0 has been issued
+core1's cycle: 704 
+warp1 has been issued
+core1's cycle: 705 
+warp2 has been issued
+core1's cycle: 706 
+warp3 has been issued
+core1's cycle: 707 
+warp11 has been issued
+core1's cycle: 708 
+warp8 has been issued
+core1's cycle: 709 
+warp10 has been issued
+core1's cycle: 710 
+warp6 has been issued
+core1's cycle: 711 
+warp4 has been issued
+core1's cycle: 712 
+warp7 has been issued
+core1's cycle: 713 
+warp5 has been issued
+core1's cycle: 714 
+warp9 has been issued
+core1's cycle: 715 
+warp0 has been issued
+core1's cycle: 717 
+warp1 has been issued
+core1's cycle: 718 
+warp2 has been issued
+core1's cycle: 719 
+warp3 has been issued
+core1's cycle: 720 
+warp11 has been issued
+core1's cycle: 721 
+warp8 has been issued
+core1's cycle: 722 
+warp14 has been issued
+core1's cycle: 723 
+warp6 has been issued
+core1's cycle: 724 
+warp4 has been issued
+core1's cycle: 725 
+warp7 has been issued
+core1's cycle: 726 
+warp5 has been issued
+core1's cycle: 727 
+warp9 has been issued
+core1's cycle: 728 
+warp10 has been issued
+core1's cycle: 729 
+warp0 has been issued
+core1's cycle: 730 
+warp1 has been issued
+core1's cycle: 731 
+warp2 has been issued
+core1's cycle: 732 
+warp3 has been issued
+core1's cycle: 733 
+warp16 has been issued
+core1's cycle: 734 
+warp8 has been issued
+core1's cycle: 735 
+warp11 has been issued
+core1's cycle: 736 
+warp6 has been issued
+core1's cycle: 737 
+warp4 has been issued
+core1's cycle: 738 
+warp7 has been issued
+core1's cycle: 739 
+warp5 has been issued
+core1's cycle: 740 
+warp9 has been issued
+core1's cycle: 741 
+warp10 has been issued
+core1's cycle: 742 
+warp0 has been issued
+core1's cycle: 743 
+warp1 has been issued
+core1's cycle: 744 
+warp2 has been issued
+core1's cycle: 745 
+warp3 has been issued
+core1's cycle: 746 
+warp12 has been issued
+core1's cycle: 747 
+warp8 has been issued
+core1's cycle: 748 
+warp11 has been issued
+core1's cycle: 749 
+warp6 has been issued
+core1's cycle: 750 
+warp4 has been issued
+core1's cycle: 751 
+warp7 has been issued
+core1's cycle: 752 
+warp5 has been issued
+core1's cycle: 753 
+warp9 has been issued
+core1's cycle: 754 
+warp10 has been issued
+core1's cycle: 755 
+warp0 has been issued
+core1's cycle: 756 
+warp1 has been issued
+core1's cycle: 757 
+warp2 has been issued
+core1's cycle: 758 
+warp3 has been issued
+core1's cycle: 759 
+warp12 has been issued
+core1's cycle: 760 
+warp8 has been issued
+core1's cycle: 761 
+warp11 has been issued
+core1's cycle: 762 
+warp6 has been issued
+core1's cycle: 763 
+warp4 has been issued
+core1's cycle: 764 
+warp7 has been issued
+core1's cycle: 765 
+warp5 has been issued
+core1's cycle: 766 
+warp9 has been issued
+core1's cycle: 767 
+warp10 has been issued
+core1's cycle: 768 
+warp0 has been issued
+core1's cycle: 769 
+warp1 has been issued
+core1's cycle: 770 
+warp2 has been issued
+core1's cycle: 771 
+warp3 has been issued
+core1's cycle: 772 
+warp12 has been issued
+core1's cycle: 773 
+warp8 has been issued
+core1's cycle: 774 
+warp11 has been issued
+core1's cycle: 775 
+warp6 has been issued
+core1's cycle: 776 
+warp13 has been issued
+core1's cycle: 777 
+warp4 has been issued
+core1's cycle: 778 
+warp5 has been issued
+core1's cycle: 779 
+warp7 has been issued
+core1's cycle: 780 
+warp9 has been issued
+core1's cycle: 781 
+warp0 has been issued
+core1's cycle: 782 
+warp1 has been issued
+core1's cycle: 783 
+warp2 has been issued
+core1's cycle: 784 
+warp3 has been issued
+core1's cycle: 785 
+warp10 has been issued
+core1's cycle: 786 
+warp8 has been issued
+core1's cycle: 787 
+warp11 has been issued
+core1's cycle: 788 
+warp6 has been issued
+core1's cycle: 789 
+warp12 has been issued
+core1's cycle: 790 
+warp4 has been issued
+core1's cycle: 791 
+warp5 has been issued
+core1's cycle: 792 
+warp7 has been issued
+core1's cycle: 793 
+warp9 has been issued
+core1's cycle: 794 
+warp13 has been issued
+core1's cycle: 795 
+warp14 has been issued
+core1's cycle: 796 
+warp15 has been issued
+core1's cycle: 797 
+warp16 has been issued
+core1's cycle: 798 
+warp10 has been issued
+core1's cycle: 799 
+warp8 has been issued
+core1's cycle: 800 
+warp11 has been issued
+core1's cycle: 801 
+warp17 has been issued
+core1's cycle: 802 
+warp12 has been issued
+core1's cycle: 803 
+warp18 has been issued
+core1's cycle: 804 
+warp19 has been issued
+core1's cycle: 805 
+warp5 has been issued
+core1's cycle: 806 
+warp7 has been issued
+core1's cycle: 807 
+warp9 has been issued
+core1's cycle: 808 
+warp13 has been issued
+core1's cycle: 809 
+warp14 has been issued
+core1's cycle: 810 
+warp15 has been issued
+core1's cycle: 811 
+warp16 has been issued
+core1's cycle: 812 
+warp8 has been issued
+core1's cycle: 813 
+warp10 has been issued
+core1's cycle: 814 
+warp11 has been issued
+core1's cycle: 815 
+warp17 has been issued
+core1's cycle: 816 
+warp12 has been issued
+core1's cycle: 817 
+warp19 has been issued
+core1's cycle: 818 
+warp5 has been issued
+core1's cycle: 819 
+warp18 has been issued
+core1's cycle: 820 
+warp9 has been issued
+core1's cycle: 821 
+warp13 has been issued
+core1's cycle: 822 
+warp14 has been issued
+core1's cycle: 823 
+warp15 has been issued
+core1's cycle: 824 
+warp8 has been issued
+core1's cycle: 826 
+warp10 has been issued
+core1's cycle: 827 
+warp11 has been issued
+core1's cycle: 828 
+warp16 has been issued
+core1's cycle: 829 
+warp17 has been issued
+core1's cycle: 830 
+warp12 has been issued
+core1's cycle: 831 
+warp5 has been issued
+core1's cycle: 832 
+warp19 has been issued
+core1's cycle: 834 
+warp13 has been issued
+core1's cycle: 835 
+warp9 has been issued
+core1's cycle: 836 
+warp14 has been issued
+core1's cycle: 837 
+warp15 has been issued
+core1's cycle: 838 
+warp18 has been issued
+core1's cycle: 839 
+warp10 has been issued
+core1's cycle: 840 
+warp11 has been issued
+core1's cycle: 841 
+warp16 has been issued
+core1's cycle: 842 
+warp17 has been issued
+core1's cycle: 843 
+warp12 has been issued
+core1's cycle: 844 
+warp5 has been issued
+core1's cycle: 845 
+warp13 has been issued
+core1's cycle: 848 
+warp9 has been issued
+core1's cycle: 849 
+warp14 has been issued
+core1's cycle: 850 
+warp15 has been issued
+core1's cycle: 851 
+warp18 has been issued
+core1's cycle: 852 
+warp19 has been issued
+core1's cycle: 853 
+warp11 has been issued
+core1's cycle: 854 
+warp16 has been issued
+core1's cycle: 855 
+warp17 has been issued
+core1's cycle: 856 
+warp12 has been issued
+core1's cycle: 857 
+warp13 has been issued
+core1's cycle: 861 
+warp9 has been issued
+core1's cycle: 862 
+warp14 has been issued
+core1's cycle: 863 
+warp15 has been issued
+core1's cycle: 864 
+warp18 has been issued
+core1's cycle: 865 
+warp19 has been issued
+core1's cycle: 866 
+warp11 has been issued
+core1's cycle: 867 
+warp16 has been issued
+core1's cycle: 868 
+warp17 has been issued
+core1's cycle: 869 
+warp12 has been issued
+core1's cycle: 870 
+warp13 has been issued
+core1's cycle: 874 
+warp9 has been issued
+core1's cycle: 875 
+warp14 has been issued
+core1's cycle: 876 
+warp15 has been issued
+core1's cycle: 877 
+warp18 has been issued
+core1's cycle: 878 
+warp19 has been issued
+core1's cycle: 879 
+warp11 has been issued
+core1's cycle: 880 
+warp16 has been issued
+core1's cycle: 881 
+warp17 has been issued
+core1's cycle: 882 
+warp12 has been issued
+core1's cycle: 883 
+warp13 has been issued
+core1's cycle: 887 
+warp9 has been issued
+core1's cycle: 888 
+warp14 has been issued
+core1's cycle: 889 
+warp15 has been issued
+core1's cycle: 890 
+warp18 has been issued
+core1's cycle: 891 
+warp19 has been issued
+core1's cycle: 892 
+warp16 has been issued
+core1's cycle: 894 
+warp17 has been issued
+core1's cycle: 895 
+warp12 has been issued
+core1's cycle: 896 
+warp13 has been issued
+core1's cycle: 900 
+warp14 has been issued
+core1's cycle: 902 
+warp15 has been issued
+core1's cycle: 903 
+warp18 has been issued
+core1's cycle: 905 
+warp19 has been issued
+core1's cycle: 906 
+warp16 has been issued
+core1's cycle: 907 
+warp17 has been issued
+core1's cycle: 908 
+warp12 has been issued
+core1's cycle: 909 
+warp13 has been issued
+core1's cycle: 913 
+warp14 has been issued
+core1's cycle: 915 
+warp15 has been issued
+core1's cycle: 916 
+warp18 has been issued
+core1's cycle: 918 
+warp19 has been issued
+core1's cycle: 919 
+warp16 has been issued
+core1's cycle: 920 
+warp17 has been issued
+core1's cycle: 921 
+warp12 has been issued
+core1's cycle: 922 
+warp13 has been issued
+core1's cycle: 926 
+warp14 has been issued
+core1's cycle: 928 
+warp15 has been issued
+core1's cycle: 929 
+warp18 has been issued
+core1's cycle: 931 
+warp0 has been issued
+core1's cycle: 932 
+warp1 has been issued
+core1's cycle: 933 
+warp2 has been issued
+core1's cycle: 934 
+warp3 has been issued
+core1's cycle: 935 
+warp6 has been issued
+core1's cycle: 936 
+warp16 has been issued
+core1's cycle: 937 
+warp4 has been issued
+core1's cycle: 938 
+warp7 has been issued
+core1's cycle: 939 
+warp8 has been issued
+core1's cycle: 940 
+warp10 has been issued
+core1's cycle: 941 
+warp11 has been issued
+core1's cycle: 942 
+warp13 has been issued
+core1's cycle: 943 
+warp5 has been issued
+core1's cycle: 944 
+warp0 has been issued
+core1's cycle: 945 
+warp1 has been issued
+core1's cycle: 946 
+warp2 has been issued
+core1's cycle: 947 
+warp3 has been issued
+core1's cycle: 948 
+warp6 has been issued
+core1's cycle: 949 
+warp9 has been issued
+core1's cycle: 950 
+warp4 has been issued
+core1's cycle: 951 
+warp7 has been issued
+core1's cycle: 952 
+warp8 has been issued
+core1's cycle: 953 
+warp10 has been issued
+core1's cycle: 954 
+warp11 has been issued
+core1's cycle: 955 
+warp12 has been issued
+core1's cycle: 956 
+warp5 has been issued
+core1's cycle: 957 
+warp0 has been issued
+core1's cycle: 958 
+warp1 has been issued
+core1's cycle: 959 
+warp2 has been issued
+core1's cycle: 960 
+warp3 has been issued
+core1's cycle: 961 
+warp6 has been issued
+core1's cycle: 962 
+warp13 has been issued
+core1's cycle: 963 
+warp4 has been issued
+core1's cycle: 964 
+warp7 has been issued
+core1's cycle: 965 
+warp9 has been issued
+core1's cycle: 966 
+warp8 has been issued
+core1's cycle: 967 
+warp10 has been issued
+core1's cycle: 968 
+warp11 has been issued
+core1's cycle: 969 
+warp12 has been issued
+core1's cycle: 970 
+warp0 has been issued
+core1's cycle: 971 
+warp1 has been issued
+core1's cycle: 972 
+warp2 has been issued
+core1's cycle: 973 
+warp3 has been issued
+core1's cycle: 974 
+warp5 has been issued
+core1's cycle: 975 
+warp6 has been issued
+core1's cycle: 976 
+warp4 has been issued
+core1's cycle: 977 
+warp7 has been issued
+core1's cycle: 978 
+warp9 has been issued
+core1's cycle: 979 
+warp8 has been issued
+core1's cycle: 980 
+warp10 has been issued
+core1's cycle: 981 
+warp11 has been issued
+core1's cycle: 982 
+warp12 has been issued
+core1's cycle: 983 
+warp0 has been issued
+core1's cycle: 984 
+warp1 has been issued
+core1's cycle: 985 
+warp2 has been issued
+core1's cycle: 986 
+warp3 has been issued
+core1's cycle: 987 
+warp5 has been issued
+core1's cycle: 988 
+warp6 has been issued
+core1's cycle: 989 
+warp4 has been issued
+core1's cycle: 990 
+warp7 has been issued
+core1's cycle: 991 
+warp9 has been issued
+core1's cycle: 992 
+warp8 has been issued
+core1's cycle: 993 
+warp10 has been issued
+core1's cycle: 994 
+warp11 has been issued
+core1's cycle: 995 
+warp12 has been issued
+core1's cycle: 996 
+warp0 has been issued
+core1's cycle: 997 
+warp1 has been issued
+core1's cycle: 998 
+warp2 has been issued
+core1's cycle: 999 
+warp3 has been issued
+core1's cycle: 1000 
+warp5 has been issued
+core1's cycle: 1001 
+warp6 has been issued
+core1's cycle: 1002 
+warp4 has been issued
+core1's cycle: 1003 
+warp7 has been issued
+core1's cycle: 1004 
+warp9 has been issued
+core1's cycle: 1005 
+warp8 has been issued
+core1's cycle: 1006 
+warp10 has been issued
+core1's cycle: 1007 
+warp11 has been issued
+core1's cycle: 1008 
+warp12 has been issued
+core1's cycle: 1009 
+warp0 has been issued
+core1's cycle: 1010 
+warp1 has been issued
+core1's cycle: 1011 
+warp2 has been issued
+core1's cycle: 1012 
+warp3 has been issued
+core1's cycle: 1013 
+warp5 has been issued
+core1's cycle: 1014 
+warp6 has been issued
+core1's cycle: 1015 
+warp4 has been issued
+core1's cycle: 1016 
+warp7 has been issued
+core1's cycle: 1017 
+warp9 has been issued
+core1's cycle: 1018 
+warp8 has been issued
+core1's cycle: 1019 
+warp10 has been issued
+core1's cycle: 1020 
+warp11 has been issued
+core1's cycle: 1021 
+warp12 has been issued
+core1's cycle: 1022 
+warp0 has been issued
+core1's cycle: 1023 
+warp1 has been issued
+core1's cycle: 1024 
+warp2 has been issued
+core1's cycle: 1025 
+warp3 has been issued
+core1's cycle: 1026 
+warp5 has been issued
+core1's cycle: 1027 
+warp6 has been issued
+core1's cycle: 1028 
+warp4 has been issued
+core1's cycle: 1029 
+warp7 has been issued
+core1's cycle: 1030 
+warp9 has been issued
+core1's cycle: 1031 
+warp8 has been issued
+core1's cycle: 1032 
+warp10 has been issued
+core1's cycle: 1033 
+warp11 has been issued
+core1's cycle: 1034 
+warp12 has been issued
+core1's cycle: 1035 
+warp0 has been issued
+core1's cycle: 1036 
+warp1 has been issued
+core1's cycle: 1037 
+warp2 has been issued
+core1's cycle: 1038 
+warp3 has been issued
+core1's cycle: 1039 
+warp5 has been issued
+core1's cycle: 1040 
+warp6 has been issued
+core1's cycle: 1041 
+warp4 has been issued
+core1's cycle: 1042 
+warp7 has been issued
+core1's cycle: 1043 
+warp9 has been issued
+core1's cycle: 1044 
+warp13 has been issued
+core1's cycle: 1045 
+warp8 has been issued
+core1's cycle: 1046 
+warp10 has been issued
+core1's cycle: 1047 
+warp11 has been issued
+core1's cycle: 1048 
+warp0 has been issued
+core1's cycle: 1049 
+warp1 has been issued
+core1's cycle: 1050 
+warp2 has been issued
+core1's cycle: 1051 
+warp3 has been issued
+core1's cycle: 1052 
+warp5 has been issued
+core1's cycle: 1053 
+warp6 has been issued
+core1's cycle: 1054 
+warp4 has been issued
+core1's cycle: 1055 
+warp7 has been issued
+core1's cycle: 1056 
+warp9 has been issued
+core1's cycle: 1057 
+warp12 has been issued
+core1's cycle: 1058 
+warp8 has been issued
+core1's cycle: 1059 
+warp10 has been issued
+core1's cycle: 1060 
+warp11 has been issued
+core1's cycle: 1061 
+warp0 has been issued
+core1's cycle: 1062 
+warp1 has been issued
+core1's cycle: 1063 
+warp2 has been issued
+core1's cycle: 1064 
+warp3 has been issued
+core1's cycle: 1065 
+warp5 has been issued
+core1's cycle: 1066 
+warp6 has been issued
+core1's cycle: 1067 
+warp4 has been issued
+core1's cycle: 1068 
+warp7 has been issued
+core1's cycle: 1069 
+warp9 has been issued
+core1's cycle: 1070 
+warp12 has been issued
+core1's cycle: 1071 
+warp8 has been issued
+core1's cycle: 1072 
+warp10 has been issued
+core1's cycle: 1073 
+warp11 has been issued
+core1's cycle: 1074 
+warp0 has been issued
+core1's cycle: 1075 
+warp1 has been issued
+core1's cycle: 1076 
+warp2 has been issued
+core1's cycle: 1077 
+warp3 has been issued
+core1's cycle: 1078 
+warp5 has been issued
+core1's cycle: 1079 
+warp6 has been issued
+core1's cycle: 1080 
+warp4 has been issued
+core1's cycle: 1081 
+warp7 has been issued
+core1's cycle: 1082 
+warp9 has been issued
+core1's cycle: 1083 
+warp12 has been issued
+core1's cycle: 1084 
+warp8 has been issued
+core1's cycle: 1085 
+warp10 has been issued
+core1's cycle: 1086 
+warp11 has been issued
+core1's cycle: 1087 
+warp0 has been issued
+core1's cycle: 1088 
+warp1 has been issued
+core1's cycle: 1089 
+warp2 has been issued
+core1's cycle: 1090 
+warp3 has been issued
+core1's cycle: 1091 
+warp5 has been issued
+core1's cycle: 1092 
+warp6 has been issued
+core1's cycle: 1093 
+warp4 has been issued
+core1's cycle: 1094 
+warp7 has been issued
+core1's cycle: 1095 
+warp9 has been issued
+core1's cycle: 1096 
+warp12 has been issued
+core1's cycle: 1097 
+warp8 has been issued
+core1's cycle: 1098 
+warp10 has been issued
+core1's cycle: 1099 
+warp11 has been issued
+core1's cycle: 1100 
+warp0 has been issued
+core1's cycle: 1101 
+warp1 has been issued
+core1's cycle: 1102 
+warp2 has been issued
+core1's cycle: 1103 
+warp3 has been issued
+core1's cycle: 1104 
+warp5 has been issued
+core1's cycle: 1105 
+warp6 has been issued
+core1's cycle: 1106 
+warp4 has been issued
+core1's cycle: 1107 
+warp7 has been issued
+core1's cycle: 1108 
+warp9 has been issued
+core1's cycle: 1109 
+warp12 has been issued
+core1's cycle: 1110 
+warp8 has been issued
+core1's cycle: 1111 
+warp10 has been issued
+core1's cycle: 1112 
+warp11 has been issued
+core1's cycle: 1113 
+warp13 has been issued
+core1's cycle: 1114 
+warp0 has been issued
+core1's cycle: 1115 
+warp2 has been issued
+core1's cycle: 1116 
+warp1 has been issued
+core1's cycle: 1117 
+warp3 has been issued
+core1's cycle: 1118 
+warp5 has been issued
+core1's cycle: 1119 
+warp4 has been issued
+core1's cycle: 1120 
+warp6 has been issued
+core1's cycle: 1121 
+warp7 has been issued
+core1's cycle: 1122 
+warp9 has been issued
+core1's cycle: 1123 
+warp8 has been issued
+core1's cycle: 1124 
+warp10 has been issued
+core1's cycle: 1125 
+warp11 has been issued
+core1's cycle: 1126 
+warp12 has been issued
+core1's cycle: 1127 
+warp0 has been issued
+core1's cycle: 1128 
+warp13 has been issued
+core1's cycle: 1129 
+warp2 has been issued
+core1's cycle: 1130 
+warp1 has been issued
+core1's cycle: 1131 
+warp3 has been issued
+core1's cycle: 1132 
+warp4 has been issued
+core1's cycle: 1133 
+warp5 has been issued
+core1's cycle: 1134 
+warp6 has been issued
+core1's cycle: 1135 
+warp7 has been issued
+core1's cycle: 1136 
+warp8 has been issued
+core1's cycle: 1137 
+warp9 has been issued
+core1's cycle: 1138 
+warp10 has been issued
+core1's cycle: 1139 
+warp11 has been issued
+core1's cycle: 1140 
+warp12 has been issued
+core1's cycle: 1141 
+warp13 has been issued
+core1's cycle: 1142 
+warp14 has been issued
+core1's cycle: 1143 
+warp15 has been issued
+core1's cycle: 1144 
+warp16 has been issued
+core1's cycle: 1145 
+warp17 has been issued
+core1's cycle: 1146 
+warp5 has been issued
+core1's cycle: 1147 
+warp18 has been issued
+core1's cycle: 1148 
+warp19 has been issued
+core1's cycle: 1149 
+warp9 has been issued
+core1's cycle: 1151 
+warp12 has been issued
+core1's cycle: 1154 
+warp13 has been issued
+core1's cycle: 1155 
+warp14 has been issued
+core1's cycle: 1156 
+warp15 has been issued
+core1's cycle: 1157 
+warp16 has been issued
+core1's cycle: 1158 
+warp17 has been issued
+core1's cycle: 1159 
+warp18 has been issued
+core1's cycle: 1161 
+warp19 has been issued
+core1's cycle: 1162 
+warp12 has been issued
+core1's cycle: 1167 
+warp13 has been issued
+core1's cycle: 1168 
+warp14 has been issued
+core1's cycle: 1170 
+warp15 has been issued
+core1's cycle: 1171 
+warp16 has been issued
+core1's cycle: 1172 
+warp17 has been issued
+core1's cycle: 1173 
+warp18 has been issued
+core1's cycle: 1174 
+warp19 has been issued
+core1's cycle: 1175 
+warp13 has been issued
+core1's cycle: 1181 
+warp14 has been issued
+core1's cycle: 1184 
+warp15 has been issued
+core1's cycle: 1185 
+warp16 has been issued
+core1's cycle: 1186 
+warp17 has been issued
+core1's cycle: 1187 
+warp18 has been issued
+core1's cycle: 1188 
+warp19 has been issued
+core1's cycle: 1189 
+warp13 has been issued
+core1's cycle: 1194 
+warp14 has been issued
+core1's cycle: 1197 
+warp15 has been issued
+core1's cycle: 1199 
+warp16 has been issued
+core1's cycle: 1200 
+warp17 has been issued
+core1's cycle: 1201 
+warp18 has been issued
+core1's cycle: 1202 
+warp19 has been issued
+core1's cycle: 1203 
+warp13 has been issued
+core1's cycle: 1207 
+warp14 has been issued
+core1's cycle: 1210 
+warp15 has been issued
+core1's cycle: 1212 
+warp16 has been issued
+core1's cycle: 1213 
+warp17 has been issued
+core1's cycle: 1214 
+warp18 has been issued
+core1's cycle: 1215 
+warp19 has been issued
+core1's cycle: 1216 
+warp13 has been issued
+core1's cycle: 1220 
+warp14 has been issued
+core1's cycle: 1223 
+warp15 has been issued
+core1's cycle: 1225 
+warp16 has been issued
+core1's cycle: 1226 
+warp17 has been issued
+core1's cycle: 1227 
+warp18 has been issued
+core1's cycle: 1229 
+warp19 has been issued
+core1's cycle: 1230 
+warp13 has been issued
+core1's cycle: 1233 
+warp14 has been issued
+core1's cycle: 1236 
+warp15 has been issued
+core1's cycle: 1238 
+warp16 has been issued
+core1's cycle: 1239 
+warp17 has been issued
+core1's cycle: 1240 
+warp18 has been issued
+core1's cycle: 1242 
+warp19 has been issued
+core1's cycle: 1243 
+warp13 has been issued
+core1's cycle: 1246 
+warp14 has been issued
+core1's cycle: 1249 
+warp15 has been issued
+core1's cycle: 1251 
+warp16 has been issued
+core1's cycle: 1252 
+warp17 has been issued
+core1's cycle: 1253 
+warp18 has been issued
+core1's cycle: 1255 
+warp19 has been issued
+core1's cycle: 1256 
+warp13 has been issued
+core1's cycle: 1259 
+warp14 has been issued
+core1's cycle: 1262 
+warp15 has been issued
+core1's cycle: 1264 
+warp16 has been issued
+core1's cycle: 1265 
+warp17 has been issued
+core1's cycle: 1266 
+warp18 has been issued
+core1's cycle: 1268 
+warp0 has been issued
+core1's cycle: 1269 
+warp2 has been issued
+core1's cycle: 1270 
+warp19 has been issued
+core1's cycle: 1271 
+warp1 has been issued
+core1's cycle: 1272 
+warp3 has been issued
+core1's cycle: 1273 
+warp4 has been issued
+core1's cycle: 1274 
+warp6 has been issued
+core1's cycle: 1275 
+warp7 has been issued
+core1's cycle: 1276 
+warp8 has been issued
+core1's cycle: 1277 
+warp10 has been issued
+core1's cycle: 1278 
+warp11 has been issued
+core1's cycle: 1279 
+warp5 has been issued
+core1's cycle: 1280 
+warp9 has been issued
+core1's cycle: 1281 
+warp0 has been issued
+core1's cycle: 1282 
+warp2 has been issued
+core1's cycle: 1283 
+warp12 has been issued
+core1's cycle: 1284 
+warp1 has been issued
+core1's cycle: 1285 
+warp3 has been issued
+core1's cycle: 1286 
+warp4 has been issued
+core1's cycle: 1287 
+warp6 has been issued
+core1's cycle: 1288 
+warp7 has been issued
+core1's cycle: 1289 
+warp13 has been issued
+core1's cycle: 1290 
+warp8 has been issued
+core1's cycle: 1291 
+warp10 has been issued
+core1's cycle: 1292 
+warp5 has been issued
+core1's cycle: 1293 
+warp9 has been issued
+core1's cycle: 1294 
+warp0 has been issued
+core1's cycle: 1295 
+warp2 has been issued
+core1's cycle: 1296 
+warp11 has been issued
+core1's cycle: 1297 
+warp1 has been issued
+core1's cycle: 1298 
+warp3 has been issued
+core1's cycle: 1299 
+warp4 has been issued
+core1's cycle: 1300 
+warp6 has been issued
+core1's cycle: 1301 
+warp7 has been issued
+core1's cycle: 1302 
+warp12 has been issued
+core1's cycle: 1303 
+warp8 has been issued
+core1's cycle: 1304 
+warp10 has been issued
+core1's cycle: 1305 
+warp5 has been issued
+core1's cycle: 1306 
+warp9 has been issued
+core1's cycle: 1307 
+warp0 has been issued
+core1's cycle: 1308 
+warp2 has been issued
+core1's cycle: 1309 
+warp11 has been issued
+core1's cycle: 1310 
+warp1 has been issued
+core1's cycle: 1311 
+warp3 has been issued
+core1's cycle: 1312 
+warp4 has been issued
+core1's cycle: 1313 
+warp6 has been issued
+core1's cycle: 1314 
+warp13 has been issued
+core1's cycle: 1315 
+warp7 has been issued
+core1's cycle: 1316 
+warp8 has been issued
+core1's cycle: 1317 
+warp10 has been issued
+core1's cycle: 1318 
+warp5 has been issued
+core1's cycle: 1319 
+warp9 has been issued
+core1's cycle: 1320 
+warp0 has been issued
+core1's cycle: 1321 
+warp2 has been issued
+core1's cycle: 1322 
+warp11 has been issued
+core1's cycle: 1323 
+warp1 has been issued
+core1's cycle: 1324 
+warp3 has been issued
+core1's cycle: 1325 
+warp4 has been issued
+core1's cycle: 1326 
+warp6 has been issued
+core1's cycle: 1327 
+warp12 has been issued
+core1's cycle: 1328 
+warp7 has been issued
+core1's cycle: 1329 
+warp8 has been issued
+core1's cycle: 1330 
+warp10 has been issued
+core1's cycle: 1331 
+warp5 has been issued
+core1's cycle: 1332 
+warp9 has been issued
+core1's cycle: 1333 
+warp0 has been issued
+core1's cycle: 1334 
+warp2 has been issued
+core1's cycle: 1335 
+warp11 has been issued
+core1's cycle: 1336 
+warp1 has been issued
+core1's cycle: 1337 
+warp3 has been issued
+core1's cycle: 1338 
+warp4 has been issued
+core1's cycle: 1339 
+warp6 has been issued
+core1's cycle: 1340 
+warp12 has been issued
+core1's cycle: 1341 
+warp7 has been issued
+core1's cycle: 1342 
+warp8 has been issued
+core1's cycle: 1343 
+warp10 has been issued
+core1's cycle: 1344 
+warp5 has been issued
+core1's cycle: 1345 
+warp9 has been issued
+core1's cycle: 1346 
+warp0 has been issued
+core1's cycle: 1347 
+warp2 has been issued
+core1's cycle: 1348 
+warp13 has been issued
+core1's cycle: 1349 
+warp1 has been issued
+core1's cycle: 1350 
+warp3 has been issued
+core1's cycle: 1351 
+warp4 has been issued
+core1's cycle: 1352 
+warp6 has been issued
+core1's cycle: 1353 
+warp11 has been issued
+core1's cycle: 1354 
+warp7 has been issued
+core1's cycle: 1355 
+warp8 has been issued
+core1's cycle: 1356 
+warp10 has been issued
+core1's cycle: 1357 
+warp5 has been issued
+core1's cycle: 1358 
+warp9 has been issued
+core1's cycle: 1359 
+warp0 has been issued
+core1's cycle: 1360 
+warp2 has been issued
+core1's cycle: 1361 
+warp12 has been issued
+core1's cycle: 1362 
+warp1 has been issued
+core1's cycle: 1363 
+warp3 has been issued
+core1's cycle: 1364 
+warp4 has been issued
+core1's cycle: 1365 
+warp6 has been issued
+core1's cycle: 1366 
+warp11 has been issued
+core1's cycle: 1367 
+warp7 has been issued
+core1's cycle: 1368 
+warp8 has been issued
+core1's cycle: 1369 
+warp10 has been issued
+core1's cycle: 1370 
+warp5 has been issued
+core1's cycle: 1371 
+warp9 has been issued
+core1's cycle: 1372 
+warp0 has been issued
+core1's cycle: 1373 
+warp2 has been issued
+core1's cycle: 1374 
+warp12 has been issued
+core1's cycle: 1375 
+warp13 has been issued
+core1's cycle: 1376 
+warp1 has been issued
+core1's cycle: 1377 
+warp3 has been issued
+core1's cycle: 1378 
+warp4 has been issued
+core1's cycle: 1379 
+warp6 has been issued
+core1's cycle: 1380 
+warp7 has been issued
+core1's cycle: 1381 
+warp11 has been issued
+core1's cycle: 1382 
+warp8 has been issued
+core1's cycle: 1383 
+warp5 has been issued
+core1's cycle: 1384 
+warp9 has been issued
+core1's cycle: 1385 
+warp0 has been issued
+core1's cycle: 1386 
+warp2 has been issued
+core1's cycle: 1387 
+warp10 has been issued
+core1's cycle: 1388 
+warp12 has been issued
+core1's cycle: 1389 
+warp1 has been issued
+core1's cycle: 1390 
+warp3 has been issued
+core1's cycle: 1391 
+warp4 has been issued
+core1's cycle: 1392 
+warp6 has been issued
+core1's cycle: 1393 
+warp7 has been issued
+core1's cycle: 1394 
+warp11 has been issued
+core1's cycle: 1395 
+warp8 has been issued
+core1's cycle: 1396 
+warp5 has been issued
+core1's cycle: 1397 
+warp9 has been issued
+core1's cycle: 1398 
+warp0 has been issued
+core1's cycle: 1399 
+warp2 has been issued
+core1's cycle: 1400 
+warp10 has been issued
+core1's cycle: 1401 
+warp12 has been issued
+core1's cycle: 1402 
+warp1 has been issued
+core1's cycle: 1403 
+warp13 has been issued
+core1's cycle: 1404 
+warp3 has been issued
+core1's cycle: 1405 
+warp4 has been issued
+core1's cycle: 1406 
+warp6 has been issued
+core1's cycle: 1407 
+warp7 has been issued
+core1's cycle: 1408 
+warp8 has been issued
+core1's cycle: 1409 
+warp5 has been issued
+core1's cycle: 1410 
+warp9 has been issued
+core1's cycle: 1411 
+warp0 has been issued
+core1's cycle: 1412 
+warp2 has been issued
+core1's cycle: 1413 
+warp11 has been issued
+core1's cycle: 1414 
+warp10 has been issued
+core1's cycle: 1415 
+warp1 has been issued
+core1's cycle: 1416 
+warp12 has been issued
+core1's cycle: 1417 
+warp3 has been issued
+core1's cycle: 1418 
+warp4 has been issued
+core1's cycle: 1419 
+warp6 has been issued
+core1's cycle: 1420 
+warp7 has been issued
+core1's cycle: 1421 
+warp8 has been issued
+core1's cycle: 1422 
+warp5 has been issued
+core1's cycle: 1423 
+warp9 has been issued
+core1's cycle: 1424 
+warp0 has been issued
+core1's cycle: 1425 
+warp2 has been issued
+core1's cycle: 1426 
+warp11 has been issued
+core1's cycle: 1427 
+warp10 has been issued
+core1's cycle: 1428 
+warp1 has been issued
+core1's cycle: 1429 
+warp12 has been issued
+core1's cycle: 1430 
+warp3 has been issued
+core1's cycle: 1431 
+warp4 has been issued
+core1's cycle: 1432 
+warp6 has been issued
+core1's cycle: 1433 
+warp7 has been issued
+core1's cycle: 1434 
+warp8 has been issued
+core1's cycle: 1435 
+warp13 has been issued
+core1's cycle: 1436 
+warp9 has been issued
+core1's cycle: 1437 
+warp0 has been issued
+core1's cycle: 1438 
+warp2 has been issued
+core1's cycle: 1439 
+warp5 has been issued
+core1's cycle: 1440 
+warp10 has been issued
+core1's cycle: 1441 
+warp1 has been issued
+core1's cycle: 1442 
+warp11 has been issued
+core1's cycle: 1443 
+warp3 has been issued
+core1's cycle: 1444 
+warp4 has been issued
+core1's cycle: 1445 
+warp6 has been issued
+core1's cycle: 1446 
+warp7 has been issued
+core1's cycle: 1447 
+warp8 has been issued
+core1's cycle: 1448 
+warp12 has been issued
+core1's cycle: 1449 
+warp9 has been issued
+core1's cycle: 1450 
+warp0 has been issued
+core1's cycle: 1451 
+warp2 has been issued
+core1's cycle: 1452 
+warp5 has been issued
+core1's cycle: 1453 
+warp10 has been issued
+core1's cycle: 1454 
+warp1 has been issued
+core1's cycle: 1455 
+warp11 has been issued
+core1's cycle: 1456 
+warp3 has been issued
+core1's cycle: 1457 
+warp4 has been issued
+core1's cycle: 1458 
+warp6 has been issued
+core1's cycle: 1459 
+warp7 has been issued
+core1's cycle: 1460 
+warp8 has been issued
+core1's cycle: 1461 
+warp12 has been issued
+core1's cycle: 1462 
+warp9 has been issued
+core1's cycle: 1463 
+warp0 has been issued
+core1's cycle: 1464 
+warp2 has been issued
+core1's cycle: 1465 
+warp5 has been issued
+core1's cycle: 1466 
+warp10 has been issued
+core1's cycle: 1467 
+warp1 has been issued
+core1's cycle: 1468 
+warp11 has been issued
+core1's cycle: 1469 
+warp3 has been issued
+core1's cycle: 1470 
+warp4 has been issued
+core1's cycle: 1471 
+warp6 has been issued
+core1's cycle: 1472 
+warp7 has been issued
+core1's cycle: 1473 
+warp8 has been issued
+core1's cycle: 1474 
+warp12 has been issued
+core1's cycle: 1475 
+warp9 has been issued
+core1's cycle: 1476 
+warp13 has been issued
+core1's cycle: 1477 
+warp14 has been issued
+core1's cycle: 1478 
+warp5 has been issued
+core1's cycle: 1479 
+warp10 has been issued
+core1's cycle: 1480 
+warp15 has been issued
+core1's cycle: 1481 
+warp11 has been issued
+core1's cycle: 1482 
+warp16 has been issued
+core1's cycle: 1483 
+warp17 has been issued
+core1's cycle: 1484 
+warp18 has been issued
+core1's cycle: 1485 
+warp19 has been issued
+core1's cycle: 1486 
+warp12 has been issued
+core1's cycle: 1488 
+warp13 has been issued
+core1's cycle: 1490 
+warp14 has been issued
+core1's cycle: 1491 
+warp15 has been issued
+core1's cycle: 1494 
+warp11 has been issued
+core1's cycle: 1495 
+warp16 has been issued
+core1's cycle: 1497 
+warp17 has been issued
+core1's cycle: 1498 
+warp18 has been issued
+core1's cycle: 1499 
+warp19 has been issued
+core1's cycle: 1500 
+warp12 has been issued
+core1's cycle: 1501 
+warp13 has been issued
+core1's cycle: 1503 
+warp14 has been issued
+core1's cycle: 1504 
+warp15 has been issued
+core1's cycle: 1507 
+warp16 has been issued
+core1's cycle: 1510 
+warp17 has been issued
+core1's cycle: 1511 
+warp18 has been issued
+core1's cycle: 1512 
+warp19 has been issued
+core1's cycle: 1513 
+warp12 has been issued
+core1's cycle: 1514 
+warp13 has been issued
+core1's cycle: 1516 
+warp14 has been issued
+core1's cycle: 1517 
+warp15 has been issued
+core1's cycle: 1520 
+warp16 has been issued
+core1's cycle: 1523 
+warp17 has been issued
+core1's cycle: 1524 
+warp18 has been issued
+core1's cycle: 1525 
+warp19 has been issued
+core1's cycle: 1527 
+warp13 has been issued
+core1's cycle: 1529 
+warp14 has been issued
+core1's cycle: 1530 
+warp15 has been issued
+core1's cycle: 1533 
+warp16 has been issued
+core1's cycle: 1537 
+warp17 has been issued
+core1's cycle: 1538 
+warp18 has been issued
+core1's cycle: 1539 
+warp19 has been issued
+core1's cycle: 1540 
+warp13 has been issued
+core1's cycle: 1542 
+warp14 has been issued
+core1's cycle: 1543 
+warp15 has been issued
+core1's cycle: 1546 
+warp16 has been issued
+core1's cycle: 1550 
+warp17 has been issued
+core1's cycle: 1551 
+warp18 has been issued
+core1's cycle: 1552 
+warp19 has been issued
+core1's cycle: 1553 
+warp13 has been issued
+core1's cycle: 1555 
+warp14 has been issued
+core1's cycle: 1556 
+warp15 has been issued
+core1's cycle: 1559 
+warp16 has been issued
+core1's cycle: 1563 
+warp17 has been issued
+core1's cycle: 1564 
+warp18 has been issued
+core1's cycle: 1565 
+warp19 has been issued
+core1's cycle: 1566 
+warp13 has been issued
+core1's cycle: 1568 
+warp14 has been issued
+core1's cycle: 1569 
+warp15 has been issued
+core1's cycle: 1572 
+warp16 has been issued
+core1's cycle: 1576 
+warp17 has been issued
+core1's cycle: 1577 
+warp18 has been issued
+core1's cycle: 1578 
+warp19 has been issued
+core1's cycle: 1579 
+warp13 has been issued
+core1's cycle: 1581 
+warp14 has been issued
+core1's cycle: 1582 
+warp15 has been issued
+core1's cycle: 1585 
+warp16 has been issued
+core1's cycle: 1589 
+warp17 has been issued
+core1's cycle: 1590 
+warp18 has been issued
+core1's cycle: 1591 
+warp19 has been issued
+core1's cycle: 1592 
+warp13 has been issued
+core1's cycle: 1594 
+warp14 has been issued
+core1's cycle: 1596 
+warp15 has been issued
+core1's cycle: 1598 
+warp16 has been issued
+core1's cycle: 1603 
+warp17 has been issued
+core1's cycle: 1604 
+warp18 has been issued
+core1's cycle: 1605 
+warp19 has been issued
+core1's cycle: 1606 
+warp13 has been issued
+core1's cycle: 1607 
+warp14 has been issued
+core1's cycle: 1609 
+warp15 has been issued
+core1's cycle: 1611 
+warp0 has been issued
+core1's cycle: 1614 
+warp2 has been issued
+core1's cycle: 1615 
+warp1 has been issued
+core1's cycle: 1616 
+warp3 has been issued
+core1's cycle: 1617 
+warp4 has been issued
+core1's cycle: 1618 
+warp6 has been issued
+core1's cycle: 1619 
+warp7 has been issued
+core1's cycle: 1620 
+warp8 has been issued
+core1's cycle: 1621 
+warp9 has been issued
+core1's cycle: 1622 
+warp5 has been issued
+core1's cycle: 1623 
+warp10 has been issued
+core1's cycle: 1624 
+warp11 has been issued
+core1's cycle: 1625 
+warp12 has been issued
+core1's cycle: 1626 
+warp0 has been issued
+core1's cycle: 1627 
+warp13 has been issued
+core1's cycle: 1628 
+warp14 has been issued
+core1's cycle: 1629 
+warp2 has been issued
+core1's cycle: 1630 
+warp1 has been issued
+core1's cycle: 1631 
+warp3 has been issued
+core1's cycle: 1632 
+warp4 has been issued
+core1's cycle: 1633 
+warp6 has been issued
+core1's cycle: 1634 
+warp7 has been issued
+core1's cycle: 1635 
+warp5 has been issued
+core1's cycle: 1636 
+warp8 has been issued
+core1's cycle: 1637 
+warp9 has been issued
+core1's cycle: 1638 
+warp10 has been issued
+core1's cycle: 1639 
+warp0 has been issued
+core1's cycle: 1640 
+warp11 has been issued
+core1's cycle: 1641 
+warp12 has been issued
+core1's cycle: 1642 
+warp2 has been issued
+core1's cycle: 1643 
+warp13 has been issued
+core1's cycle: 1644 
+warp1 has been issued
+core1's cycle: 1645 
+warp3 has been issued
+core1's cycle: 1646 
+warp4 has been issued
+core1's cycle: 1647 
+warp6 has been issued
+core1's cycle: 1648 
+warp5 has been issued
+core1's cycle: 1649 
+warp7 has been issued
+core1's cycle: 1650 
+warp8 has been issued
+core1's cycle: 1651 
+warp9 has been issued
+core1's cycle: 1652 
+warp0 has been issued
+core1's cycle: 1653 
+warp10 has been issued
+core1's cycle: 1654 
+warp11 has been issued
+core1's cycle: 1655 
+warp2 has been issued
+core1's cycle: 1656 
+warp12 has been issued
+core1's cycle: 1657 
+warp1 has been issued
+core1's cycle: 1658 
+warp3 has been issued
+core1's cycle: 1659 
+warp4 has been issued
+core1's cycle: 1660 
+warp6 has been issued
+core1's cycle: 1661 
+warp5 has been issued
+core1's cycle: 1662 
+warp7 has been issued
+core1's cycle: 1663 
+warp8 has been issued
+core1's cycle: 1664 
+warp9 has been issued
+core1's cycle: 1665 
+warp0 has been issued
+core1's cycle: 1666 
+warp10 has been issued
+core1's cycle: 1667 
+warp11 has been issued
+core1's cycle: 1668 
+warp2 has been issued
+core1's cycle: 1669 
+warp12 has been issued
+core1's cycle: 1670 
+warp1 has been issued
+core1's cycle: 1671 
+warp3 has been issued
+core1's cycle: 1672 
+warp4 has been issued
+core1's cycle: 1673 
+warp6 has been issued
+core1's cycle: 1674 
+warp5 has been issued
+core1's cycle: 1675 
+warp7 has been issued
+core1's cycle: 1676 
+warp8 has been issued
+core1's cycle: 1677 
+warp9 has been issued
+core1's cycle: 1678 
+warp0 has been issued
+core1's cycle: 1679 
+warp10 has been issued
+core1's cycle: 1680 
+warp11 has been issued
+core1's cycle: 1681 
+warp2 has been issued
+core1's cycle: 1682 
+warp12 has been issued
+core1's cycle: 1683 
+warp1 has been issued
+core1's cycle: 1684 
+warp3 has been issued
+core1's cycle: 1685 
+warp4 has been issued
+core1's cycle: 1686 
+warp6 has been issued
+core1's cycle: 1687 
+warp5 has been issued
+core1's cycle: 1688 
+warp7 has been issued
+core1's cycle: 1689 
+warp8 has been issued
+core1's cycle: 1690 
+warp9 has been issued
+core1's cycle: 1691 
+warp0 has been issued
+core1's cycle: 1692 
+warp10 has been issued
+core1's cycle: 1693 
+warp11 has been issued
+core1's cycle: 1694 
+warp2 has been issued
+core1's cycle: 1695 
+warp12 has been issued
+core1's cycle: 1696 
+warp1 has been issued
+core1's cycle: 1697 
+warp3 has been issued
+core1's cycle: 1698 
+warp4 has been issued
+core1's cycle: 1699 
+warp6 has been issued
+core1's cycle: 1700 
+warp5 has been issued
+core1's cycle: 1701 
+warp7 has been issued
+core1's cycle: 1702 
+warp8 has been issued
+core1's cycle: 1703 
+warp9 has been issued
+core1's cycle: 1704 
+warp0 has been issued
+core1's cycle: 1705 
+warp10 has been issued
+core1's cycle: 1706 
+warp11 has been issued
+core1's cycle: 1707 
+warp2 has been issued
+core1's cycle: 1708 
+warp12 has been issued
+core1's cycle: 1709 
+warp1 has been issued
+core1's cycle: 1710 
+warp3 has been issued
+core1's cycle: 1711 
+warp4 has been issued
+core1's cycle: 1712 
+warp6 has been issued
+core1's cycle: 1713 
+warp5 has been issued
+core1's cycle: 1714 
+warp7 has been issued
+core1's cycle: 1715 
+warp8 has been issued
+core1's cycle: 1716 
+warp13 has been issued
+core1's cycle: 1717 
+warp0 has been issued
+core1's cycle: 1718 
+warp9 has been issued
+core1's cycle: 1719 
+warp10 has been issued
+core1's cycle: 1720 
+warp2 has been issued
+core1's cycle: 1721 
+warp11 has been issued
+core1's cycle: 1722 
+warp1 has been issued
+core1's cycle: 1723 
+warp3 has been issued
+core1's cycle: 1724 
+warp4 has been issued
+core1's cycle: 1725 
+warp6 has been issued
+core1's cycle: 1726 
+warp5 has been issued
+core1's cycle: 1727 
+warp7 has been issued
+core1's cycle: 1728 
+warp8 has been issued
+core1's cycle: 1729 
+warp12 has been issued
+core1's cycle: 1730 
+warp0 has been issued
+core1's cycle: 1731 
+warp9 has been issued
+core1's cycle: 1732 
+warp10 has been issued
+core1's cycle: 1733 
+warp2 has been issued
+core1's cycle: 1734 
+warp11 has been issued
+core1's cycle: 1735 
+warp1 has been issued
+core1's cycle: 1736 
+warp3 has been issued
+core1's cycle: 1737 
+warp4 has been issued
+core1's cycle: 1738 
+warp6 has been issued
+core1's cycle: 1739 
+warp5 has been issued
+core1's cycle: 1740 
+warp7 has been issued
+core1's cycle: 1741 
+warp8 has been issued
+core1's cycle: 1742 
+warp12 has been issued
+core1's cycle: 1743 
+warp0 has been issued
+core1's cycle: 1744 
+warp9 has been issued
+core1's cycle: 1745 
+warp10 has been issued
+core1's cycle: 1746 
+warp2 has been issued
+core1's cycle: 1747 
+warp11 has been issued
+core1's cycle: 1748 
+warp1 has been issued
+core1's cycle: 1749 
+warp3 has been issued
+core1's cycle: 1750 
+warp4 has been issued
+core1's cycle: 1751 
+warp6 has been issued
+core1's cycle: 1752 
+warp5 has been issued
+core1's cycle: 1753 
+warp7 has been issued
+core1's cycle: 1754 
+warp8 has been issued
+core1's cycle: 1755 
+warp12 has been issued
+core1's cycle: 1756 
+warp0 has been issued
+core1's cycle: 1757 
+warp9 has been issued
+core1's cycle: 1758 
+warp10 has been issued
+core1's cycle: 1759 
+warp2 has been issued
+core1's cycle: 1760 
+warp11 has been issued
+core1's cycle: 1761 
+warp1 has been issued
+core1's cycle: 1762 
+warp3 has been issued
+core1's cycle: 1763 
+warp4 has been issued
+core1's cycle: 1764 
+warp6 has been issued
+core1's cycle: 1765 
+warp5 has been issued
+core1's cycle: 1766 
+warp7 has been issued
+core1's cycle: 1767 
+warp8 has been issued
+core1's cycle: 1768 
+warp12 has been issued
+core1's cycle: 1769 
+warp0 has been issued
+core1's cycle: 1770 
+warp9 has been issued
+core1's cycle: 1771 
+warp10 has been issued
+core1's cycle: 1772 
+warp2 has been issued
+core1's cycle: 1773 
+warp11 has been issued
+core1's cycle: 1774 
+warp1 has been issued
+core1's cycle: 1775 
+warp3 has been issued
+core1's cycle: 1776 
+warp4 has been issued
+core1's cycle: 1777 
+warp6 has been issued
+core1's cycle: 1778 
+warp5 has been issued
+core1's cycle: 1779 
+warp7 has been issued
+core1's cycle: 1780 
+warp8 has been issued
+core1's cycle: 1781 
+warp12 has been issued
+core1's cycle: 1782 
+warp0 has been issued
+core1's cycle: 1783 
+warp9 has been issued
+core1's cycle: 1784 
+warp10 has been issued
+core1's cycle: 1785 
+warp2 has been issued
+core1's cycle: 1786 
+warp11 has been issued
+core1's cycle: 1787 
+warp1 has been issued
+core1's cycle: 1788 
+warp13 has been issued
+core1's cycle: 1789 
+warp3 has been issued
+core1's cycle: 1790 
+warp4 has been issued
+core1's cycle: 1791 
+warp5 has been issued
+core1's cycle: 1792 
+warp6 has been issued
+core1's cycle: 1793 
+warp7 has been issued
+core1's cycle: 1794 
+warp8 has been issued
+core1's cycle: 1795 
+warp0 has been issued
+core1's cycle: 1796 
+warp9 has been issued
+core1's cycle: 1797 
+warp10 has been issued
+core1's cycle: 1798 
+warp2 has been issued
+core1's cycle: 1799 
+warp11 has been issued
+core1's cycle: 1800 
+warp1 has been issued
+core1's cycle: 1801 
+warp12 has been issued
+core1's cycle: 1802 
+warp3 has been issued
+core1's cycle: 1803 
+warp4 has been issued
+core1's cycle: 1804 
+warp5 has been issued
+core1's cycle: 1805 
+warp6 has been issued
+core1's cycle: 1806 
+warp7 has been issued
+core1's cycle: 1807 
+warp8 has been issued
+core1's cycle: 1808 
+warp0 has been issued
+core1's cycle: 1809 
+warp9 has been issued
+core1's cycle: 1810 
+warp10 has been issued
+core1's cycle: 1811 
+warp2 has been issued
+core1's cycle: 1812 
+warp11 has been issued
+core1's cycle: 1813 
+warp1 has been issued
+core1's cycle: 1814 
+warp12 has been issued
+core1's cycle: 1815 
+warp3 has been issued
+core1's cycle: 1816 
+warp13 has been issued
+core1's cycle: 1817 
+warp4 has been issued
+core1's cycle: 1818 
+warp5 has been issued
+core1's cycle: 1819 
+warp6 has been issued
+core1's cycle: 1820 
+warp7 has been issued
+core1's cycle: 1821 
+warp8 has been issued
+core1's cycle: 1822 
+warp9 has been issued
+core1's cycle: 1823 
+warp10 has been issued
+core1's cycle: 1824 
+warp14 has been issued
+core1's cycle: 1825 
+warp11 has been issued
+core1's cycle: 1826 
+warp15 has been issued
+core1's cycle: 1827 
+warp12 has been issued
+core1's cycle: 1828 
+warp16 has been issued
+core1's cycle: 1829 
+warp13 has been issued
+core1's cycle: 1830 
+warp17 has been issued
+core1's cycle: 1831 
+warp18 has been issued
+core1's cycle: 1832 
+warp19 has been issued
+core1's cycle: 1833 
+warp14 has been issued
+core1's cycle: 1838 
+warp15 has been issued
+core1's cycle: 1840 
+warp12 has been issued
+core1's cycle: 1841 
+warp16 has been issued
+core1's cycle: 1842 
+warp13 has been issued
+core1's cycle: 1843 
+warp17 has been issued
+core1's cycle: 1844 
+warp18 has been issued
+core1's cycle: 1845 
+warp19 has been issued
+core1's cycle: 1846 
+warp14 has been issued
+core1's cycle: 1852 
+warp15 has been issued
+core1's cycle: 1853 
+warp16 has been issued
+core1's cycle: 1855 
+warp13 has been issued
+core1's cycle: 1856 
+warp17 has been issued
+core1's cycle: 1857 
+warp18 has been issued
+core1's cycle: 1858 
+warp19 has been issued
+core1's cycle: 1859 
+warp14 has been issued
+core1's cycle: 1865 
+warp15 has been issued
+core1's cycle: 1867 
+warp13 has been issued
+core1's cycle: 1869 
+warp16 has been issued
+core1's cycle: 1870 
+warp17 has been issued
+core1's cycle: 1871 
+warp18 has been issued
+core1's cycle: 1872 
+warp19 has been issued
+core1's cycle: 1873 
+warp14 has been issued
+core1's cycle: 1879 
+warp15 has been issued
+core1's cycle: 1880 
+warp13 has been issued
+core1's cycle: 1882 
+warp16 has been issued
+core1's cycle: 1883 
+warp17 has been issued
+core1's cycle: 1884 
+warp18 has been issued
+core1's cycle: 1885 
+warp19 has been issued
+core1's cycle: 1886 
+warp14 has been issued
+core1's cycle: 1892 
+warp15 has been issued
+core1's cycle: 1893 
+warp13 has been issued
+core1's cycle: 1895 
+warp16 has been issued
+core1's cycle: 1896 
+warp17 has been issued
+core1's cycle: 1897 
+warp18 has been issued
+core1's cycle: 1898 
+warp19 has been issued
+core1's cycle: 1899 
+warp14 has been issued
+core1's cycle: 1905 
+warp15 has been issued
+core1's cycle: 1906 
+warp13 has been issued
+core1's cycle: 1908 
+warp16 has been issued
+core1's cycle: 1909 
+warp17 has been issued
+core1's cycle: 1910 
+warp18 has been issued
+core1's cycle: 1911 
+warp19 has been issued
+core1's cycle: 1912 
+warp14 has been issued
+core1's cycle: 1918 
+warp15 has been issued
+core1's cycle: 1919 
+warp13 has been issued
+core1's cycle: 1921 
+warp16 has been issued
+core1's cycle: 1922 
+warp17 has been issued
+core1's cycle: 1923 
+warp18 has been issued
+core1's cycle: 1924 
+warp19 has been issued
+core1's cycle: 1925 
+warp14 has been issued
+core1's cycle: 1932 
+warp15 has been issued
+core1's cycle: 1933 
+warp13 has been issued
+core1's cycle: 1934 
+warp16 has been issued
+core1's cycle: 1935 
+warp17 has been issued
+core1's cycle: 1936 
+warp18 has been issued
+core1's cycle: 1937 
+warp19 has been issued
+core1's cycle: 1938 
+warp14 has been issued
+core1's cycle: 1945 
+warp15 has been issued
+core1's cycle: 1946 
+warp13 has been issued
+core1's cycle: 1947 
+warp16 has been issued
+core1's cycle: 1948 
+warp17 has been issued
+core1's cycle: 1949 
+warp18 has been issued
+core1's cycle: 1950 
+warp19 has been issued
+core1's cycle: 1951 
+warp0 has been issued
+core1's cycle: 1953 
+warp1 has been issued
+core1's cycle: 1954 
+warp2 has been issued
+core1's cycle: 1955 
+warp3 has been issued
+core1's cycle: 1956 
+warp4 has been issued
+core1's cycle: 1957 
+warp5 has been issued
+core1's cycle: 1958 
+warp6 has been issued
+core1's cycle: 1959 
+warp7 has been issued
+core1's cycle: 1960 
+warp8 has been issued
+core1's cycle: 1961 
+warp9 has been issued
+core1's cycle: 1962 
+warp10 has been issued
+core1's cycle: 1963 
+warp11 has been issued
+core1's cycle: 1964 
+warp12 has been issued
+core1's cycle: 1965 
+warp0 has been issued
+core1's cycle: 1966 
+warp1 has been issued
+core1's cycle: 1967 
+warp2 has been issued
+core1's cycle: 1968 
+warp3 has been issued
+core1's cycle: 1969 
+warp4 has been issued
+core1's cycle: 1970 
+warp5 has been issued
+core1's cycle: 1971 
+warp6 has been issued
+core1's cycle: 1972 
+warp7 has been issued
+core1's cycle: 1973 
+warp8 has been issued
+core1's cycle: 1974 
+warp9 has been issued
+core1's cycle: 1975 
+warp10 has been issued
+core1's cycle: 1976 
+warp11 has been issued
+core1's cycle: 1977 
+warp12 has been issued
+core1's cycle: 1978 
+warp0 has been issued
+core1's cycle: 1979 
+warp1 has been issued
+core1's cycle: 1980 
+warp2 has been issued
+core1's cycle: 1981 
+warp3 has been issued
+core1's cycle: 1982 
+warp4 has been issued
+core1's cycle: 1983 
+warp5 has been issued
+core1's cycle: 1984 
+warp6 has been issued
+core1's cycle: 1985 
+warp7 has been issued
+core1's cycle: 1986 
+warp8 has been issued
+core1's cycle: 1987 
+warp9 has been issued
+core1's cycle: 1988 
+warp10 has been issued
+core1's cycle: 1989 
+warp11 has been issued
+core1's cycle: 1990 
+warp12 has been issued
+core1's cycle: 1991 
+warp0 has been issued
+core1's cycle: 1992 
+warp1 has been issued
+core1's cycle: 1993 
+warp2 has been issued
+core1's cycle: 1994 
+warp3 has been issued
+core1's cycle: 1995 
+warp4 has been issued
+core1's cycle: 1996 
+warp5 has been issued
+core1's cycle: 1997 
+warp6 has been issued
+core1's cycle: 1998 
+warp7 has been issued
+core1's cycle: 1999 
+warp8 has been issued
+core1's cycle: 2000 
+warp9 has been issued
+core1's cycle: 2001 
+warp10 has been issued
+core1's cycle: 2002 
+warp11 has been issued
+core1's cycle: 2003 
+warp12 has been issued
+core1's cycle: 2004 
+warp0 has been issued
+core1's cycle: 2005 
+warp1 has been issued
+core1's cycle: 2006 
+warp2 has been issued
+core1's cycle: 2007 
+warp3 has been issued
+core1's cycle: 2008 
+warp4 has been issued
+core1's cycle: 2009 
+warp5 has been issued
+core1's cycle: 2010 
+warp6 has been issued
+core1's cycle: 2011 
+warp7 has been issued
+core1's cycle: 2012 
+warp8 has been issued
+core1's cycle: 2013 
+warp9 has been issued
+core1's cycle: 2014 
+warp10 has been issued
+core1's cycle: 2015 
+warp11 has been issued
+core1's cycle: 2016 
+warp12 has been issued
+core1's cycle: 2017 
+warp0 has been issued
+core1's cycle: 2018 
+warp1 has been issued
+core1's cycle: 2019 
+warp2 has been issued
+core1's cycle: 2020 
+warp3 has been issued
+core1's cycle: 2021 
+warp4 has been issued
+core1's cycle: 2022 
+warp5 has been issued
+core1's cycle: 2023 
+warp6 has been issued
+core1's cycle: 2024 
+warp7 has been issued
+core1's cycle: 2025 
+warp8 has been issued
+core1's cycle: 2026 
+warp9 has been issued
+core1's cycle: 2027 
+warp10 has been issued
+core1's cycle: 2028 
+warp11 has been issued
+core1's cycle: 2029 
+warp12 has been issued
+core1's cycle: 2030 
+warp0 has been issued
+core1's cycle: 2031 
+warp1 has been issued
+core1's cycle: 2032 
+warp2 has been issued
+core1's cycle: 2033 
+warp3 has been issued
+core1's cycle: 2034 
+warp4 has been issued
+core1's cycle: 2035 
+warp5 has been issued
+core1's cycle: 2036 
+warp6 has been issued
+core1's cycle: 2037 
+warp7 has been issued
+core1's cycle: 2038 
+warp8 has been issued
+core1's cycle: 2039 
+warp9 has been issued
+core1's cycle: 2040 
+warp10 has been issued
+core1's cycle: 2041 
+warp11 has been issued
+core1's cycle: 2042 
+warp12 has been issued
+core1's cycle: 2043 
+warp0 has been issued
+core1's cycle: 2044 
+warp1 has been issued
+core1's cycle: 2045 
+warp2 has been issued
+core1's cycle: 2046 
+warp3 has been issued
+core1's cycle: 2047 
+warp4 has been issued
+core1's cycle: 2048 
+warp5 has been issued
+core1's cycle: 2049 
+warp6 has been issued
+core1's cycle: 2050 
+warp7 has been issued
+core1's cycle: 2051 
+warp8 has been issued
+core1's cycle: 2052 
+warp9 has been issued
+core1's cycle: 2053 
+warp10 has been issued
+core1's cycle: 2054 
+warp11 has been issued
+core1's cycle: 2055 
+warp12 has been issued
+core1's cycle: 2056 
+warp0 has been issued
+core1's cycle: 2057 
+warp1 has been issued
+core1's cycle: 2058 
+warp2 has been issued
+core1's cycle: 2059 
+warp3 has been issued
+core1's cycle: 2060 
+warp4 has been issued
+core1's cycle: 2061 
+warp5 has been issued
+core1's cycle: 2062 
+warp6 has been issued
+core1's cycle: 2063 
+warp7 has been issued
+core1's cycle: 2064 
+warp8 has been issued
+core1's cycle: 2065 
+warp9 has been issued
+core1's cycle: 2066 
+warp10 has been issued
+core1's cycle: 2067 
+warp11 has been issued
+core1's cycle: 2068 
+warp12 has been issued
+core1's cycle: 2069 
+warp0 has been issued
+core1's cycle: 2070 
+warp1 has been issued
+core1's cycle: 2071 
+warp2 has been issued
+core1's cycle: 2072 
+warp3 has been issued
+core1's cycle: 2073 
+warp4 has been issued
+core1's cycle: 2074 
+warp5 has been issued
+core1's cycle: 2075 
+warp6 has been issued
+core1's cycle: 2076 
+warp7 has been issued
+core1's cycle: 2077 
+warp8 has been issued
+core1's cycle: 2078 
+warp9 has been issued
+core1's cycle: 2079 
+warp10 has been issued
+core1's cycle: 2080 
+warp11 has been issued
+core1's cycle: 2081 
+warp13 has been issued
+core1's cycle: 2082 
+warp0 has been issued
+core1's cycle: 2083 
+warp1 has been issued
+core1's cycle: 2084 
+warp2 has been issued
+core1's cycle: 2085 
+warp3 has been issued
+core1's cycle: 2086 
+warp4 has been issued
+core1's cycle: 2087 
+warp5 has been issued
+core1's cycle: 2088 
+warp6 has been issued
+core1's cycle: 2089 
+warp7 has been issued
+core1's cycle: 2090 
+warp8 has been issued
+core1's cycle: 2091 
+warp9 has been issued
+core1's cycle: 2092 
+warp10 has been issued
+core1's cycle: 2093 
+warp11 has been issued
+core1's cycle: 2094 
+warp12 has been issued
+core1's cycle: 2095 
+warp0 has been issued
+core1's cycle: 2096 
+warp1 has been issued
+core1's cycle: 2097 
+warp2 has been issued
+core1's cycle: 2098 
+warp3 has been issued
+core1's cycle: 2099 
+warp4 has been issued
+core1's cycle: 2100 
+warp5 has been issued
+core1's cycle: 2101 
+warp6 has been issued
+core1's cycle: 2102 
+warp7 has been issued
+core1's cycle: 2103 
+warp8 has been issued
+core1's cycle: 2104 
+warp9 has been issued
+core1's cycle: 2105 
+warp10 has been issued
+core1's cycle: 2106 
+warp11 has been issued
+core1's cycle: 2107 
+warp12 has been issued
+core1's cycle: 2108 
+warp0 has been issued
+core1's cycle: 2109 
+warp1 has been issued
+core1's cycle: 2110 
+warp2 has been issued
+core1's cycle: 2111 
+warp3 has been issued
+core1's cycle: 2112 
+warp4 has been issued
+core1's cycle: 2113 
+warp5 has been issued
+core1's cycle: 2114 
+warp6 has been issued
+core1's cycle: 2115 
+warp7 has been issued
+core1's cycle: 2116 
+warp8 has been issued
+core1's cycle: 2117 
+warp9 has been issued
+core1's cycle: 2118 
+warp10 has been issued
+core1's cycle: 2119 
+warp11 has been issued
+core1's cycle: 2120 
+warp12 has been issued
+core1's cycle: 2121 
+warp0 has been issued
+core1's cycle: 2122 
+warp1 has been issued
+core1's cycle: 2123 
+warp13 has been issued
+core1's cycle: 2124 
+warp2 has been issued
+core1's cycle: 2125 
+warp3 has been issued
+core1's cycle: 2126 
+warp4 has been issued
+core1's cycle: 2127 
+warp5 has been issued
+core1's cycle: 2128 
+warp6 has been issued
+core1's cycle: 2129 
+warp7 has been issued
+core1's cycle: 2130 
+warp8 has been issued
+core1's cycle: 2131 
+warp9 has been issued
+core1's cycle: 2132 
+warp10 has been issued
+core1's cycle: 2133 
+warp11 has been issued
+core1's cycle: 2134 
+warp0 has been issued
+core1's cycle: 2135 
+warp1 has been issued
+core1's cycle: 2136 
+warp12 has been issued
+core1's cycle: 2137 
+warp2 has been issued
+core1's cycle: 2138 
+warp13 has been issued
+core1's cycle: 2139 
+warp3 has been issued
+core1's cycle: 2140 
+warp4 has been issued
+core1's cycle: 2141 
+warp5 has been issued
+core1's cycle: 2142 
+warp6 has been issued
+core1's cycle: 2143 
+warp7 has been issued
+core1's cycle: 2144 
+warp8 has been issued
+core1's cycle: 2145 
+warp9 has been issued
+core1's cycle: 2146 
+warp10 has been issued
+core1's cycle: 2147 
+warp0 has been issued
+core1's cycle: 2148 
+warp1 has been issued
+core1's cycle: 2149 
+warp11 has been issued
+core1's cycle: 2150 
+warp2 has been issued
+core1's cycle: 2151 
+warp12 has been issued
+core1's cycle: 2152 
+warp3 has been issued
+core1's cycle: 2153 
+warp4 has been issued
+core1's cycle: 2154 
+warp13 has been issued
+core1's cycle: 2155 
+warp5 has been issued
+core1's cycle: 2156 
+warp6 has been issued
+core1's cycle: 2157 
+warp7 has been issued
+core1's cycle: 2158 
+warp8 has been issued
+core1's cycle: 2159 
+warp9 has been issued
+core1's cycle: 2160 
+warp10 has been issued
+core1's cycle: 2161 
+warp14 has been issued
+core1's cycle: 2162 
+warp11 has been issued
+core1's cycle: 2163 
+warp15 has been issued
+core1's cycle: 2164 
+warp12 has been issued
+core1's cycle: 2165 
+warp16 has been issued
+core1's cycle: 2166 
+warp17 has been issued
+core1's cycle: 2167 
+warp13 has been issued
+core1's cycle: 2168 
+warp18 has been issued
+core1's cycle: 2169 
+warp19 has been issued
+core1's cycle: 2170 
+warp14 has been issued
+core1's cycle: 2175 
+warp15 has been issued
+core1's cycle: 2177 
+warp12 has been issued
+core1's cycle: 2178 
+warp16 has been issued
+core1's cycle: 2179 
+warp17 has been issued
+core1's cycle: 2180 
+warp13 has been issued
+core1's cycle: 2181 
+warp18 has been issued
+core1's cycle: 2182 
+warp19 has been issued
+core1's cycle: 2183 
+warp14 has been issued
+core1's cycle: 2188 
+warp15 has been issued
+core1's cycle: 2191 
+warp16 has been issued
+core1's cycle: 2193 
+warp13 has been issued
+core1's cycle: 2194 
+warp17 has been issued
+core1's cycle: 2195 
+warp18 has been issued
+core1's cycle: 2196 
+warp19 has been issued
+core1's cycle: 2197 
+warp14 has been issued
+core1's cycle: 2201 
+warp15 has been issued
+core1's cycle: 2204 
+warp16 has been issued
+core1's cycle: 2206 
+warp13 has been issued
+core1's cycle: 2207 
+warp17 has been issued
+core1's cycle: 2208 
+warp18 has been issued
+core1's cycle: 2209 
+warp19 has been issued
+core1's cycle: 2210 
+warp14 has been issued
+core1's cycle: 2214 
+warp15 has been issued
+core1's cycle: 2218 
+warp16 has been issued
+core1's cycle: 2219 
+warp13 has been issued
+core1's cycle: 2220 
+warp17 has been issued
+core1's cycle: 2221 
+warp18 has been issued
+core1's cycle: 2222 
+warp19 has been issued
+core1's cycle: 2223 
+warp14 has been issued
+core1's cycle: 2227 
+warp15 has been issued
+core1's cycle: 2232 
+warp13 has been issued
+core1's cycle: 2233 
+warp16 has been issued
+core1's cycle: 2234 
+warp17 has been issued
+core1's cycle: 2235 
+warp18 has been issued
+core1's cycle: 2236 
+warp19 has been issued
+core1's cycle: 2237 
+warp14 has been issued
+core1's cycle: 2240 
+warp15 has been issued
+core1's cycle: 2245 
+warp13 has been issued
+core1's cycle: 2246 
+warp16 has been issued
+core1's cycle: 2248 
+warp17 has been issued
+core1's cycle: 2249 
+warp18 has been issued
+core1's cycle: 2250 
+warp19 has been issued
+core1's cycle: 2251 
+warp14 has been issued
+core1's cycle: 2253 
+warp15 has been issued
+core1's cycle: 2258 
+warp13 has been issued
+core1's cycle: 2259 
+warp16 has been issued
+core1's cycle: 2261 
+warp17 has been issued
+core1's cycle: 2262 
+warp18 has been issued
+core1's cycle: 2263 
+warp19 has been issued
+core1's cycle: 2264 
+warp14 has been issued
+core1's cycle: 2266 
+warp15 has been issued
+core1's cycle: 2271 
+warp13 has been issued
+core1's cycle: 2272 
+warp16 has been issued
+core1's cycle: 2274 
+warp17 has been issued
+core1's cycle: 2275 
+warp18 has been issued
+core1's cycle: 2277 
+warp19 has been issued
+core1's cycle: 2278 
+warp14 has been issued
+core1's cycle: 2279 
+warp15 has been issued
+core1's cycle: 2284 
+warp13 has been issued
+core1's cycle: 2285 
+warp16 has been issued
+core1's cycle: 2287 
+warp17 has been issued
+core1's cycle: 2288 
+warp18 has been issued
+core1's cycle: 2290 
+warp19 has been issued
+core1's cycle: 2291 
+warp14 has been issued
+core1's cycle: 2292 
+warp0 has been issued
+core1's cycle: 2298 
+warp1 has been issued
+core1's cycle: 2299 
+warp2 has been issued
+core1's cycle: 2300 
+warp3 has been issued
+core1's cycle: 2301 
+warp4 has been issued
+core1's cycle: 2302 
+warp5 has been issued
+core1's cycle: 2303 
+warp6 has been issued
+core1's cycle: 2304 
+warp7 has been issued
+core1's cycle: 2305 
+warp8 has been issued
+core1's cycle: 2306 
+warp9 has been issued
+core1's cycle: 2307 
+warp10 has been issued
+core1's cycle: 2308 
+warp11 has been issued
+core1's cycle: 2309 
+warp12 has been issued
+core1's cycle: 2310 
+warp0 has been issued
+core1's cycle: 2311 
+warp1 has been issued
+core1's cycle: 2312 
+warp2 has been issued
+core1's cycle: 2313 
+warp3 has been issued
+core1's cycle: 2314 
+warp4 has been issued
+core1's cycle: 2315 
+warp5 has been issued
+core1's cycle: 2316 
+warp6 has been issued
+core1's cycle: 2317 
+warp7 has been issued
+core1's cycle: 2318 
+warp8 has been issued
+core1's cycle: 2319 
+warp9 has been issued
+core1's cycle: 2320 
+warp10 has been issued
+core1's cycle: 2321 
+warp11 has been issued
+core1's cycle: 2322 
+warp12 has been issued
+core1's cycle: 2323 
+warp0 has been issued
+core1's cycle: 2324 
+warp1 has been issued
+core1's cycle: 2325 
+warp2 has been issued
+core1's cycle: 2326 
+warp3 has been issued
+core1's cycle: 2327 
+warp4 has been issued
+core1's cycle: 2328 
+warp5 has been issued
+core1's cycle: 2329 
+warp6 has been issued
+core1's cycle: 2330 
+warp7 has been issued
+core1's cycle: 2331 
+warp8 has been issued
+core1's cycle: 2332 
+warp9 has been issued
+core1's cycle: 2333 
+warp10 has been issued
+core1's cycle: 2334 
+warp11 has been issued
+core1's cycle: 2335 
+warp12 has been issued
+core1's cycle: 2336 
+warp0 has been issued
+core1's cycle: 2337 
+warp1 has been issued
+core1's cycle: 2338 
+warp2 has been issued
+core1's cycle: 2339 
+warp3 has been issued
+core1's cycle: 2340 
+warp4 has been issued
+core1's cycle: 2341 
+warp5 has been issued
+core1's cycle: 2342 
+warp6 has been issued
+core1's cycle: 2343 
+warp7 has been issued
+core1's cycle: 2344 
+warp8 has been issued
+core1's cycle: 2345 
+warp9 has been issued
+core1's cycle: 2346 
+warp10 has been issued
+core1's cycle: 2347 
+warp11 has been issued
+core1's cycle: 2348 
+warp12 has been issued
+core1's cycle: 2349 
+warp0 has been issued
+core1's cycle: 2350 
+warp1 has been issued
+core1's cycle: 2351 
+warp2 has been issued
+core1's cycle: 2352 
+warp3 has been issued
+core1's cycle: 2353 
+warp4 has been issued
+core1's cycle: 2354 
+warp5 has been issued
+core1's cycle: 2355 
+warp6 has been issued
+core1's cycle: 2356 
+warp7 has been issued
+core1's cycle: 2357 
+warp8 has been issued
+core1's cycle: 2358 
+warp9 has been issued
+core1's cycle: 2359 
+warp10 has been issued
+core1's cycle: 2360 
+warp11 has been issued
+core1's cycle: 2361 
+warp12 has been issued
+core1's cycle: 2362 
+warp0 has been issued
+core1's cycle: 2363 
+warp1 has been issued
+core1's cycle: 2364 
+warp2 has been issued
+core1's cycle: 2365 
+warp3 has been issued
+core1's cycle: 2366 
+warp4 has been issued
+core1's cycle: 2367 
+warp5 has been issued
+core1's cycle: 2368 
+warp6 has been issued
+core1's cycle: 2369 
+warp7 has been issued
+core1's cycle: 2370 
+warp8 has been issued
+core1's cycle: 2371 
+warp9 has been issued
+core1's cycle: 2372 
+warp10 has been issued
+core1's cycle: 2373 
+warp11 has been issued
+core1's cycle: 2374 
+warp12 has been issued
+core1's cycle: 2375 
+warp0 has been issued
+core1's cycle: 2376 
+warp1 has been issued
+core1's cycle: 2377 
+warp2 has been issued
+core1's cycle: 2378 
+warp3 has been issued
+core1's cycle: 2379 
+warp4 has been issued
+core1's cycle: 2380 
+warp5 has been issued
+core1's cycle: 2381 
+warp6 has been issued
+core1's cycle: 2382 
+warp7 has been issued
+core1's cycle: 2383 
+warp8 has been issued
+core1's cycle: 2384 
+warp9 has been issued
+core1's cycle: 2385 
+warp10 has been issued
+core1's cycle: 2386 
+warp11 has been issued
+core1's cycle: 2387 
+warp12 has been issued
+core1's cycle: 2388 
+warp0 has been issued
+core1's cycle: 2389 
+warp1 has been issued
+core1's cycle: 2390 
+warp2 has been issued
+core1's cycle: 2391 
+warp3 has been issued
+core1's cycle: 2392 
+warp4 has been issued
+core1's cycle: 2393 
+warp5 has been issued
+core1's cycle: 2394 
+warp6 has been issued
+core1's cycle: 2395 
+warp7 has been issued
+core1's cycle: 2396 
+warp8 has been issued
+core1's cycle: 2397 
+warp9 has been issued
+core1's cycle: 2398 
+warp10 has been issued
+core1's cycle: 2399 
+warp11 has been issued
+core1's cycle: 2400 
+warp12 has been issued
+core1's cycle: 2401 
+warp0 has been issued
+core1's cycle: 2402 
+warp1 has been issued
+core1's cycle: 2403 
+warp2 has been issued
+core1's cycle: 2404 
+warp3 has been issued
+core1's cycle: 2405 
+warp4 has been issued
+core1's cycle: 2406 
+warp5 has been issued
+core1's cycle: 2407 
+warp6 has been issued
+core1's cycle: 2408 
+warp7 has been issued
+core1's cycle: 2409 
+warp8 has been issued
+core1's cycle: 2410 
+warp9 has been issued
+core1's cycle: 2411 
+warp10 has been issued
+core1's cycle: 2412 
+warp11 has been issued
+core1's cycle: 2413 
+warp12 has been issued
+core1's cycle: 2414 
+warp0 has been issued
+core1's cycle: 2415 
+warp1 has been issued
+core1's cycle: 2416 
+warp2 has been issued
+core1's cycle: 2417 
+warp3 has been issued
+core1's cycle: 2418 
+warp4 has been issued
+core1's cycle: 2419 
+warp5 has been issued
+core1's cycle: 2420 
+warp6 has been issued
+core1's cycle: 2421 
+warp7 has been issued
+core1's cycle: 2422 
+warp8 has been issued
+core1's cycle: 2423 
+warp13 has been issued
+core1's cycle: 2424 
+warp9 has been issued
+core1's cycle: 2425 
+warp10 has been issued
+core1's cycle: 2426 
+warp11 has been issued
+core1's cycle: 2427 
+warp0 has been issued
+core1's cycle: 2428 
+warp1 has been issued
+core1's cycle: 2429 
+warp2 has been issued
+core1's cycle: 2430 
+warp3 has been issued
+core1's cycle: 2431 
+warp4 has been issued
+core1's cycle: 2432 
+warp5 has been issued
+core1's cycle: 2433 
+warp6 has been issued
+core1's cycle: 2434 
+warp7 has been issued
+core1's cycle: 2435 
+warp8 has been issued
+core1's cycle: 2436 
+warp12 has been issued
+core1's cycle: 2437 
+warp9 has been issued
+core1's cycle: 2438 
+warp13 has been issued
+core1's cycle: 2439 
+warp10 has been issued
+core1's cycle: 2440 
+warp0 has been issued
+core1's cycle: 2441 
+warp1 has been issued
+core1's cycle: 2442 
+warp2 has been issued
+core1's cycle: 2443 
+warp3 has been issued
+core1's cycle: 2444 
+warp4 has been issued
+core1's cycle: 2445 
+warp5 has been issued
+core1's cycle: 2446 
+warp6 has been issued
+core1's cycle: 2447 
+warp7 has been issued
+core1's cycle: 2448 
+warp8 has been issued
+core1's cycle: 2449 
+warp11 has been issued
+core1's cycle: 2450 
+warp9 has been issued
+core1's cycle: 2451 
+warp12 has been issued
+core1's cycle: 2452 
+warp10 has been issued
+core1's cycle: 2453 
+warp0 has been issued
+core1's cycle: 2454 
+warp1 has been issued
+core1's cycle: 2455 
+warp2 has been issued
+core1's cycle: 2456 
+warp3 has been issued
+core1's cycle: 2457 
+warp4 has been issued
+core1's cycle: 2458 
+warp5 has been issued
+core1's cycle: 2459 
+warp6 has been issued
+core1's cycle: 2460 
+warp7 has been issued
+core1's cycle: 2461 
+warp8 has been issued
+core1's cycle: 2462 
+warp11 has been issued
+core1's cycle: 2463 
+warp9 has been issued
+core1's cycle: 2464 
+warp12 has been issued
+core1's cycle: 2465 
+warp10 has been issued
+core1's cycle: 2466 
+warp0 has been issued
+core1's cycle: 2467 
+warp1 has been issued
+core1's cycle: 2468 
+warp2 has been issued
+core1's cycle: 2469 
+warp3 has been issued
+core1's cycle: 2470 
+warp4 has been issued
+core1's cycle: 2471 
+warp5 has been issued
+core1's cycle: 2472 
+warp6 has been issued
+core1's cycle: 2473 
+warp7 has been issued
+core1's cycle: 2474 
+warp8 has been issued
+core1's cycle: 2475 
+warp11 has been issued
+core1's cycle: 2476 
+warp9 has been issued
+core1's cycle: 2477 
+warp12 has been issued
+core1's cycle: 2478 
+warp10 has been issued
+core1's cycle: 2479 
+warp0 has been issued
+core1's cycle: 2480 
+warp1 has been issued
+core1's cycle: 2481 
+warp2 has been issued
+core1's cycle: 2482 
+warp3 has been issued
+core1's cycle: 2483 
+warp4 has been issued
+core1's cycle: 2484 
+warp5 has been issued
+core1's cycle: 2485 
+warp6 has been issued
+core1's cycle: 2486 
+warp7 has been issued
+core1's cycle: 2487 
+warp8 has been issued
+core1's cycle: 2488 
+warp11 has been issued
+core1's cycle: 2489 
+warp9 has been issued
+core1's cycle: 2490 
+warp12 has been issued
+core1's cycle: 2491 
+warp10 has been issued
+core1's cycle: 2492 
+warp0 has been issued
+core1's cycle: 2493 
+warp1 has been issued
+core1's cycle: 2494 
+warp2 has been issued
+core1's cycle: 2495 
+warp3 has been issued
+core1's cycle: 2496 
+warp4 has been issued
+core1's cycle: 2497 
+warp5 has been issued
+core1's cycle: 2498 
+warp6 has been issued
+core1's cycle: 2499 
+warp7 has been issued
+core1's cycle: 2500 
+warp8 has been issued
+core1's cycle: 2501 
+warp11 has been issued
+core1's cycle: 2502 
+warp9 has been issued
+core1's cycle: 2503 
+warp12 has been issued
+core1's cycle: 2504 
+warp10 has been issued
+core1's cycle: 2505 
+warp13 has been issued
+core1's cycle: 2506 
+warp14 has been issued
+core1's cycle: 2507 
+warp15 has been issued
+core1's cycle: 2508 
+warp16 has been issued
+core1's cycle: 2509 
+warp17 has been issued
+core1's cycle: 2510 
+warp18 has been issued
+core1's cycle: 2511 
+warp19 has been issued
+core1's cycle: 2512 
+warp11 has been issued
+core1's cycle: 2515 
+warp12 has been issued
+core1's cycle: 2517 
+warp13 has been issued
+core1's cycle: 2519 
+warp14 has been issued
+core1's cycle: 2520 
+warp15 has been issued
+core1's cycle: 2522 
+warp16 has been issued
+core1's cycle: 2523 
+warp17 has been issued
+core1's cycle: 2524 
+warp18 has been issued
+core1's cycle: 2525 
+warp19 has been issued
+core1's cycle: 2526 
+warp13 has been issued
+core1's cycle: 2532 
+warp14 has been issued
+core1's cycle: 2533 
+warp15 has been issued
+core1's cycle: 2535 
+warp16 has been issued
+core1's cycle: 2536 
+warp17 has been issued
+core1's cycle: 2537 
+warp18 has been issued
+core1's cycle: 2538 
+warp19 has been issued
+core1's cycle: 2539 
+warp13 has been issued
+core1's cycle: 2545 
+warp14 has been issued
+core1's cycle: 2546 
+warp15 has been issued
+core1's cycle: 2548 
+warp16 has been issued
+core1's cycle: 2549 
+warp17 has been issued
+core1's cycle: 2550 
+warp18 has been issued
+core1's cycle: 2551 
+warp19 has been issued
+core1's cycle: 2552 
+warp13 has been issued
+core1's cycle: 2558 
+warp14 has been issued
+core1's cycle: 2559 
+warp15 has been issued
+core1's cycle: 2561 
+warp16 has been issued
+core1's cycle: 2562 
+warp17 has been issued
+core1's cycle: 2563 
+warp18 has been issued
+core1's cycle: 2564 
+warp19 has been issued
+core1's cycle: 2565 
+warp13 has been issued
+core1's cycle: 2571 
+warp14 has been issued
+core1's cycle: 2572 
+warp15 has been issued
+core1's cycle: 2574 
+warp16 has been issued
+core1's cycle: 2575 
+warp17 has been issued
+core1's cycle: 2576 
+warp18 has been issued
+core1's cycle: 2577 
+warp19 has been issued
+core1's cycle: 2578 
+warp13 has been issued
+core1's cycle: 2584 
+warp14 has been issued
+core1's cycle: 2585 
+warp15 has been issued
+core1's cycle: 2587 
+warp16 has been issued
+core1's cycle: 2588 
+warp17 has been issued
+core1's cycle: 2589 
+warp18 has been issued
+core1's cycle: 2590 
+warp19 has been issued
+core1's cycle: 2591 
+warp13 has been issued
+core1's cycle: 2597 
+warp14 has been issued
+core1's cycle: 2598 
+warp15 has been issued
+core1's cycle: 2600 
+warp16 has been issued
+core1's cycle: 2601 
+warp17 has been issued
+core1's cycle: 2602 
+warp18 has been issued
+core1's cycle: 2603 
+warp19 has been issued
+core1's cycle: 2604 
+warp13 has been issued
+core1's cycle: 2611 
+warp14 has been issued
+core1's cycle: 2612 
+warp15 has been issued
+core1's cycle: 2613 
+warp16 has been issued
+core1's cycle: 2614 
+warp17 has been issued
+core1's cycle: 2615 
+warp18 has been issued
+core1's cycle: 2616 
+warp19 has been issued
+core1's cycle: 2617 
+warp13 has been issued
+core1's cycle: 2624 
+warp15 has been issued
+core1's cycle: 2626 
+warp14 has been issued
+core1's cycle: 2627 
+warp16 has been issued
+core1's cycle: 2628 
+warp17 has been issued
+core1's cycle: 2629 
+warp18 has been issued
+core1's cycle: 2630 
+warp19 has been issued
+core1's cycle: 2631 
+warp0 has been issued
+core1's cycle: 2633 
+warp1 has been issued
+core1's cycle: 2634 
+warp2 has been issued
+core1's cycle: 2635 
+warp3 has been issued
+core1's cycle: 2636 
+warp4 has been issued
+core1's cycle: 2637 
+warp5 has been issued
+core1's cycle: 2638 
+warp6 has been issued
+core1's cycle: 2639 
+warp7 has been issued
+core1's cycle: 2640 
+warp8 has been issued
+core1's cycle: 2641 
+warp9 has been issued
+core1's cycle: 2642 
+warp10 has been issued
+core1's cycle: 2643 
+warp11 has been issued
+core1's cycle: 2644 
+warp12 has been issued
+core1's cycle: 2645 
+warp0 has been issued
+core1's cycle: 2646 
+warp1 has been issued
+core1's cycle: 2647 
+warp2 has been issued
+core1's cycle: 2648 
+warp3 has been issued
+core1's cycle: 2649 
+warp13 has been issued
+core1's cycle: 2650 
+warp4 has been issued
+core1's cycle: 2651 
+warp5 has been issued
+core1's cycle: 2652 
+warp6 has been issued
+core1's cycle: 2653 
+warp7 has been issued
+core1's cycle: 2654 
+warp8 has been issued
+core1's cycle: 2655 
+warp9 has been issued
+core1's cycle: 2656 
+warp10 has been issued
+core1's cycle: 2657 
+warp11 has been issued
+core1's cycle: 2658 
+warp0 has been issued
+core1's cycle: 2659 
+warp1 has been issued
+core1's cycle: 2660 
+warp2 has been issued
+core1's cycle: 2661 
+warp3 has been issued
+core1's cycle: 2662 
+warp12 has been issued
+core1's cycle: 2663 
+warp4 has been issued
+core1's cycle: 2664 
+warp5 has been issued
+core1's cycle: 2665 
+warp6 has been issued
+core1's cycle: 2666 
+warp7 has been issued
+core1's cycle: 2667 
+warp8 has been issued
+core1's cycle: 2668 
+warp9 has been issued
+core1's cycle: 2669 
+warp10 has been issued
+core1's cycle: 2670 
+warp11 has been issued
+core1's cycle: 2671 
+warp0 has been issued
+core1's cycle: 2672 
+warp1 has been issued
+core1's cycle: 2673 
+warp2 has been issued
+core1's cycle: 2674 
+warp3 has been issued
+core1's cycle: 2675 
+warp12 has been issued
+core1's cycle: 2676 
+warp4 has been issued
+core1's cycle: 2677 
+warp5 has been issued
+core1's cycle: 2678 
+warp6 has been issued
+core1's cycle: 2679 
+warp7 has been issued
+core1's cycle: 2680 
+warp8 has been issued
+core1's cycle: 2681 
+warp9 has been issued
+core1's cycle: 2682 
+warp10 has been issued
+core1's cycle: 2683 
+warp11 has been issued
+core1's cycle: 2684 
+warp0 has been issued
+core1's cycle: 2685 
+warp1 has been issued
+core1's cycle: 2686 
+warp2 has been issued
+core1's cycle: 2687 
+warp3 has been issued
+core1's cycle: 2688 
+warp12 has been issued
+core1's cycle: 2689 
+warp4 has been issued
+core1's cycle: 2690 
+warp5 has been issued
+core1's cycle: 2691 
+warp6 has been issued
+core1's cycle: 2692 
+warp7 has been issued
+core1's cycle: 2693 
+warp8 has been issued
+core1's cycle: 2694 
+warp9 has been issued
+core1's cycle: 2695 
+warp10 has been issued
+core1's cycle: 2696 
+warp11 has been issued
+core1's cycle: 2697 
+warp0 has been issued
+core1's cycle: 2698 
+warp1 has been issued
+core1's cycle: 2699 
+warp0 has been issued
+core1's cycle: 2700 
+warp1 has been issued
+core1's cycle: 2701 
+warp2 has been issued
+core1's cycle: 2702 
+warp0 has been issued
+core1's cycle: 2703 
+warp1 has been issued
+core1's cycle: 2704 
+warp2 has been issued
+core1's cycle: 2705 
+warp3 has been issued
+core1's cycle: 2706 
+warp4 has been issued
+core1's cycle: 2707 
+warp2 has been issued
+core1's cycle: 2708 
+warp3 has been issued
+core1's cycle: 2709 
+warp4 has been issued
+core1's cycle: 2710 
+warp5 has been issued
+core1's cycle: 2711 
+warp3 has been issued
+core1's cycle: 2712 
+warp4 has been issued
+core1's cycle: 2713 
+warp0 has been issued
+core1's cycle: 2714 
+warp0 has been issued
+core1's cycle: 2715 
+warp1 has been issued
+core1's cycle: 2716 
+warp6 has been issued
+core1's cycle: 2717 
+warp1 has been issued
+core1's cycle: 2718 
+warp2 has been issued
+core1's cycle: 2719 
+warp7 has been issued
+core1's cycle: 2720 
+warp0 has been issued
+core1's cycle: 2721 
+warp0 has been issued
+core1's cycle: 2722 
+warp8 has been issued
+core1's cycle: 2723 
+warp1 has been issued
+core1's cycle: 2724 
+warp9 has been issued
+core1's cycle: 2725 
+warp1 has been issued
+core1's cycle: 2726 
+warp2 has been issued
+core1's cycle: 2727 
+warp10 has been issued
+core1's cycle: 2728 
+warp0 has been issued
+core1's cycle: 2729 
+warp11 has been issued
+core1's cycle: 2730 
+warp0 has been issued
+core1's cycle: 2731 
+warp12 has been issued
+core1's cycle: 2732 
+warp3 has been issued
+core1's cycle: 2733 
+warp13 has been issued
+core1's cycle: 2734 
+warp1 has been issued
+core1's cycle: 2735 
+warp14 has been issued
+core1's cycle: 2736 
+warp1 has been issued
+core1's cycle: 2737 
+warp15 has been issued
+core1's cycle: 2738 
+warp2 has been issued
+core1's cycle: 2739 
+warp16 has been issued
+core1's cycle: 2740 
+warp0 has been issued
+core1's cycle: 2741 
+warp0 has been issued
+core1's cycle: 2742 
+warp17 has been issued
+core1's cycle: 2743 
+warp2 has been issued
+core1's cycle: 2744 
+warp12 has been issued
+core1's cycle: 2745 
+warp1 has been issued
+core1's cycle: 2746 
+warp13 has been issued
+core1's cycle: 2747 
+warp1 has been issued
+core1's cycle: 2748 
+warp14 has been issued
+core1's cycle: 2749 
+warp3 has been issued
+core1's cycle: 2750 
+warp15 has been issued
+core1's cycle: 2751 
+warp4 has been issued
+core1's cycle: 2752 
+warp16 has been issued
+core1's cycle: 2753 
+warp2 has been issued
+core1's cycle: 2754 
+warp18 has been issued
+core1's cycle: 2755 
+warp17 has been issued
+core1's cycle: 2756 
+warp19 has been issued
+core1's cycle: 2757 
+warp2 has been issued
+core1's cycle: 2759 
+warp13 has been issued
+core1's cycle: 2760 
+warp4 has been issued
+core1's cycle: 2761 
+warp14 has been issued
+core1's cycle: 2762 
+warp3 has been issued
+core1's cycle: 2763 
+warp3 has been issued
+core1's cycle: 2764 
+warp15 has been issued
+core1's cycle: 2765 
+warp16 has been issued
+core1's cycle: 2766 
+warp18 has been issued
+core1's cycle: 2768 
+warp17 has been issued
+core1's cycle: 2769 
+warp19 has been issued
+core1's cycle: 2770 
+warp5 has been issued
+core1's cycle: 2771 
+warp2 has been issued
+core1's cycle: 2773 
+warp13 has been issued
+core1's cycle: 2774 
+warp2 has been issued
+core1's cycle: 2775 
+warp14 has been issued
+core1's cycle: 2776 
+warp15 has been issued
+core1's cycle: 2778 
+warp4 has been issued
+core1's cycle: 2779 
+warp16 has been issued
+core1's cycle: 2780 
+warp3 has been issued
+core1's cycle: 2781 
+warp3 has been issued
+core1's cycle: 2782 
+warp5 has been issued
+core1's cycle: 2783 
+warp17 has been issued
+core1's cycle: 2784 
+warp18 has been issued
+core1's cycle: 2785 
+warp19 has been issued
+core1's cycle: 2786 
+warp13 has been issued
+core1's cycle: 2787 
+warp4 has been issued
+core1's cycle: 2788 
+warp14 has been issued
+core1's cycle: 2789 
+warp6 has been issued
+core1's cycle: 2790 
+warp15 has been issued
+core1's cycle: 2791 
+warp16 has been issued
+core1's cycle: 2793 
+warp17 has been issued
+core1's cycle: 2797 
+warp18 has been issued
+core1's cycle: 2798 
+warp19 has been issued
+core1's cycle: 2799 
+warp13 has been issued
+core1's cycle: 2800 
+warp5 has been issued
+core1's cycle: 2801 
+warp14 has been issued
+core1's cycle: 2802 
+warp15 has been issued
+core1's cycle: 2804 
+warp16 has been issued
+core1's cycle: 2806 
+warp5 has been issued
+core1's cycle: 2810 
+warp17 has been issued
+core1's cycle: 2811 
+warp3 has been issued
+core1's cycle: 2812 
+warp13 has been issued
+core1's cycle: 2813 
+warp3 has been issued
+core1's cycle: 2814 
+warp4 has been issued
+core1's cycle: 2815 
+warp6 has been issued
+core1's cycle: 2816 
+warp4 has been issued
+core1's cycle: 2817 
+warp5 has been issued
+core1's cycle: 2818 
+warp14 has been issued
+core1's cycle: 2819 
+warp15 has been issued
+core1's cycle: 2820 
+warp5 has been issued
+core1's cycle: 2821 
+warp16 has been issued
+core1's cycle: 2822 
+warp7 has been issued
+core1's cycle: 2823 
+warp17 has been issued
+core1's cycle: 2824 
+warp18 has been issued
+core1's cycle: 2825 
+warp13 has been issued
+core1's cycle: 2826 
+warp19 has been issued
+core1's cycle: 2827 
+warp6 has been issued
+core1's cycle: 2830 
+warp6 has been issued
+core1's cycle: 2832 
+warp14 has been issued
+core1's cycle: 2833 
+warp15 has been issued
+core1's cycle: 2834 
+warp16 has been issued
+core1's cycle: 2835 
+warp17 has been issued
+core1's cycle: 2837 
+warp18 has been issued
+core1's cycle: 2838 
+warp4 has been issued
+core1's cycle: 2839 
+warp13 has been issued
+core1's cycle: 2840 
+warp4 has been issued
+core1's cycle: 2841 
+warp5 has been issued
+core1's cycle: 2842 
+warp7 has been issued
+core1's cycle: 2843 
+warp19 has been issued
+core1's cycle: 2844 
+warp5 has been issued
+core1's cycle: 2846 
+warp14 has been issued
+core1's cycle: 2847 
+warp6 has been issued
+core1's cycle: 2848 
+warp15 has been issued
+core1's cycle: 2849 
+warp16 has been issued
+core1's cycle: 2850 
+warp17 has been issued
+core1's cycle: 2851 
+warp18 has been issued
+core1's cycle: 2852 
+warp13 has been issued
+core1's cycle: 2853 
+warp6 has been issued
+core1's cycle: 2855 
+warp7 has been issued
+core1's cycle: 2857 
+warp19 has been issued
+core1's cycle: 2858 
+warp14 has been issued
+core1's cycle: 2860 
+warp15 has been issued
+core1's cycle: 2862 
+warp16 has been issued
+core1's cycle: 2863 
+warp7 has been issued
+core1's cycle: 2864 
+warp17 has been issued
+core1's cycle: 2865 
+warp5 has been issued
+core1's cycle: 2866 
+warp13 has been issued
+core1's cycle: 2867 
+warp18 has been issued
+core1's cycle: 2868 
+warp19 has been issued
+core1's cycle: 2871 
+warp5 has been issued
+core1's cycle: 2872 
+warp14 has been issued
+core1's cycle: 2873 
+warp6 has been issued
+core1's cycle: 2874 
+warp15 has been issued
+core1's cycle: 2875 
+warp16 has been issued
+core1's cycle: 2876 
+warp17 has been issued
+core1's cycle: 2878 
+warp6 has been issued
+core1's cycle: 2879 
+warp13 has been issued
+core1's cycle: 2880 
+warp7 has been issued
+core1's cycle: 2881 
+warp18 has been issued
+core1's cycle: 2882 
+warp19 has been issued
+core1's cycle: 2884 
+warp14 has been issued
+core1's cycle: 2886 
+warp7 has been issued
+core1's cycle: 2888 
+warp15 has been issued
+core1's cycle: 2889 
+warp8 has been issued
+core1's cycle: 2890 
+warp16 has been issued
+core1's cycle: 2891 
+warp17 has been issued
+core1's cycle: 2892 
+warp13 has been issued
+core1's cycle: 2893 
+warp18 has been issued
+core1's cycle: 2895 
+warp9 has been issued
+core1's cycle: 2897 
+warp19 has been issued
+core1's cycle: 2898 
+warp6 has been issued
+core1's cycle: 2899 
+warp14 has been issued
+core1's cycle: 2900 
+warp15 has been issued
+core1's cycle: 2902 
+warp16 has been issued
+core1's cycle: 2904 
+warp6 has been issued
+core1's cycle: 2905 
+warp13 has been issued
+core1's cycle: 2906 
+warp7 has been issued
+core1's cycle: 2907 
+warp7 has been issued
+core1's cycle: 2908 
+warp8 has been issued
+core1's cycle: 2909 
+warp9 has been issued
+core1's cycle: 2910 
+warp10 has been issued
+core1's cycle: 2911 
+warp17 has been issued
+core1's cycle: 2912 
+warp14 has been issued
+core1's cycle: 2913 
+warp18 has been issued
+core1's cycle: 2914 
+warp15 has been issued
+core1's cycle: 2915 
+warp19 has been issued
+core1's cycle: 2916 
+warp16 has been issued
+core1's cycle: 2917 
+warp0 has been issued
+core1's cycle: 2918 
+warp0 has been issued
+core1's cycle: 2920 
+warp17 has been issued
+core1's cycle: 2925 
+warp14 has been issued
+core1's cycle: 2926 
+warp1 has been issued
+core1's cycle: 2927 
+warp15 has been issued
+core1's cycle: 2928 
+warp1 has been issued
+core1's cycle: 2929 
+warp2 has been issued
+core1's cycle: 2930 
+warp10 has been issued
+core1's cycle: 2931 
+warp16 has been issued
+core1's cycle: 2932 
+warp18 has been issued
+core1's cycle: 2933 
+warp19 has been issued
+core1's cycle: 2934 
+warp2 has been issued
+core1's cycle: 2936 
+warp0 has been issued
+core1's cycle: 2938 
+warp17 has been issued
+core1's cycle: 2939 
+warp14 has been issued
+core1's cycle: 2940 
+warp15 has been issued
+core1's cycle: 2941 
+warp0 has been issued
+core1's cycle: 2945 
+warp16 has been issued
+core1's cycle: 2946 
+warp1 has been issued
+core1's cycle: 2947 
+warp18 has been issued
+core1's cycle: 2948 
+warp19 has been issued
+core1's cycle: 2949 
+warp17 has been issued
+core1's cycle: 2952 
+warp14 has been issued
+core1's cycle: 2953 
+warp1 has been issued
+core1's cycle: 2954 
+warp15 has been issued
+core1's cycle: 2955 
+warp2 has been issued
+core1's cycle: 2956 
+warp16 has been issued
+core1's cycle: 2959 
+warp18 has been issued
+core1's cycle: 2961 
+warp19 has been issued
+core1's cycle: 2962 
+warp2 has been issued
+core1's cycle: 2963 
+warp0 has been issued
+core1's cycle: 2965 
+warp14 has been issued
+core1's cycle: 2966 
+warp17 has been issued
+core1's cycle: 2967 
+warp15 has been issued
+core1's cycle: 2968 
+warp0 has been issued
+core1's cycle: 2972 
+warp16 has been issued
+core1's cycle: 2973 
+warp1 has been issued
+core1's cycle: 2974 
+warp18 has been issued
+core1's cycle: 2975 
+warp19 has been issued
+core1's cycle: 2976 
+warp14 has been issued
+core1's cycle: 2979 
+warp17 has been issued
+core1's cycle: 2980 
+warp1 has been issued
+core1's cycle: 2981 
+warp15 has been issued
+core1's cycle: 2982 
+warp2 has been issued
+core1's cycle: 2983 
+warp16 has been issued
+core1's cycle: 2986 
+warp18 has been issued
+core1's cycle: 2988 
+warp19 has been issued
+core1's cycle: 2989 
+warp2 has been issued
+core1's cycle: 2990 
+warp0 has been issued
+core1's cycle: 2992 
+warp14 has been issued
+core1's cycle: 2993 
+warp17 has been issued
+core1's cycle: 2994 
+warp15 has been issued
+core1's cycle: 2995 
+warp0 has been issued
+core1's cycle: 2999 
+warp16 has been issued
+core1's cycle: 3000 
+warp1 has been issued
+core1's cycle: 3001 
+warp18 has been issued
+core1's cycle: 3002 
+warp19 has been issued
+core1's cycle: 3003 
+warp14 has been issued
+core1's cycle: 3006 
+warp17 has been issued
+core1's cycle: 3007 
+warp1 has been issued
+core1's cycle: 3008 
+warp15 has been issued
+core1's cycle: 3009 
+warp2 has been issued
+core1's cycle: 3010 
+warp16 has been issued
+core1's cycle: 3013 
+warp18 has been issued
+core1's cycle: 3015 
+warp19 has been issued
+core1's cycle: 3016 
+warp2 has been issued
+core1's cycle: 3017 
+warp0 has been issued
+core1's cycle: 3019 
+warp14 has been issued
+core1's cycle: 3020 
+warp17 has been issued
+core1's cycle: 3021 
+warp15 has been issued
+core1's cycle: 3022 
+warp0 has been issued
+core1's cycle: 3026 
+warp16 has been issued
+core1's cycle: 3027 
+warp1 has been issued
+core1's cycle: 3028 
+warp18 has been issued
+core1's cycle: 3029 
+warp19 has been issued
+core1's cycle: 3030 
+warp14 has been issued
+core1's cycle: 3033 
+warp17 has been issued
+core1's cycle: 3034 
+warp1 has been issued
+core1's cycle: 3035 
+warp15 has been issued
+core1's cycle: 3036 
+warp2 has been issued
+core1's cycle: 3037 
+warp16 has been issued
+core1's cycle: 3040 
+warp18 has been issued
+core1's cycle: 3042 
+warp19 has been issued
+core1's cycle: 3043 
+warp2 has been issued
+core1's cycle: 3044 
+warp0 has been issued
+core1's cycle: 3046 
+warp14 has been issued
+core1's cycle: 3047 
+warp17 has been issued
+core1's cycle: 3048 
+warp15 has been issued
+core1's cycle: 3049 
+warp0 has been issued
+core1's cycle: 3053 
+warp16 has been issued
+core1's cycle: 3054 
+warp0 has been issued
+core1's cycle: 3055 
+warp1 has been issued
+core1's cycle: 3056 
+warp18 has been issued
+core1's cycle: 3057 
+warp19 has been issued
+core1's cycle: 3058 
+warp14 has been issued
+core1's cycle: 3060 
+warp17 has been issued
+core1's cycle: 3061 
+warp1 has been issued
+core1's cycle: 3062 
+warp15 has been issued
+core1's cycle: 3063 
+warp1 has been issued
+core1's cycle: 3064 
+warp2 has been issued
+core1's cycle: 3065 
+warp16 has been issued
+core1's cycle: 3067 
+warp18 has been issued
+core1's cycle: 3070 
+warp2 has been issued
+core1's cycle: 3071 
+warp19 has been issued
+core1's cycle: 3072 
+warp2 has been issued
+core1's cycle: 3073 
+warp3 has been issued
+core1's cycle: 3074 
+warp14 has been issued
+core1's cycle: 3075 
+warp15 has been issued
+core1's cycle: 3076 
+warp17 has been issued
+core1's cycle: 3077 
+warp16 has been issued
+core1's cycle: 3080 
+warp3 has been issued
+core1's cycle: 3082 
+warp18 has been issued
+core1's cycle: 3083 
+warp19 has been issued
+core1's cycle: 3085 
+warp14 has been issued
+core1's cycle: 3088 
+warp4 has been issued
+core1's cycle: 3089 
+warp15 has been issued
+core1's cycle: 3090 
+warp17 has been issued
+core1's cycle: 3091 
+warp16 has been issued
+core1's cycle: 3093 
+warp18 has been issued
+core1's cycle: 3096 
+warp4 has been issued
+core1's cycle: 3098 
+warp19 has been issued
+core1's cycle: 3099 
+warp5 has been issued
+core1's cycle: 3101 
+warp14 has been issued
+core1's cycle: 3102 
+warp15 has been issued
+core1's cycle: 3103 
+warp17 has been issued
+core1's cycle: 3104 
+warp16 has been issued
+core1's cycle: 3106 
+warp18 has been issued
+core1's cycle: 3109 
+warp19 has been issued
+core1's cycle: 3112 
+warp5 has been issued
+core1's cycle: 3115 
+warp14 has been issued
+core1's cycle: 3116 
+warp3 has been issued
+core1's cycle: 3117 
+warp15 has been issued
+core1's cycle: 3118 
+warp16 has been issued
+core1's cycle: 3119 
+warp17 has been issued
+core1's cycle: 3120 
+warp18 has been issued
+core1's cycle: 3122 
+warp3 has been issued
+core1's cycle: 3125 
+warp19 has been issued
+core1's cycle: 3126 
+warp4 has been issued
+core1's cycle: 3127 
+warp14 has been issued
+core1's cycle: 3129 
+warp15 has been issued
+core1's cycle: 3131 
+warp16 has been issued
+core1's cycle: 3132 
+warp17 has been issued
+core1's cycle: 3133 
+warp4 has been issued
+core1's cycle: 3134 
+warp18 has been issued
+core1's cycle: 3135 
+warp5 has been issued
+core1's cycle: 3136 
+warp19 has been issued
+core1's cycle: 3139 
+warp14 has been issued
+core1's cycle: 3142 
+warp15 has been issued
+core1's cycle: 3144 
+warp16 has been issued
+core1's cycle: 3145 
+warp17 has been issued
+core1's cycle: 3146 
+warp5 has been issued
+core1's cycle: 3147 
+warp18 has been issued
+core1's cycle: 3148 
+warp3 has been issued
+core1's cycle: 3149 
+warp19 has been issued
+core1's cycle: 3152 
+warp3 has been issued
+core1's cycle: 3155 
+warp14 has been issued
+core1's cycle: 3156 
+warp4 has been issued
+core1's cycle: 3157 
+warp15 has been issued
+core1's cycle: 3158 
+warp16 has been issued
+core1's cycle: 3159 
+warp17 has been issued
+core1's cycle: 3160 
+warp18 has been issued
+core1's cycle: 3161 
+warp4 has been issued
+core1's cycle: 3164 
+warp19 has been issued
+core1's cycle: 3165 
+warp5 has been issued
+core1's cycle: 3166 
+warp14 has been issued
+core1's cycle: 3169 
+warp15 has been issued
+core1's cycle: 3171 
+warp16 has been issued
+core1's cycle: 3172 
+warp5 has been issued
+core1's cycle: 3173 
+warp17 has been issued
+core1's cycle: 3174 
+warp3 has been issued
+core1's cycle: 3175 
+warp18 has been issued
+core1's cycle: 3176 
+warp19 has been issued
+core1's cycle: 3178 
+warp3 has been issued
+core1's cycle: 3182 
+warp14 has been issued
+core1's cycle: 3183 
+warp4 has been issued
+core1's cycle: 3184 
+warp15 has been issued
+core1's cycle: 3185 
+warp16 has been issued
+core1's cycle: 3186 
+warp17 has been issued
+core1's cycle: 3187 
+warp18 has been issued
+core1's cycle: 3189 
+warp4 has been issued
+core1's cycle: 3191 
+warp19 has been issued
+core1's cycle: 3192 
+warp5 has been issued
+core1's cycle: 3193 
+warp14 has been issued
+core1's cycle: 3197 
+warp15 has been issued
+core1's cycle: 3198 
+warp16 has been issued
+core1's cycle: 3199 
+warp5 has been issued
+core1's cycle: 3200 
+warp17 has been issued
+core1's cycle: 3201 
+warp3 has been issued
+core1's cycle: 3202 
+warp18 has been issued
+core1's cycle: 3203 
+warp19 has been issued
+core1's cycle: 3205 
+warp3 has been issued
+core1's cycle: 3209 
+warp4 has been issued
+core1's cycle: 3211 
+warp15 has been issued
+core1's cycle: 3212 
+warp16 has been issued
+core1's cycle: 3213 
+warp17 has been issued
+core1's cycle: 3214 
+warp18 has been issued
+core1's cycle: 3216 
+warp4 has been issued
+core1's cycle: 3218 
+warp19 has been issued
+core1's cycle: 3219 
+warp5 has been issued
+core1's cycle: 3220 
+warp15 has been issued
+core1's cycle: 3225 
+warp16 has been issued
+core1's cycle: 3226 
+warp5 has been issued
+core1's cycle: 3227 
+warp17 has been issued
+core1's cycle: 3228 
+warp3 has been issued
+core1's cycle: 3229 
+warp18 has been issued
+core1's cycle: 3230 
+warp19 has been issued
+core1's cycle: 3232 
+warp3 has been issued
+core1's cycle: 3236 
+warp3 has been issued
+core1's cycle: 3238 
+warp4 has been issued
+core1's cycle: 3239 
+warp15 has been issued
+core1's cycle: 3240 
+warp16 has been issued
+core1's cycle: 3241 
+warp17 has been issued
+core1's cycle: 3242 
+warp18 has been issued
+core1's cycle: 3243 
+warp4 has been issued
+core1's cycle: 3245 
+warp19 has been issued
+core1's cycle: 3246 
+warp4 has been issued
+core1's cycle: 3247 
+warp5 has been issued
+core1's cycle: 3248 
+warp5 has been issued
+core1's cycle: 3254 
+warp17 has been issued
+core1's cycle: 3255 
+warp5 has been issued
+core1's cycle: 3256 
+warp6 has been issued
+core1's cycle: 3257 
+warp18 has been issued
+core1's cycle: 3258 
+warp19 has been issued
+core1's cycle: 3259 
+warp6 has been issued
+core1's cycle: 3265 
+warp17 has been issued
+core1's cycle: 3268 
+warp18 has been issued
+core1's cycle: 3271 
+warp7 has been issued
+core1's cycle: 3272 
+warp19 has been issued
+core1's cycle: 3273 
+warp7 has been issued
+core1's cycle: 3281 
+warp17 has been issued
+core1's cycle: 3282 
+warp17 has been issued
+core1's cycle: 3284 
+warp18 has been issued
+core1's cycle: 3285 
+warp19 has been issued
+core1's cycle: 3286 
+warp8 has been issued
+core1's cycle: 3298 
+warp18 has been issued
+core1's cycle: 3299 
+warp6 has been issued
+core1's cycle: 3300 
+warp19 has been issued
+core1's cycle: 3301 
+warp6 has been issued
+core1's cycle: 3308 
+warp7 has been issued
+core1's cycle: 3310 
+warp7 has been issued
+core1's cycle: 3311 
+warp17 has been issued
+core1's cycle: 3312 
+warp18 has been issued
+core1's cycle: 3313 
+warp8 has been issued
+core1's cycle: 3314 
+warp19 has been issued
+core1's cycle: 3315 
+warp9 has been issued
+core1's cycle: 3324 
+warp9 has been issued
+core1's cycle: 3326 
+warp19 has been issued
+core1's cycle: 3328 
+warp19 has been issued
+core1's cycle: 3332 
+warp6 has been issued
+core1's cycle: 3334 
+warp6 has been issued
+core1's cycle: 3336 
+warp7 has been issued
+core1's cycle: 3338 
+warp7 has been issued
+core1's cycle: 3340 
+warp8 has been issued
+core1's cycle: 3341 
+warp19 has been issued
+core1's cycle: 3342 
+warp8 has been issued
+core1's cycle: 3347 
+warp6 has been issued
+core1's cycle: 3349 
+warp6 has been issued
+core1's cycle: 3356 
+warp7 has been issued
+core1's cycle: 3358 
+warp7 has been issued
+core1's cycle: 3365 
+warp8 has been issued
+core1's cycle: 3367 
+warp8 has been issued
+core1's cycle: 3377 
+warp6 has been issued
+core1's cycle: 3379 
+warp6 has been issued
+core1's cycle: 3386 
+warp7 has been issued
+core1's cycle: 3388 
+warp7 has been issued
+core1's cycle: 3395 
+warp8 has been issued
+core1's cycle: 3397 
+warp8 has been issued
+core1's cycle: 3404 
+warp6 has been issued
+core1's cycle: 3406 
+warp6 has been issued
+core1's cycle: 3413 
+warp6 has been issued
+core1's cycle: 3415 
+warp7 has been issued
+core1's cycle: 3416 
+warp7 has been issued
+core1's cycle: 3422 
+warp8 has been issued
+core1's cycle: 3424 
+warp8 has been issued
+core1's cycle: 3431 
+warp9 has been issued
+core1's cycle: 3433 
+warp9 has been issued
+core1's cycle: 3442 
+warp7 has been issued
+core1's cycle: 3444 
+warp7 has been issued
+core1's cycle: 3451 
+warp7 has been issued
+core1's cycle: 3453 
+warp8 has been issued
+core1's cycle: 3454 
+warp8 has been issued
+core1's cycle: 3461 
+warp9 has been issued
+core1's cycle: 3463 
+warp9 has been issued
+core1's cycle: 3475 
+warp10 has been issued
+core1's cycle: 3477 
+warp10 has been issued
+core1's cycle: 3486 
+warp8 has been issued
+core1's cycle: 3488 
+warp8 has been issued
+core1's cycle: 3494 
+warp9 has been issued
+core1's cycle: 3496 
+warp9 has been issued
+core1's cycle: 3501 
+warp10 has been issued
+core1's cycle: 3503 
+warp10 has been issued
+core1's cycle: 3511 
+warp8 has been issued
+core1's cycle: 3513 
+warp8 has been issued
+core1's cycle: 3520 
+warp9 has been issued
+core1's cycle: 3522 
+warp9 has been issued
+core1's cycle: 3529 
+warp10 has been issued
+core1's cycle: 3531 
+warp10 has been issued
+core1's cycle: 3541 
+warp8 has been issued
+core1's cycle: 3543 
+warp8 has been issued
+core1's cycle: 3550 
+warp9 has been issued
+core1's cycle: 3552 
+warp9 has been issued
+core1's cycle: 3559 
+warp10 has been issued
+core1's cycle: 3561 
+warp10 has been issued
+core1's cycle: 3568 
+warp8 has been issued
+core1's cycle: 3570 
+warp8 has been issued
+core1's cycle: 3577 
+warp8 has been issued
+core1's cycle: 3579 
+warp9 has been issued
+core1's cycle: 3580 
+warp9 has been issued
+core1's cycle: 3586 
+warp10 has been issued
+core1's cycle: 3588 
+warp10 has been issued
+core1's cycle: 3595 
+warp11 has been issued
+core1's cycle: 3597 
+warp12 has been issued
+core1's cycle: 3606 
+warp9 has been issued
+core1's cycle: 3608 
+warp9 has been issued
+core1's cycle: 3615 
+warp10 has been issued
+core1's cycle: 3617 
+warp10 has been issued
+core1's cycle: 3618 
+warp11 has been issued
+core1's cycle: 3619 
+warp12 has been issued
+core1's cycle: 3620 
+warp13 has been issued
+core1's cycle: 3621 
+warp14 has been issued
+core1's cycle: 3625 
+warp9 has been issued
+core1's cycle: 3627 
+warp9 has been issued
+core1's cycle: 3639 
+warp10 has been issued
+core1's cycle: 3641 
+warp10 has been issued
+core1's cycle: 3642 
+warp11 has been issued
+core1's cycle: 3643 
+warp13 has been issued
+core1's cycle: 3644 
+warp14 has been issued
+core1's cycle: 3645 
+warp11 has been issued
+core1's cycle: 3647 
+warp9 has been issued
+core1's cycle: 3649 
+warp9 has been issued
+core1's cycle: 3656 
+warp9 has been issued
+core1's cycle: 3658 
+warp10 has been issued
+core1's cycle: 3659 
+warp10 has been issued
+core1's cycle: 3660 
+warp11 has been issued
+core1's cycle: 3661 
+warp11 has been issued
+core1's cycle: 3667 
+warp12 has been issued
+core1's cycle: 3674 
+warp12 has been issued
+core1's cycle: 3683 
+warp10 has been issued
+core1's cycle: 3685 
+warp10 has been issued
+core1's cycle: 3692 
+warp11 has been issued
+core1's cycle: 3694 
+warp11 has been issued
+core1's cycle: 3698 
+warp12 has been issued
+core1's cycle: 3700 
+warp12 has been issued
+core1's cycle: 3709 
+warp10 has been issued
+core1's cycle: 3711 
+warp10 has been issued
+core1's cycle: 3717 
+warp10 has been issued
+core1's cycle: 3719 
+warp11 has been issued
+core1's cycle: 3720 
+warp11 has been issued
+core1's cycle: 3726 
+warp12 has been issued
+core1's cycle: 3728 
+warp12 has been issued
+core1's cycle: 3738 
+warp13 has been issued
+core1's cycle: 3741 
+warp13 has been issued
+core1's cycle: 3750 
+warp11 has been issued
+core1's cycle: 3752 
+warp11 has been issued
+core1's cycle: 3758 
+warp12 has been issued
+core1's cycle: 3760 
+warp12 has been issued
+core1's cycle: 3765 
+warp13 has been issued
+core1's cycle: 3767 
+warp13 has been issued
+core1's cycle: 3775 
+warp11 has been issued
+core1's cycle: 3777 
+warp11 has been issued
+core1's cycle: 3784 
+warp12 has been issued
+core1's cycle: 3786 
+warp12 has been issued
+core1's cycle: 3793 
+warp13 has been issued
+core1's cycle: 3795 
+warp13 has been issued
+core1's cycle: 3805 
+warp11 has been issued
+core1's cycle: 3807 
+warp11 has been issued
+core1's cycle: 3814 
+warp12 has been issued
+core1's cycle: 3816 
+warp12 has been issued
+core1's cycle: 3823 
+warp13 has been issued
+core1's cycle: 3825 
+warp13 has been issued
+core1's cycle: 3832 
+warp11 has been issued
+core1's cycle: 3834 
+warp11 has been issued
+core1's cycle: 3841 
+warp12 has been issued
+core1's cycle: 3843 
+warp12 has been issued
+core1's cycle: 3850 
+warp13 has been issued
+core1's cycle: 3852 
+warp13 has been issued
+core1's cycle: 3859 
+warp11 has been issued
+core1's cycle: 3861 
+warp11 has been issued
+core1's cycle: 3868 
+warp12 has been issued
+core1's cycle: 3870 
+warp12 has been issued
+core1's cycle: 3877 
+warp13 has been issued
+core1's cycle: 3879 
+warp13 has been issued
+core1's cycle: 3886 
+warp11 has been issued
+core1's cycle: 3888 
+warp11 has been issued
+core1's cycle: 3895 
+warp11 has been issued
+core1's cycle: 3897 
+warp12 has been issued
+core1's cycle: 3898 
+warp12 has been issued
+core1's cycle: 3904 
+warp13 has been issued
+core1's cycle: 3906 
+warp13 has been issued
+core1's cycle: 3913 
+warp14 has been issued
+core1's cycle: 3915 
+warp14 has been issued
+core1's cycle: 3924 
+warp12 has been issued
+core1's cycle: 3926 
+warp12 has been issued
+core1's cycle: 3933 
+warp12 has been issued
+core1's cycle: 3935 
+warp13 has been issued
+core1's cycle: 3936 
+warp13 has been issued
+core1's cycle: 3940 
+warp14 has been issued
+core1's cycle: 3942 
+warp14 has been issued
+core1's cycle: 3950 
+warp15 has been issued
+core1's cycle: 3957 
+warp16 has been issued
+core1's cycle: 3965 
+warp13 has been issued
+core1's cycle: 3967 
+warp13 has been issued
+core1's cycle: 3974 
+warp14 has been issued
+core1's cycle: 3976 
+warp14 has been issued
+core1's cycle: 3977 
+warp15 has been issued
+core1's cycle: 3978 
+warp16 has been issued
+core1's cycle: 3979 
+warp17 has been issued
+core1's cycle: 3980 
+warp17 has been issued
+core1's cycle: 3984 
+warp13 has been issued
+core1's cycle: 3986 
+warp13 has been issued
+core1's cycle: 3997 
+warp13 has been issued
+core1's cycle: 3999 
+warp14 has been issued
+core1's cycle: 4000 
+warp14 has been issued
+core1's cycle: 4001 
+warp15 has been issued
+core1's cycle: 4002 
+warp15 has been issued
+core1's cycle: 4008 
+warp16 has been issued
+core1's cycle: 4014 
+warp16 has been issued
+core1's cycle: 4023 
+warp14 has been issued
+core1's cycle: 4025 
+warp14 has been issued
+core1's cycle: 4026 
+warp15 has been issued
+core1's cycle: 4028 
+warp15 has been issued
+core1's cycle: 4032 
+warp16 has been issued
+core1's cycle: 4034 
+warp16 has been issued
+core1's cycle: 4042 
+warp14 has been issued
+core1's cycle: 4044 
+warp14 has been issued
+core1's cycle: 4055 
+warp15 has been issued
+core1's cycle: 4057 
+warp15 has been issued
+core1's cycle: 4063 
+warp16 has been issued
+core1's cycle: 4065 
+warp16 has been issued
+core1's cycle: 4075 
+warp14 has been issued
+core1's cycle: 4077 
+warp14 has been issued
+core1's cycle: 4084 
+warp15 has been issued
+core1's cycle: 4086 
+warp15 has been issued
+core1's cycle: 4093 
+warp16 has been issued
+core1's cycle: 4095 
+warp16 has been issued
+core1's cycle: 4102 
+warp14 has been issued
+core1's cycle: 4104 
+warp14 has been issued
+core1's cycle: 4111 
+warp15 has been issued
+core1's cycle: 4113 
+warp15 has been issued
+core1's cycle: 4120 
+warp16 has been issued
+core1's cycle: 4122 
+warp16 has been issued
+core1's cycle: 4129 
+warp14 has been issued
+core1's cycle: 4131 
+warp14 has been issued
+core1's cycle: 4138 
+warp15 has been issued
+core1's cycle: 4140 
+warp15 has been issued
+core1's cycle: 4147 
+warp16 has been issued
+core1's cycle: 4149 
+warp16 has been issued
+core1's cycle: 4156 
+warp14 has been issued
+core1's cycle: 4158 
+warp14 has been issued
+core1's cycle: 4165 
+warp14 has been issued
+core1's cycle: 4167 
+warp15 has been issued
+core1's cycle: 4168 
+warp15 has been issued
+core1's cycle: 4174 
+warp16 has been issued
+core1's cycle: 4176 
+warp16 has been issued
+core1's cycle: 4183 
+warp17 has been issued
+core1's cycle: 4185 
+warp17 has been issued
+core1's cycle: 4194 
+warp15 has been issued
+core1's cycle: 4196 
+warp15 has been issued
+core1's cycle: 4203 
+warp16 has been issued
+core1's cycle: 4205 
+warp16 has been issued
+core1's cycle: 4213 
+warp17 has been issued
+core1's cycle: 4215 
+warp17 has been issued
+core1's cycle: 4227 
+warp15 has been issued
+core1's cycle: 4229 
+warp15 has been issued
+core1's cycle: 4235 
+warp16 has been issued
+core1's cycle: 4237 
+warp16 has been issued
+core1's cycle: 4244 
+warp17 has been issued
+core1's cycle: 4246 
+warp17 has been issued
+core1's cycle: 4253 
+warp15 has been issued
+core1's cycle: 4255 
+warp15 has been issued
+core1's cycle: 4262 
+warp15 has been issued
+core1's cycle: 4264 
+warp16 has been issued
+core1's cycle: 4265 
+warp16 has been issued
+core1's cycle: 4271 
+warp16 has been issued
+core1's cycle: 4273 
+warp17 has been issued
+core1's cycle: 4274 
+warp17 has been issued
+core1's cycle: 4280 
+warp18 has been issued
+core1's cycle: 4282 
+warp19 has been issued
+core1's cycle: 4291 
+warp19 has been issued
+core1's cycle: 4298 
+warp17 has been issued
+core1's cycle: 4308 
+warp17 has been issued
+core1's cycle: 4309 
+warp18 has been issued
+core1's cycle: 4310 
+warp19 has been issued
+core1's cycle: 4311 
+warp19 has been issued
+core1's cycle: 4312 
+warp18 has been issued
+core1's cycle: 4321 
+warp18 has been issued
+core1's cycle: 4324 
+warp17 has been issued
+core1's cycle: 4326 
+warp17 has been issued
+core1's cycle: 4327 
+warp19 has been issued
+core1's cycle: 4328 
+warp19 has been issued
+core1's cycle: 4334 
+warp18 has been issued
+core1's cycle: 4336 
+warp18 has been issued
+core1's cycle: 4342 
+warp17 has been issued
+core1's cycle: 4344 
+warp17 has been issued
+core1's cycle: 4348 
+warp19 has been issued
+core1's cycle: 4349 
+warp19 has been issued
+core1's cycle: 4357 
+warp18 has been issued
+core1's cycle: 4359 
+warp18 has been issued
+core1's cycle: 4369 
+warp17 has been issued
+core1's cycle: 4371 
+warp17 has been issued
+core1's cycle: 4375 
+warp19 has been issued
+core1's cycle: 4376 
+warp19 has been issued
+core1's cycle: 4384 
+warp18 has been issued
+core1's cycle: 4386 
+warp18 has been issued
+core1's cycle: 4393 
+warp17 has been issued
+core1's cycle: 4395 
+warp17 has been issued
+core1's cycle: 4399 
+warp19 has been issued
+core1's cycle: 4400 
+warp17 has been issued
+core1's cycle: 4401 
+warp19 has been issued
+core1's cycle: 4408 
+warp18 has been issued
+core1's cycle: 4410 
+warp18 has been issued
+core1's cycle: 4417 
+warp19 has been issued
+core1's cycle: 4426 
+warp19 has been issued
+core1's cycle: 4427 
+warp18 has been issued
+core1's cycle: 4439 
+warp18 has been issued
+core1's cycle: 4440 
+warp19 has been issued
+core1's cycle: 4441 
+warp19 has been issued
+core1's cycle: 4443 
+warp18 has been issued
+core1's cycle: 4445 
+warp18 has been issued
+core1's cycle: 4446 
+warp19 has been issued
+core1's cycle: 4457 
+warp19 has been issued
+core1's cycle: 4458 
+warp18 has been issued
+core1's cycle: 4471 
+warp18 has been issued
+core1's cycle: 4472 
+warp19 has been issued
+core1's cycle: 4473 
+warp19 has been issued
+core1's cycle: 4475 
+warp19 has been issued
+core1's cycle: 4477 
+warp18 has been issued
+core1's cycle: 4478 
+warp18 has been issued
+core1's cycle: 4479 
+warp18 has been issued
+core1's cycle: 4503 
+warp18 has been issued
+core1's cycle: 4504 
+warp18 has been issued
+core1's cycle: 4506 

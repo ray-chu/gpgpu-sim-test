@@ -1,0 +1,234 @@
+  mf: uid=    65, sid01:w02, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0038 w02[11111111111111111111111111111111]: VecCpy PC=0x038 (_1.ptx:70) ld.param.u64 %rd3, [__cudaparm__Z6VecCpyPfS_S_i_A]; initiation_interval: 1
+core1's cycle: 215 
+  mf: uid=   144, sid01:w02, part=3, addr=0x80000100, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w02[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 387 
+  mf: uid=   145, sid01:w01, part=2, addr=0x80000080, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w01[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 389 
+  mf: uid=   146, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w00[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 391 
+  mf: uid=   154, sid01:w03, part=3, addr=0x80000180, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w03[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 394 
+  mf: uid=   159, sid01:w04, part=4, addr=0x80000200, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w04[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 399 
+  mf: uid=   160, sid01:w05, part=4, addr=0x80000280, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w05[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 401 
+  mf: uid=   166, sid01:w06, part=5, addr=0x80000300, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w06[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 404 
+  mf: uid=   169, sid01:w01, part=0, addr=0x80000a80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w01[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 407 
+  mf: uid=   170, sid01:w00, part=0, addr=0x80000a00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 409 
+  mf: uid=   175, sid01:w02, part=1, addr=0x80000b00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w02[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 413 
+  mf: uid=   176, sid01:w03, part=1, addr=0x80000b80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w03[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 415 
+  mf: uid=   182, sid01:w04, part=2, addr=0x80000c00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w04[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 419 
+  mf: uid=   189, sid01:w07, part=5, addr=0x80000380, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w07[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 425 
+  mf: uid=   195, sid01:w08, part=0, addr=0x80000400, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w08[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 430 
+  mf: uid=   196, sid01:w09, part=0, addr=0x80000480, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w09[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 432 
+  mf: uid=   198, sid01:w05, part=2, addr=0x80000c80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w05[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 434 
+  mf: uid=   206, sid01:w06, part=3, addr=0x80000d00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w06[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 440 
+  mf: uid=   211, sid01:w07, part=3, addr=0x80000d80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w07[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 445 
+  mf: uid=   212, sid01:w10, part=1, addr=0x80000500, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w10[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 447 
+  mf: uid=   216, sid01:w11, part=1, addr=0x80000580, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w11[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 450 
+  mf: uid=   220, sid01:w08, part=4, addr=0x80000e00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w08[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 454 
+  mf: uid=   222, sid01:w09, part=4, addr=0x80000e80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w09[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 456 
+  mf: uid=   228, sid01:w12, part=2, addr=0x80000600, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w12[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 462 
+  mf: uid=   235, sid01:w10, part=5, addr=0x80000f00, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w10[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 472 
+  mf: uid=   239, sid01:w11, part=5, addr=0x80000f80, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w11[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 476 
+  mf: uid=   241, sid01:w13, part=2, addr=0x80000680, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w13[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 478 
+  mf: uid=   242, sid01:w12, part=0, addr=0x80001000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w12[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 480 
+  mf: uid=   248, sid01:w14, part=3, addr=0x80000700, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w14[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 483 
+  mf: uid=   253, sid01:w15, part=3, addr=0x80000780, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w15[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 487 
+  mf: uid=   258, sid01:w16, part=4, addr=0x80000800, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w16[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 491 
+  mf: uid=   263, sid01:w13, part=0, addr=0x80001080, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w13[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 497 
+  mf: uid=   267, sid01:w14, part=1, addr=0x80001100, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w14[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 501 
+  mf: uid=   303, sid01:w17, part=4, addr=0x80000880, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w17[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 536 
+  mf: uid=   310, sid01:w15, part=1, addr=0x80001180, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w15[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 542 
+  mf: uid=   320, sid01:w16, part=2, addr=0x80001200, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w16[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 548 
+  mf: uid=   327, sid01:w18, part=5, addr=0x80000900, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w18[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 554 
+  mf: uid=   334, sid01:w19, part=5, addr=0x80000980, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w19[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+core1's cycle: 560 
+  mf: uid=   342, sid01:w17, part=2, addr=0x80001280, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w17[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 566 
+  mf: uid=   347, sid01:w18, part=3, addr=0x80001300, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w18[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 576 
+  mf: uid=   349, sid01:w19, part=3, addr=0x80001380, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w19[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0]; initiation_interval: 1
+core1's cycle: 578 
+  mf: uid=  1356, sid01:w00, part=4, addr=0x80001400, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w00[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2737 
+  mf: uid=  1357, sid01:w01, part=4, addr=0x80001480, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w01[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2743 
+  mf: uid=  1362, sid01:w02, part=5, addr=0x80001500, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w02[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2749 
+  mf: uid=  1369, sid01:w00, part=4, addr=0x80001480, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w00[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2752 
+  mf: uid=  1370, sid01:w00, part=4, addr=0x80001400, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w00[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2758 
+  mf: uid=  1372, sid01:w01, part=5, addr=0x80001500, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w01[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2761 
+  mf: uid=  1374, sid01:w01, part=4, addr=0x80001480, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w01[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2767 
+  mf: uid=  1381, sid01:w00, part=4, addr=0x80001480, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w00[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2772 
+  mf: uid=  1383, sid01:w00, part=4, addr=0x80001400, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w00[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2778 
+  mf: uid=  1387, sid01:w03, part=5, addr=0x80001580, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w03[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2784 
+  mf: uid=  1388, sid01:w01, part=5, addr=0x80001500, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w01[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2787 
+  mf: uid=  1395, sid01:w02, part=5, addr=0x80001580, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w02[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2796 
+  mf: uid=  1397, sid01:w02, part=5, addr=0x80001500, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w02[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2802 
+  mf: uid=  1426, sid01:w04, part=0, addr=0x80001600, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w04[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2826 
+  mf: uid=  1446, sid01:w03, part=0, addr=0x80001600, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w03[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2838 
+  mf: uid=  1475, sid01:w04, part=0, addr=0x80001680, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w04[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2856 
+  mf: uid=  1483, sid01:w04, part=0, addr=0x80001600, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w04[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2862 
+  mf: uid=  1487, sid01:w03, part=0, addr=0x80001600, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w03[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2865 
+  mf: uid=  1432, sid01:w02, part=5, addr=0x80001580, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w02[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2875 
+  mf: uid=  1504, sid01:w05, part=0, addr=0x80001680, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w05[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2877 
+  mf: uid=  1448, sid01:w03, part=5, addr=0x80001580, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w03[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2880 
+  mf: uid=  1536, sid01:w05, part=1, addr=0x80001700, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w05[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2898 
+  mf: uid=  1549, sid01:w06, part=1, addr=0x80001700, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w06[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2910 
+  mf: uid=  1571, sid01:w05, part=1, addr=0x80001700, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w05[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2922 
+  mf: uid=  1586, sid01:w06, part=1, addr=0x80001780, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w06[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2931 
+  mf: uid=  1588, sid01:w06, part=1, addr=0x80001700, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w06[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2937 
+  mf: uid=  1600, sid01:w07, part=1, addr=0x80001780, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w07[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 2943 
+  mf: uid=  1522, sid01:w04, part=0, addr=0x80001680, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w04[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2952 
+  mf: uid=  1539, sid01:w05, part=0, addr=0x80001680, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w05[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2957 
+  mf: uid=  1634, sid01:w07, part=2, addr=0x80001800, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w07[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 2964 
+  mf: uid=  1668, sid01:w07, part=2, addr=0x80001800, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w07[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 2982 
+  mf: uid=  1622, sid01:w06, part=1, addr=0x80001780, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w06[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3022 
+  mf: uid=  1636, sid01:w07, part=1, addr=0x80001780, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w07[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3027 
+  mf: uid=  2219, sid01:w09, part=2, addr=0x80001880, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w09[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 3402 
+  mf: uid=  2247, sid01:w08, part=2, addr=0x80001880, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w08[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3423 
+  mf: uid=  2277, sid01:w08, part=2, addr=0x80001880, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w08[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3450 
+  mf: uid=  2308, sid01:w08, part=2, addr=0x80001880, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w08[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 3477 
+  mf: uid=  2356, sid01:w09, part=3, addr=0x80001900, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w09[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3520 
+  mf: uid=  2394, sid01:w09, part=3, addr=0x80001900, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w09[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3554 
+  mf: uid=  2404, sid01:w10, part=3, addr=0x80001900, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w10[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 3566 
+  mf: uid=  2423, sid01:w09, part=3, addr=0x80001900, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w09[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 3578 
+  mf: uid=  2433, sid01:w10, part=3, addr=0x80001980, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w10[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3587 
+  mf: uid=  2464, sid01:w10, part=3, addr=0x80001980, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w10[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3648 
+  mf: uid=  2496, sid01:w10, part=3, addr=0x80001980, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w10[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 3654 
+  mf: uid=  2532, sid01:w10, part=3, addr=0x80001980, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0400 w10[11111111111111111111111111111111]: VecCpy PC=0x400 (_1.ptx:194) st.global.f32 [%rd8+16], %f107; initiation_interval: 1
+core1's cycle: 3675 
+  mf: uid=  2621, sid01:w11, part=4, addr=0x80001a00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w11[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3751 
+  mf: uid=  2634, sid01:w12, part=4, addr=0x80001a00, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w12[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 3763 
+  mf: uid=  2653, sid01:w11, part=4, addr=0x80001a00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w11[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3775 
+  mf: uid=  2662, sid01:w12, part=4, addr=0x80001a80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w12[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3784 
+  mf: uid=  2665, sid01:w12, part=4, addr=0x80001a00, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w12[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3790 
+  mf: uid=  2741, sid01:w13, part=5, addr=0x80001b00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w13[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 3851 
+  mf: uid=  2699, sid01:w12, part=4, addr=0x80001a80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w12[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3875 
+  mf: uid=  2771, sid01:w13, part=5, addr=0x80001b00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w13[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 3878 
+  mf: uid=  2710, sid01:w13, part=4, addr=0x80001a80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w13[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 3880 
+  mf: uid=  2730, sid01:w12, part=4, addr=0x80001a80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w12[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 3882 
+  mf: uid=  2801, sid01:w13, part=5, addr=0x80001b00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w13[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 3905 
+  mf: uid=  2832, sid01:w13, part=5, addr=0x80001b00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0400 w13[11111111111111111111111111111111]: VecCpy PC=0x400 (_1.ptx:194) st.global.f32 [%rd8+16], %f107; initiation_interval: 1
+core1's cycle: 3932 
+  mf: uid=  2944, sid01:w14, part=5, addr=0x80001b80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w14[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4033 
+  mf: uid=  2972, sid01:w14, part=5, addr=0x80001b80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w14[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 4051 
+  mf: uid=  2982, sid01:w17, part=0, addr=0x80001c80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w17[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 4063 
+  mf: uid=  3000, sid01:w14, part=5, addr=0x80001b80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w14[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 4082 
+  mf: uid=  3011, sid01:w15, part=5, addr=0x80001b80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w15[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 4094 
+  mf: uid=  3019, sid01:w16, part=0, addr=0x80001c00, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w16[11111111111111111111111111111111]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 4100 
+  mf: uid=  3038, sid01:w15, part=0, addr=0x80001c00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w15[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4112 
+  mf: uid=  3049, sid01:w16, part=0, addr=0x80001c80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w16[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4121 
+  mf: uid=  3055, sid01:w16, part=0, addr=0x80001c00, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w16[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4127 
+  mf: uid=  3072, sid01:w15, part=0, addr=0x80001c00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w15[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 4139 
+  mf: uid=  3083, sid01:w16, part=0, addr=0x80001c80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w16[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 4148 
+  mf: uid=  3226, sid01:w17, part=1, addr=0x80001d00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w17[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4272 
+  mf: uid=  3257, sid01:w17, part=1, addr=0x80001d00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w17[11111111111111111111111111111111]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 4299 
+  mf: uid=  3287, sid01:w17, part=1, addr=0x80001d00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03f0 w17[11111111111111111111111111111111]: VecCpy PC=0x3f0 (_1.ptx:192) st.global.f32 [%rd8+12], %f106; initiation_interval: 1
+core1's cycle: 4326 
+  mf: uid=  3327, sid01:w17, part=1, addr=0x80001d00, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0400 w17[11111111111111111111111111111111]: VecCpy PC=0x400 (_1.ptx:194) st.global.f32 [%rd8+16], %f107; initiation_interval: 1
+core1's cycle: 4367 
+  mf: uid=  3339, sid01:w19, part=1, addr=0x80001d80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c0 w19[11111111111111111111110000000000]: VecCpy PC=0x3c0 (_1.ptx:186) st.global.f32 [%rd8+0], %f1; initiation_interval: 1
+core1's cycle: 4379 
+  mf: uid=  3358, sid01:w19, part=1, addr=0x80001d80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w19[11111111111111111111110000000000]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4396 
+  mf: uid=  3382, sid01:w19, part=1, addr=0x80001d80, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03e0 w19[11111111111111111111110000000000]: VecCpy PC=0x3e0 (_1.ptx:190) st.global.f32 [%rd8+8], %f105; initiation_interval: 1
+core1's cycle: 4415 
+  mf: uid=  3389, sid01:w18, part=1, addr=0x80001d80, store, size=32, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03d0 w18[11111111111111111111111111111111]: VecCpy PC=0x3d0 (_1.ptx:188) st.global.f32 [%rd8+4], %f104; initiation_interval: 1
+core1's cycle: 4418 

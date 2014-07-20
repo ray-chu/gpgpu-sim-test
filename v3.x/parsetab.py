@@ -26,5 +26,5 @@ for _k, _v in _lr_goto_items.items():
 del _lr_goto_items
 _lr_productions = [
   ("S' -> sentence","S'",1,None,None,None),
-  ('sentence -> WORD NUMBERSEQUENCE','sentence',2,'p_sentence','/Downloads/gpgpu-sim/v3.x/aerialvision/lexyacc.py',238),
+  ('sentence -> WORD NUMBERSEQUENCE','sentence',2,'p_sentence','/Downloads/gpgpu-sim-test/v3.x/aerialvision/lexyacc.py',238),
 ]

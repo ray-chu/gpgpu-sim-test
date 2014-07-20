@@ -862,6 +862,13 @@ void scheduler_unit::cycle()
     bool issued_inst = false; // of these we issued one
 
     order_warps();
+    // FILE *pFile;
+    // pFile = fopen("scheduler_next_cycle_prioritized_warps.txt","a");
+    // if(pFile!=NULL){
+    // 	    fprintf(pFile,"Number of warps in scheduler queue is %u\n",m_next_cycle_prioritized_warps.size());
+    // 	    fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+    // 	    fclose(pFile);
+    // }
     for ( std::vector< shd_warp_t* >::const_iterator iter = m_next_cycle_prioritized_warps.begin();
           iter != m_next_cycle_prioritized_warps.end();
           iter++ ) {
@@ -893,7 +900,15 @@ void scheduler_unit::cycle()
                     warp(warp_id).set_next_pc(pc);
                     warp(warp_id).ibuffer_flush();
                 } else {
-                    valid_inst = true;
+                    // valid_inst = true;
+		    // FILE *pFile;
+		    // pFile = fopen("all_instructions.txt","a");
+		    // if(pFile!=NULL){
+		    // 	    fprintf(pFile,"warp%u's next instruction is ",warp_id);
+		    // 	    ptx_print_insn(pI->pc,pFile);
+		    // 	    fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+		    // 	    fclose(pFile);
+		    // }
                     if ( !m_scoreboard->checkCollision(warp_id, pI) ) {
                         SCHED_DPRINTF( "Warp (warp_id %u, dynamic_warp_id %u) passes scoreboard\n",
                                        (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id() );
@@ -925,9 +940,26 @@ void scheduler_unit::cycle()
                                 }
                             } 
                         }
+			// FILE *pFile;
+			// pFile = fopen("scheduler_next_cycle_prioritized_warps.txt","a");
+			// if(pFile!=NULL){
+			// 	fprintf(pFile,"warp%u's next instruction is ",warp_id);
+			// 	ptx_print_insn(pI->pc,pFile);
+			// 	fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+			// 	fclose(pFile);
+			// }
+			
                     } else {
                         SCHED_DPRINTF( "Warp (warp_id %u, dynamic_warp_id %u) fails scoreboard\n",
                                        (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id() );
+			// FILE *pFile;
+			// pFile = fopen("warps_inst_fails_scoreboard.txt","a");
+			// if(pFile!=NULL){
+			// 	fprintf(pFile,"warp%u's next instruction is ",warp_id);
+			// 	ptx_print_insn(pI->pc,pFile);
+			// 	fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+			// 	fclose(pFile);
+			// }
                     }
                 }
             } else if( valid ) {
@@ -959,6 +991,13 @@ void scheduler_unit::cycle()
                     m_last_supervised_issued = supervised_iter;
                 }
             }
+	    // FILE *pFile;
+	    // pFile = fopen("warp_scheduling.txt","a");
+	    // if(pFile!=NULL){
+	    // 	    fprintf(pFile,"warp%u has been issued\n",(*iter)->get_warp_id());
+	    // 	    fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+	    // 	    fclose(pFile);
+	    // }
             break;
         } 
     }
@@ -2378,7 +2417,7 @@ void warp_inst_t::print( FILE *fout ) const
         fprintf(fout, "%c", (active(j)?'1':'0') );
     fprintf(fout, "]: ");
     ptx_print_insn( pc, fout );
-    fprintf(fout, " initiation_interval: %d", initiation_interval);
+//    fprintf(fout, " initiation_interval: %d", initiation_interval);
     fprintf(fout, "\n");
 }
 void shader_core_ctx::incexecstat(warp_inst_t *&inst)
@@ -3028,19 +3067,40 @@ bool shd_warp_t::waiting()
 {
     if ( functional_done() ) {
         // waiting to be initialized with a kernel
+	// FILE *pFile;
+	// pFile = fopen("shader_waiting.txt","a");
+	// if(pFile!=NULL){
+	// 	fprintf(pFile,"warp%u is waiting a kernel\n",m_warp_id);
+	// 	fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+	// 	fclose(pFile);
+	// }
         return true;
     } else if ( m_shader->warp_waiting_at_barrier(m_warp_id) ) {
-        // waiting for other warps in CTA to reach barrier
-        return true;
+	    // waiting for other warps in CTA to reach barrier
+	    // FILE *pFile;
+	    // pFile = fopen("shader_waiting.txt","a");
+	    // if(pFile!=NULL){
+	    // 	    fprintf(pFile,"warp%u is waiting other warps in CTA to reach barrier\n",m_warp_id);
+	    // 	    fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+	    // 	    fclose(pFile);
+	    // }
+	    return true;
     } else if ( m_shader->warp_waiting_at_mem_barrier(m_warp_id) ) {
         // waiting for memory barrier
+	    // FILE *pFile;
+	    // pFile = fopen("shader_waiting.txt","a");
+	    // if(pFile!=NULL){
+	    // 	    fprintf(pFile,"warp%u is waiting a memory barrier\n",m_warp_id);
+	    // 	    fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+	    // 	    fclose(pFile);
+	    // }
         return true;
     } else if ( m_n_atomic >0 ) {
         // waiting for atomic operation to complete at memory:
         // this stall is not required for accurate timing model, but rather we
         // stall here since if a call/return instruction occurs in the meantime
         // the functional execution of the atomic when it hits DRAM can cause
-        // the wrong register to be read.
+        // the wrong register to be read.	    
         return true;
     }
     return false;
