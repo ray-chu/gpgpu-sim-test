@@ -1,0 +1,18 @@
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_DRAM_LATENCY_QUEUE (132), 
+sim cycle: 232
+
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_DRAM_LATENCY_QUEUE (425), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; latency: 1
+sim cycle: 525
+
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_DRAM_LATENCY_QUEUE (739), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; latency: 1
+sim cycle: 839
+
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_DRAM_LATENCY_QUEUE (1008), 
+sim cycle: 1108
+
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_DRAM_LATENCY_QUEUE (1018), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; latency: 1
+sim cycle: 1118
+
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_DRAM_LATENCY_QUEUE (1019), 
+sim cycle: 1119
+

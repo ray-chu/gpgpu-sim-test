@@ -1,0 +1,333 @@
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = MEM_FETCH_INITIALIZED (1), 
+arriving cache L1I_001 
+core cycle: 1 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_L1I_MISS_QUEUE (1), 
+leaving cache L1I_001 
+core cycle: 1 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_ICNT_TO_MEM (1), 
+arrive to memory_sub_partition0
+core cycle: 9 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_ICNT_TO_MEM (1), 
+push into rop of memory_sub_partition0
+core cycle: 9 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_ROP_DELAY (9), 
+ROP pop of memory_sub_partition0 
+core cycle: 129 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_ICNT_TO_L2_QUEUE (129), 
+pop mf from icnt_l2_queue of memory_sub_partition0 
+core cycle: 130 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_ICNT_TO_L2_QUEUE (129), 
+arriving cache L2_bank_000 
+core cycle: 130 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_L2_MISS_QUEUE (130), 
+leaving cache L2_bank_000 
+core cycle: 131 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition0 
+core cycle: 132 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_DRAM_LATENCY_QUEUE (132), 
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition0 
+core cycle: 232 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_MC_INTERFACE_QUEUE (232), 
+pop mf from dram mrqq into scheduler queue of dram0 
+core cycle: 232 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_MC_INPUT_QUEUE (232), 
+pop mf from scheduler queue into dram timing simulation of dram0 
+core cycle: 232 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_MC_RETURNQ (253), 
+dram0 timing simulation end. Push data back to dram returnq
+core cycle: 253 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_MC_RETURNQ (253), 
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition0 
+core cycle: 254 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_L2_FILL_QUEUE (254), 
+pop mf from dram_l2_queue to L2 cache of memory_sub_partition0 
+core cycle: 254 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_L2_TO_ICNT_QUEUE (255), 
+push package into L2_icnt_queue of memory_sub_partition0 
+core cycle: 255 
+  mf: uid=     1, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = IN_PARTITION_L2_TO_ICNT_QUEUE (255), 
+return to icnt
+core cycle: 256 
+  mf: uid=     2, sid01:w00, part=0, addr=0xf0000000, load , size=16, INST     status = MEM_FETCH_INITIALIZED (269), 
+arriving cache L1I_001 
+core cycle: 269 
+  mf: uid=     3, sid01:w00, part=0, addr=0xf0000010, load , size=16, INST     status = MEM_FETCH_INITIALIZED (272), 
+arriving cache L1I_001 
+core cycle: 272 
+  mf: uid=     4, sid01:w00, part=0, addr=0xf0000020, load , size=16, INST     status = MEM_FETCH_INITIALIZED (279), 
+arriving cache L1I_001 
+core cycle: 279 
+  mf: uid=     5, sid01:w00, part=0, addr=0xf0000030, load , size=16, INST     status = MEM_FETCH_INITIALIZED (290), 
+arriving cache L1I_001 
+core cycle: 290 
+0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+Leaving core1's ldst 
+core cycle: 293 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = MEM_FETCH_INITIALIZED (293), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+arriving cache L1C_001 
+core cycle: 293 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_L1C_MISS_QUEUE (293), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+leaving cache L1C_001 
+core cycle: 294 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_ICNT_TO_MEM (294), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+arrive to memory_sub_partition0
+core cycle: 302 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_ICNT_TO_MEM (294), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+push into rop of memory_sub_partition0
+core cycle: 302 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_ROP_DELAY (302), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+ROP pop of memory_sub_partition0 
+core cycle: 422 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_ICNT_TO_L2_QUEUE (422), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+pop mf from icnt_l2_queue of memory_sub_partition0 
+core cycle: 423 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_ICNT_TO_L2_QUEUE (422), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+arriving cache L2_bank_000 
+core cycle: 423 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_MISS_QUEUE (423), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+leaving cache L2_bank_000 
+core cycle: 424 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition0 
+core cycle: 425 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_DRAM_LATENCY_QUEUE (425), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition0 
+core cycle: 525 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_MC_INTERFACE_QUEUE (525), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+pop mf from dram mrqq into scheduler queue of dram0 
+core cycle: 526 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_MC_INPUT_QUEUE (526), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+pop mf from scheduler queue into dram timing simulation of dram0 
+core cycle: 526 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_MC_RETURNQ (555), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+dram0 timing simulation end. Push data back to dram returnq
+core cycle: 555 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_MC_RETURNQ (555), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition0 
+core cycle: 556 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_FILL_QUEUE (556), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+pop mf from dram_l2_queue to L2 cache of memory_sub_partition0 
+core cycle: 556 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_TO_ICNT_QUEUE (557), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+push package into L2_icnt_queue of memory_sub_partition0 
+core cycle: 557 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_TO_ICNT_QUEUE (557), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+return to icnt
+core cycle: 558 
+  mf: uid=     6, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_SHADER_LDST_RESPONSE_FIFO (568), 0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; initiation_interval: 1
+return L1 of core1 
+core cycle: 568 
+  mf: uid=     7, sid01:w00, part=0, addr=0xf0000040, load , size=16, INST     status = MEM_FETCH_INITIALIZED (578), 
+arriving cache L1I_001 
+core cycle: 578 
+  mf: uid=     8, sid01:w00, part=0, addr=0xf0000050, load , size=16, INST     status = MEM_FETCH_INITIALIZED (581), 
+arriving cache L1I_001 
+core cycle: 581 
+0x0050 w00[11111111111111111111111111111111]: VecCpy PC=0x050 (_1.ptx:72) ld.param.u64 %rd3, [__cudaparm__Z6VecCpyPfS_i_A]; initiation_interval: 1
+Leaving core1's ldst 
+core cycle: 586 
+  mf: uid=     9, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = MEM_FETCH_INITIALIZED (586), 0x0050 w00[11111111111111111111111111111111]: VecCpy PC=0x050 (_1.ptx:72) ld.param.u64 %rd3, [__cudaparm__Z6VecCpyPfS_i_A]; initiation_interval: 1
+arriving cache L1C_001 
+core cycle: 586 
+  mf: uid=    10, sid01:w00, part=0, addr=0xf0000060, load , size=16, INST     status = MEM_FETCH_INITIALIZED (591), 
+arriving cache L1I_001 
+core cycle: 591 
+  mf: uid=    11, sid01:w00, part=0, addr=0xf0000070, load , size=16, INST     status = MEM_FETCH_INITIALIZED (603), 
+arriving cache L1I_001 
+core cycle: 603 
+0x0068 w00[11111111111111111111111111111111]: VecCpy PC=0x068 (_1.ptx:75) ld.param.u64 %rd5, [__cudaparm__Z6VecCpyPfS_i_C]; initiation_interval: 1
+Leaving core1's ldst 
+core cycle: 606 
+  mf: uid=    12, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = MEM_FETCH_INITIALIZED (606), 0x0068 w00[11111111111111111111111111111111]: VecCpy PC=0x068 (_1.ptx:75) ld.param.u64 %rd5, [__cudaparm__Z6VecCpyPfS_i_C]; initiation_interval: 1
+arriving cache L1C_001 
+core cycle: 606 
+0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+Leaving core1's ldst 
+core cycle: 607 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = MEM_FETCH_INITIALIZED (607), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+arriving cache L1D_001 
+core cycle: 607 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_L1D_MISS_QUEUE (607), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+leaving cache L1D_001 
+core cycle: 608 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_ICNT_TO_MEM (608), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+arrive to memory_sub_partition5
+core cycle: 616 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_ICNT_TO_MEM (608), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+push into rop of memory_sub_partition5
+core cycle: 616 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_ROP_DELAY (616), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+ROP pop of memory_sub_partition5 
+core cycle: 736 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_ICNT_TO_L2_QUEUE (736), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+pop mf from icnt_l2_queue of memory_sub_partition5 
+core cycle: 737 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_ICNT_TO_L2_QUEUE (736), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+arriving cache L2_bank_005 
+core cycle: 737 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_MISS_QUEUE (737), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+leaving cache L2_bank_005 
+core cycle: 738 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition2 
+core cycle: 739 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_DRAM_LATENCY_QUEUE (739), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition2 
+core cycle: 839 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_MC_INTERFACE_QUEUE (839), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+pop mf from dram mrqq into scheduler queue of dram2 
+core cycle: 840 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_MC_INPUT_QUEUE (840), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+pop mf from scheduler queue into dram timing simulation of dram2 
+core cycle: 840 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_MC_RETURNQ (860), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+dram2 timing simulation end. Push data back to dram returnq
+core cycle: 860 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_MC_RETURNQ (860), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition2 
+core cycle: 861 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_FILL_QUEUE (861), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+pop mf from dram_l2_queue to L2 cache of memory_sub_partition5 
+core cycle: 861 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_ICNT_QUEUE (862), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+push package into L2_icnt_queue of memory_sub_partition5 
+core cycle: 862 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_ICNT_QUEUE (862), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+return to icnt
+core cycle: 863 
+  mf: uid=    13, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_SHADER_LDST_RESPONSE_FIFO (875), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; initiation_interval: 1
+return L1 of core1 
+core cycle: 875 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = MEM_FETCH_INITIALIZED (877), 
+arriving cache L1I_001 
+core cycle: 877 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_L1I_MISS_QUEUE (877), 
+leaving cache L1I_001 
+core cycle: 877 
+0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+Leaving core1's ldst 
+core cycle: 882 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = MEM_FETCH_INITIALIZED (882), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+arriving cache L1D_001 
+core cycle: 882 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_L1D_MISS_QUEUE (882), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+leaving cache L1D_001 
+core cycle: 883 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_ICNT_TO_MEM (877), 
+arrive to memory_sub_partition0
+core cycle: 885 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_ICNT_TO_MEM (877), 
+push into rop of memory_sub_partition0
+core cycle: 885 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_ICNT_TO_MEM (883), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+arrive to memory_sub_partition7
+core cycle: 895 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_ICNT_TO_MEM (883), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+push into rop of memory_sub_partition7
+core cycle: 895 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_ROP_DELAY (885), 
+ROP pop of memory_sub_partition0 
+core cycle: 1005 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_ICNT_TO_L2_QUEUE (1005), 
+pop mf from icnt_l2_queue of memory_sub_partition0 
+core cycle: 1006 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_ICNT_TO_L2_QUEUE (1005), 
+arriving cache L2_bank_000 
+core cycle: 1006 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_L2_MISS_QUEUE (1006), 
+leaving cache L2_bank_000 
+core cycle: 1007 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition0 
+core cycle: 1008 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_ROP_DELAY (895), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+ROP pop of memory_sub_partition7 
+core cycle: 1015 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_ICNT_TO_L2_QUEUE (1015), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+pop mf from icnt_l2_queue of memory_sub_partition7 
+core cycle: 1016 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_ICNT_TO_L2_QUEUE (1015), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+arriving cache L2_bank_007 
+core cycle: 1016 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_L2_MISS_QUEUE (1016), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+leaving cache L2_bank_007 
+core cycle: 1017 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition3 
+core cycle: 1018 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_L2_MISS_QUEUE (1016), 
+leaving cache L2_bank_007 
+core cycle: 1018 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 
+L2_dram pop. push package from L2_dram queue to dram_latencly queue of memory_partition3 
+core cycle: 1019 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_DRAM_LATENCY_QUEUE (1008), 
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition0 
+core cycle: 1108 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_MC_INTERFACE_QUEUE (1108), 
+pop mf from dram mrqq into scheduler queue of dram0 
+core cycle: 1109 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_MC_INPUT_QUEUE (1109), 
+pop mf from scheduler queue into dram timing simulation of dram0 
+core cycle: 1109 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_DRAM_LATENCY_QUEUE (1018), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition3 
+core cycle: 1118 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_MC_INTERFACE_QUEUE (1118), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+pop mf from dram mrqq into scheduler queue of dram3 
+core cycle: 1119 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_MC_INPUT_QUEUE (1119), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+pop mf from scheduler queue into dram timing simulation of dram3 
+core cycle: 1119 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_DRAM_LATENCY_QUEUE (1019), 
+dram_latency pop. push package from dram_latency queue to dram_schedular of memory_partition3 
+core cycle: 1119 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_MC_INTERFACE_QUEUE (1119), 
+pop mf from dram mrqq into scheduler queue of dram3 
+core cycle: 1119 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_MC_INPUT_QUEUE (1119), 
+pop mf from scheduler queue into dram timing simulation of dram3 
+core cycle: 1127 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_MC_RETURNQ (1129), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+dram3 timing simulation end. Push data back to dram returnq
+core cycle: 1129 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_MC_RETURNQ (1129), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition3 
+core cycle: 1130 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_ICNT_QUEUE (1130), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+Bypass L2. pop mf from dram_l2_queue to l2_icnt queue of memory_sub_partition7 
+core cycle: 1130 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_ICNT_QUEUE (1130), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+return to icnt
+core cycle: 1131 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_MC_RETURNQ (1138), 
+dram0 timing simulation end. Push data back to dram returnq
+core cycle: 1138 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_MC_RETURNQ (1138), 
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition0 
+core cycle: 1139 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_L2_FILL_QUEUE (1139), 
+pop mf from dram_l2_queue to L2 cache of memory_sub_partition0 
+core cycle: 1139 
+  mf: uid=    15, sid01:w00, part=3, addr=0x80000100, store, size=128, GLOBAL_W status = IN_SHADER_LDST_RESPONSE_FIFO (1139), 0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; initiation_interval: 1
+return L1 of core1 
+core cycle: 1139 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_L2_TO_ICNT_QUEUE (1140), 
+push package into L2_icnt_queue of memory_sub_partition0 
+core cycle: 1140 
+  mf: uid=    14, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = IN_PARTITION_L2_TO_ICNT_QUEUE (1140), 
+return to icnt
+core cycle: 1141 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_MC_RETURNQ (1146), 
+dram3 timing simulation end. Push data back to dram returnq
+core cycle: 1146 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_MC_RETURNQ (1146), 
+Dram back. push package from dram returnq into dram_L2_queue of memory_partition3 
+core cycle: 1147 
+  mf: uid=    16, sid01:w00, part=3, addr=0x80000100, load , size=128, unknown  status = IN_PARTITION_L2_FILL_QUEUE (1147), 
+pop mf from dram_l2_queue to L2 cache of memory_sub_partition7 
+core cycle: 1147 
+  mf: uid=    17, sid01:w00, part=0, addr=0xf0000080, load , size=16, INST     status = MEM_FETCH_INITIALIZED (1154), 
+arriving cache L1I_001 
+core cycle: 1154 

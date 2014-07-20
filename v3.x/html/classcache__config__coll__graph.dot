@@ -1,0 +1,32 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="cache_config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_config_stringPrefShared\nm_config_stringPrefL1\nm_config_string",fontname="FreeSans"];
+  Node2 [label="char",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_write_alloc_policy",fontname="FreeSans"];
+  Node3 [label="write_allocate_policy_t",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_write_policy",fontname="FreeSans"];
+  Node4 [label="enum write_policy_t",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_disabled\nm_valid",fontname="FreeSans"];
+  Node5 [label="bool",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="cache_status",fontname="FreeSans"];
+  Node6 [label="FuncCache",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="@6",fontname="FreeSans"];
+  Node7 [label="@5",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_alloc_policy",fontname="FreeSans"];
+  Node8 [label="enum allocation_policy_t",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="@8",fontname="FreeSans"];
+  Node9 [label="@7",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_mshr_type",fontname="FreeSans"];
+  Node10 [label="enum mshr_config_t",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_data_port_width\nm_mshr_max_merge\nm_nset\nm_assoc\nm_rob_entries\nm_result_fifo_entries\nm_miss_queue_size\nm_fragment_fifo_entries\nm_request_fifo_entries\nm_line_sz_log2\n...",fontname="FreeSans"];
+  Node11 [label="unsigned",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="@10",fontname="FreeSans"];
+  Node12 [label="@9",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_replacement_policy",fontname="FreeSans"];
+  Node13 [label="enum replacement_policy_t",height=0.2,width=0.4,color="grey75"];
+}

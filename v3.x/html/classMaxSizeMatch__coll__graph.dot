@@ -1,0 +1,32 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="MaxSizeMatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="DenseAllocator",height=0.2,width=0.4,color="black",URL="$classDenseAllocator.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Allocator",height=0.2,width=0.4,color="black",URL="$classAllocator.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Module",height=0.2,width=0.4,color="black",URL="$classModule.html"];
+  Node5 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_fullname\n_name",fontname="FreeSans"];
+  Node5 [label="string",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_children",fontname="FreeSans"];
+  Node6 [label="vector\< Module * \>",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_inputs\n_outmask\n_outmatch\n_inmatch\n_outputs",fontname="FreeSans"];
+  Node7 [label="int",height=0.2,width=0.4,color="black",URL="$classint.html"];
+  Node8 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_dirty",fontname="FreeSans"];
+  Node8 [label="bool",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_outmatch\n_inmatch",fontname="FreeSans"];
+  Node9 [label="vector\< int \>",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_request",fontname="FreeSans"];
+  Node10 [label="vector\< vector\< sRequest \> \>",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_request",fontname="FreeSans"];
+  Node11 [label="sRequest **",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_prio\n_s\n_from\n_ns",fontname="FreeSans"];
+  Node9 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="_from",fontname="FreeSans"];
+}

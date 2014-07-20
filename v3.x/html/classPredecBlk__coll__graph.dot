@@ -1,0 +1,32 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="PredecBlk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Component",height=0.2,width=0.4,color="black",URL="$classComponent.html"];
+  Node3 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="cycle_time\ndelay",fontname="FreeSans"];
+  Node3 [label="double",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="rt_power\npower",fontname="FreeSans"];
+  Node4 [label="powerDef",height=0.2,width=0.4,color="black",URL="$classpowerDef.html"];
+  Node5 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="writeOp\nreadOp\nsearchOp",fontname="FreeSans"];
+  Node5 [label="powerComponents",height=0.2,width=0.4,color="black",URL="$classpowerComponents.html"];
+  Node3 -> Node5 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="leakage\nshort_circuit\ndynamic\ngate_leakage\nlonger_channel_leakage",fontname="FreeSans"];
+  Node6 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="area",fontname="FreeSans"];
+  Node6 [label="Area",height=0.2,width=0.4,color="black",URL="$classArea.html"];
+  Node3 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="w\nh\narea",fontname="FreeSans"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="delay_nand2_path\ndelay_nand3_path\nw_L2_p\nw_L1_nand3_n\nC_ld_predec_blk_out\nw_L1_nand2_n\nw_L1_nand3_p\nR_wire_predec_blk_out\nw_L1_nand2_p\nw_L2_n\n...",fontname="FreeSans"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="power_nand3_path\npower_nand2_path\npower_L2",fontname="FreeSans"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="dec",fontname="FreeSans"];
+  Node7 [label="Decoder",height=0.2,width=0.4,color="black",URL="$classDecoder.html"];
+  Node2 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="C_ld_dec_out\nw_dec_n\ndelay\nR_wire_dec_out\nw_dec_p",fontname="FreeSans"];
+  Node8 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="num_gates_min\nnum_in_signals\nnum_gates",fontname="FreeSans"];
+  Node8 [label="int",height=0.2,width=0.4,color="black",URL="$classint.html"];
+  Node9 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="fully_assoc\nexist\nis_dram\nis_wl_tr",fontname="FreeSans"];
+  Node9 [label="bool",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="cell",fontname="FreeSans"];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="branch_effort_nand3_gate_output\nnum_L1_active_nand2_path\nnumber_gates_L2\nnumber_inputs_L1_gate\nnumber_input_addr_bits\nmin_number_gates_L1\nnumber_gates_L1_nand2_path\nmin_number_gates_L2\nflag_L2_gate\nnumber_gates_L1_nand3_path\n...",fontname="FreeSans"];
+  Node9 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="exist\nis_dram_\nflag_two_unique_paths",fontname="FreeSans"];
+}

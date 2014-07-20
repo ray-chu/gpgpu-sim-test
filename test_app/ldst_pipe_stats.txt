@@ -1,0 +1,10 @@
+0x0028 w00[11111111111111111111111111111111]: VecCpy PC=0x028 (_1.ptx:66) ld.param.s32 %r4, [__cudaparm__Z6VecCpyPfS_i_N]; latency: 1
+core cycle: 293 
+0x0050 w00[11111111111111111111111111111111]: VecCpy PC=0x050 (_1.ptx:72) ld.param.u64 %rd3, [__cudaparm__Z6VecCpyPfS_i_A]; latency: 1
+core cycle: 586 
+0x0068 w00[11111111111111111111111111111111]: VecCpy PC=0x068 (_1.ptx:75) ld.param.u64 %rd5, [__cudaparm__Z6VecCpyPfS_i_C]; latency: 1
+core cycle: 606 
+0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:74) ld.global.f32 %f1, [%rd4+0]; latency: 1
+core cycle: 607 
+0x0078 w00[11111111111111111111111111111111]: VecCpy PC=0x078 (_1.ptx:77) st.global.f32 [%rd6+0], %f1; latency: 1
+core cycle: 882 

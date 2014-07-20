@@ -1,0 +1,212 @@
+	.version 1.4
+	.target sm_10, map_f64_to_f32
+	// compiled with /usr/local/cuda/open64/lib//be
+	// nvopencc 3.2 built on 2010-11-03
+
+	//-----------------------------------------------------------
+	// Compiling /tmp/tmpxft_00003309_00000000-7_vectorcpy2.cpp3.i (/tmp/ccBI#.yc4nrP)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_10, Endian:little, Pointer Size:64
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"<command-line>"
+	.file	2	"/tmp/tmpxft_00003309_00000000-6_vectorcpy2.cudafe2.gpu"
+	.file	3	"/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h"
+	.file	4	"/usr/local/cuda//bin/../include/crt/device_runtime.h"
+	.file	5	"/usr/local/cuda//bin/../include/host_defines.h"
+	.file	6	"/usr/local/cuda//bin/../include/builtin_types.h"
+	.file	7	"/usr/local/cuda//bin/../include/device_types.h"
+	.file	8	"/usr/local/cuda//bin/../include/driver_types.h"
+	.file	9	"/usr/local/cuda//bin/../include/surface_types.h"
+	.file	10	"/usr/local/cuda//bin/../include/texture_types.h"
+	.file	11	"/usr/local/cuda//bin/../include/vector_types.h"
+	.file	12	"/usr/local/cuda//bin/../include/device_launch_parameters.h"
+	.file	13	"/usr/local/cuda//bin/../include/crt/storage_class.h"
+	.file	14	"/usr/include/bits/types.h"
+	.file	15	"/usr/include/time.h"
+	.file	16	"/usr/local/cuda//bin/../include/texture_fetch_functions.h"
+	.file	17	"/usr/local/cuda//bin/../include/common_functions.h"
+	.file	18	"/usr/local/cuda//bin/../include/math_functions.h"
+	.file	19	"/usr/local/cuda//bin/../include/math_constants.h"
+	.file	20	"/usr/local/cuda//bin/../include/device_functions.h"
+	.file	21	"/usr/local/cuda//bin/../include/sm_11_atomic_functions.h"
+	.file	22	"/usr/local/cuda//bin/../include/sm_12_atomic_functions.h"
+	.file	23	"/usr/local/cuda//bin/../include/sm_13_double_functions.h"
+	.file	24	"/usr/local/cuda//bin/../include/sm_20_atomic_functions.h"
+	.file	25	"/usr/local/cuda//bin/../include/sm_20_intrinsics.h"
+	.file	26	"/usr/local/cuda//bin/../include/surface_functions.h"
+	.file	27	"/usr/local/cuda//bin/../include/math_functions_dbl_ptx1.h"
+	.file	28	"vectorcpy2.cu"
+
+
+	.entry _Z6VecCpyPfS_S_i (
+		.param .u64 __cudaparm__Z6VecCpyPfS_S_i_A,
+		.param .u64 __cudaparm__Z6VecCpyPfS_S_i_B,
+		.param .u64 __cudaparm__Z6VecCpyPfS_S_i_C,
+		.param .s32 __cudaparm__Z6VecCpyPfS_S_i_N)
+	{
+	.reg .u16 %rh<4>;
+	.reg .u32 %r<7>;
+	.reg .u64 %rd<10>;
+	.reg .f32 %f<114>;
+	.reg .pred %p<3>;
+	.loc	28	3	0
+$LDWbegin__Z6VecCpyPfS_S_i:
+	.loc	28	7	0
+	mov.u16 	%rh1, %ctaid.x;
+	mov.u16 	%rh2, %ntid.x;
+	mul.wide.u16 	%r1, %rh1, %rh2;
+	cvt.u32.u16 	%r2, %tid.x;
+	add.u32 	%r3, %r2, %r1;
+	cvt.s64.s32 	%rd1, %r3;
+	mul.wide.s32 	%rd2, %r3, 4;
+	ld.param.u64 	%rd3, [__cudaparm__Z6VecCpyPfS_S_i_A];
+	add.u64 	%rd4, %rd3, %rd2;
+	ld.global.f32 	%f1, [%rd4+0];
+	.loc	28	8	0
+	ld.param.u64 	%rd5, [__cudaparm__Z6VecCpyPfS_S_i_B];
+	add.u64 	%rd6, %rd5, %rd2;
+	ld.global.f32 	%f2, [%rd6+0];
+	ld.param.s32 	%r4, [__cudaparm__Z6VecCpyPfS_S_i_N];
+	add.s32 	%r5, %r3, 10;
+	setp.le.s32 	%p1, %r4, %r5;
+	@%p1 bra 	$Lt_0_3074;
+	.loc	28	11	0
+	mov.f32 	%f3, 0f00000000;     	// 0
+	mad.f32 	%f4, %f1, %f2, %f3;
+	mad.f32 	%f5, %f1, %f2, %f4;
+	mad.f32 	%f6, %f1, %f2, %f5;
+	mad.f32 	%f7, %f1, %f2, %f6;
+	mad.f32 	%f8, %f1, %f2, %f7;
+	mad.f32 	%f9, %f1, %f2, %f8;
+	mad.f32 	%f10, %f1, %f2, %f9;
+	mad.f32 	%f11, %f1, %f2, %f10;
+	mad.f32 	%f12, %f1, %f2, %f11;
+	mad.f32 	%f13, %f1, %f2, %f12;
+	mad.f32 	%f14, %f1, %f2, %f13;
+	mad.f32 	%f15, %f1, %f2, %f14;
+	mad.f32 	%f16, %f1, %f2, %f15;
+	mad.f32 	%f17, %f1, %f2, %f16;
+	mad.f32 	%f18, %f1, %f2, %f17;
+	mad.f32 	%f19, %f1, %f2, %f18;
+	mad.f32 	%f20, %f1, %f2, %f19;
+	mad.f32 	%f21, %f1, %f2, %f20;
+	mad.f32 	%f22, %f1, %f2, %f21;
+	mad.f32 	%f23, %f1, %f2, %f22;
+	mad.f32 	%f24, %f1, %f2, %f23;
+	mad.f32 	%f25, %f1, %f2, %f24;
+	mad.f32 	%f26, %f1, %f2, %f25;
+	mad.f32 	%f27, %f1, %f2, %f26;
+	mad.f32 	%f28, %f1, %f2, %f27;
+	mad.f32 	%f29, %f1, %f2, %f28;
+	mad.f32 	%f30, %f1, %f2, %f29;
+	mad.f32 	%f31, %f1, %f2, %f30;
+	mad.f32 	%f32, %f1, %f2, %f31;
+	mad.f32 	%f33, %f1, %f2, %f32;
+	mad.f32 	%f34, %f1, %f2, %f33;
+	mad.f32 	%f35, %f1, %f2, %f34;
+	mad.f32 	%f36, %f1, %f2, %f35;
+	mad.f32 	%f37, %f1, %f2, %f36;
+	mad.f32 	%f38, %f1, %f2, %f37;
+	mad.f32 	%f39, %f1, %f2, %f38;
+	mad.f32 	%f40, %f1, %f2, %f39;
+	mad.f32 	%f41, %f1, %f2, %f40;
+	mad.f32 	%f42, %f1, %f2, %f41;
+	mad.f32 	%f43, %f1, %f2, %f42;
+	mad.f32 	%f44, %f1, %f2, %f43;
+	mad.f32 	%f45, %f1, %f2, %f44;
+	mad.f32 	%f46, %f1, %f2, %f45;
+	mad.f32 	%f47, %f1, %f2, %f46;
+	mad.f32 	%f48, %f1, %f2, %f47;
+	mad.f32 	%f49, %f1, %f2, %f48;
+	mad.f32 	%f50, %f1, %f2, %f49;
+	mad.f32 	%f51, %f1, %f2, %f50;
+	mad.f32 	%f52, %f1, %f2, %f51;
+	mad.f32 	%f53, %f1, %f2, %f52;
+	mad.f32 	%f54, %f1, %f2, %f53;
+	mad.f32 	%f55, %f1, %f2, %f54;
+	mad.f32 	%f56, %f1, %f2, %f55;
+	mad.f32 	%f57, %f1, %f2, %f56;
+	mad.f32 	%f58, %f1, %f2, %f57;
+	mad.f32 	%f59, %f1, %f2, %f58;
+	mad.f32 	%f60, %f1, %f2, %f59;
+	mad.f32 	%f61, %f1, %f2, %f60;
+	mad.f32 	%f62, %f1, %f2, %f61;
+	mad.f32 	%f63, %f1, %f2, %f62;
+	mad.f32 	%f64, %f1, %f2, %f63;
+	mad.f32 	%f65, %f1, %f2, %f64;
+	mad.f32 	%f66, %f1, %f2, %f65;
+	mad.f32 	%f67, %f1, %f2, %f66;
+	mad.f32 	%f68, %f1, %f2, %f67;
+	mad.f32 	%f69, %f1, %f2, %f68;
+	mad.f32 	%f70, %f1, %f2, %f69;
+	mad.f32 	%f71, %f1, %f2, %f70;
+	mad.f32 	%f72, %f1, %f2, %f71;
+	mad.f32 	%f73, %f1, %f2, %f72;
+	mad.f32 	%f74, %f1, %f2, %f73;
+	mad.f32 	%f75, %f1, %f2, %f74;
+	mad.f32 	%f76, %f1, %f2, %f75;
+	mad.f32 	%f77, %f1, %f2, %f76;
+	mad.f32 	%f78, %f1, %f2, %f77;
+	mad.f32 	%f79, %f1, %f2, %f78;
+	mad.f32 	%f80, %f1, %f2, %f79;
+	mad.f32 	%f81, %f1, %f2, %f80;
+	mad.f32 	%f82, %f1, %f2, %f81;
+	mad.f32 	%f83, %f1, %f2, %f82;
+	mad.f32 	%f84, %f1, %f2, %f83;
+	mad.f32 	%f85, %f1, %f2, %f84;
+	mad.f32 	%f86, %f1, %f2, %f85;
+	mad.f32 	%f87, %f1, %f2, %f86;
+	mad.f32 	%f88, %f1, %f2, %f87;
+	mad.f32 	%f89, %f1, %f2, %f88;
+	mad.f32 	%f90, %f1, %f2, %f89;
+	mad.f32 	%f91, %f1, %f2, %f90;
+	mad.f32 	%f92, %f1, %f2, %f91;
+	mad.f32 	%f93, %f1, %f2, %f92;
+	mad.f32 	%f94, %f1, %f2, %f93;
+	mad.f32 	%f95, %f1, %f2, %f94;
+	mad.f32 	%f96, %f1, %f2, %f95;
+	mad.f32 	%f97, %f1, %f2, %f96;
+	mad.f32 	%f98, %f1, %f2, %f97;
+	mad.f32 	%f99, %f1, %f2, %f98;
+	mad.f32 	%f100, %f1, %f2, %f99;
+	mad.f32 	%f101, %f1, %f2, %f100;
+	mad.f32 	%f102, %f1, %f2, %f101;
+	mad.f32 	%f103, %f1, %f2, %f102;
+	.loc	28	13	0
+	ld.param.u64 	%rd7, [__cudaparm__Z6VecCpyPfS_S_i_C];
+	add.u64 	%rd8, %rd7, %rd2;
+	st.global.f32 	[%rd8+0], %f1;
+	ld.global.f32 	%f104, [%rd4+4];
+	st.global.f32 	[%rd8+4], %f104;
+	ld.global.f32 	%f105, [%rd4+8];
+	st.global.f32 	[%rd8+8], %f105;
+	ld.global.f32 	%f106, [%rd4+12];
+	st.global.f32 	[%rd8+12], %f106;
+	ld.global.f32 	%f107, [%rd4+16];
+	st.global.f32 	[%rd8+16], %f107;
+	ld.global.f32 	%f108, [%rd4+20];
+	st.global.f32 	[%rd8+20], %f108;
+	ld.global.f32 	%f109, [%rd4+24];
+	st.global.f32 	[%rd8+24], %f109;
+	ld.global.f32 	%f110, [%rd4+28];
+	st.global.f32 	[%rd8+28], %f110;
+	ld.global.f32 	%f111, [%rd4+32];
+	st.global.f32 	[%rd8+32], %f111;
+	ld.global.f32 	%f112, [%rd4+36];
+	st.global.f32 	[%rd8+36], %f112;
+	.loc	28	24	0
+	st.global.f32 	[%rd8+0], %f103;
+$Lt_0_3074:
+	.loc	28	26	0
+	exit;
+$LDWend__Z6VecCpyPfS_S_i:
+	} // _Z6VecCpyPfS_S_i
+

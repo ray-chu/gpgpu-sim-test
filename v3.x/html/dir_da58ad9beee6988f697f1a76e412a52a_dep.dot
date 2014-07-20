@@ -1,0 +1,18 @@
+digraph G {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_c934b74ccb33d6b9bfd1e576787940d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="v3.x" fontname="FreeSans", fontsize="10", URL="dir_c934b74ccb33d6b9bfd1e576787940d8.html"]
+  subgraph clusterdir_da58ad9beee6988f697f1a76e412a52a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_da58ad9beee6988f697f1a76e412a52a.html"];
+    dir_da58ad9beee6988f697f1a76e412a52a [shape=plaintext label="src"];
+    dir_2d77c6696a6548cf53989385b9967e1d [shape=box label="cuda-sim" color="red" fillcolor="white" style="filled" URL="dir_2d77c6696a6548cf53989385b9967e1d.html"];
+    dir_d956d62670f5e9a38a62eba10b09b5c2 [shape=box label="gpgpu-sim" color="black" fillcolor="white" style="filled" URL="dir_d956d62670f5e9a38a62eba10b09b5c2.html"];
+    dir_e4ac30e7c77047a48208b8444737dc6a [shape=box label="gpuwattch" color="red" fillcolor="white" style="filled" URL="dir_e4ac30e7c77047a48208b8444737dc6a.html"];
+    dir_fa6ba10d8e23e1d8c8ce4b633588e39b [shape=box label="intersim" color="black" fillcolor="white" style="filled" URL="dir_fa6ba10d8e23e1d8c8ce4b633588e39b.html"];
+    dir_7e44b91c2d8bca2324eb4df0ed8bb374 [shape=box label="intersim2" color="red" fillcolor="white" style="filled" URL="dir_7e44b91c2d8bca2324eb4df0ed8bb374.html"];
+  }
+  }
+}

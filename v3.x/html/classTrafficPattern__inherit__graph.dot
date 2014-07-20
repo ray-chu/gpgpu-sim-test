@@ -1,0 +1,46 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="TrafficPattern",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="HotSpotTrafficPattern",height=0.2,width=0.4,color="black",URL="$classHotSpotTrafficPattern.html"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PermutationTrafficPattern",height=0.2,width=0.4,color="black",URL="$classPermutationTrafficPattern.html"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="BitPermutationTrafficPattern",height=0.2,width=0.4,color="black",URL="$classBitPermutationTrafficPattern.html"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="BitCompTrafficPattern",height=0.2,width=0.4,color="black",URL="$classBitCompTrafficPattern.html"];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="BitRevTrafficPattern",height=0.2,width=0.4,color="black",URL="$classBitRevTrafficPattern.html"];
+  Node4 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="ShuffleTrafficPattern",height=0.2,width=0.4,color="black",URL="$classShuffleTrafficPattern.html"];
+  Node4 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="TransposeTrafficPattern",height=0.2,width=0.4,color="black",URL="$classTransposeTrafficPattern.html"];
+  Node3 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="DigitPermutationTrafficPattern",height=0.2,width=0.4,color="black",URL="$classDigitPermutationTrafficPattern.html"];
+  Node9 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="BadPermDFlyTrafficPattern",height=0.2,width=0.4,color="black",URL="$classBadPermDFlyTrafficPattern.html"];
+  Node9 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="BadPermYarcTrafficPattern",height=0.2,width=0.4,color="black",URL="$classBadPermYarcTrafficPattern.html"];
+  Node9 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="NeighborTrafficPattern",height=0.2,width=0.4,color="black",URL="$classNeighborTrafficPattern.html"];
+  Node9 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="TornadoTrafficPattern",height=0.2,width=0.4,color="black",URL="$classTornadoTrafficPattern.html"];
+  Node1 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="RandomPermutationTrafficPattern",height=0.2,width=0.4,color="black",URL="$classRandomPermutationTrafficPattern.html"];
+  Node1 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="RandomTrafficPattern",height=0.2,width=0.4,color="black",URL="$classRandomTrafficPattern.html"];
+  Node15 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="AsymmetricTrafficPattern",height=0.2,width=0.4,color="black",URL="$classAsymmetricTrafficPattern.html"];
+  Node15 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="DiagonalTrafficPattern",height=0.2,width=0.4,color="black",URL="$classDiagonalTrafficPattern.html"];
+  Node15 -> Node18 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Taper64TrafficPattern",height=0.2,width=0.4,color="black",URL="$classTaper64TrafficPattern.html"];
+  Node15 -> Node19 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="UniformBackgroundTrafficPattern",height=0.2,width=0.4,color="black",URL="$classUniformBackgroundTrafficPattern.html"];
+  Node15 -> Node20 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="UniformRandomTrafficPattern",height=0.2,width=0.4,color="black",URL="$classUniformRandomTrafficPattern.html"];
+}

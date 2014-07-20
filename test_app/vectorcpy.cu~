@@ -1,0 +1,7 @@
+#include<stdio.h>
+__global__ void VecCpy(float* A,float* C,int N)
+{
+	int i=blockDim.x*blockIdx.x+threadIdx.x;
+	if(i<N)
+		C[i]=A[i];
+}

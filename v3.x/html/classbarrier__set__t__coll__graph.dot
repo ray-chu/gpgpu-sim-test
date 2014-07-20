@@ -1,0 +1,13 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="barrier_set_t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_cta_to_warps",fontname="FreeSans"];
+  Node2 [label="map\< unsigned, warp_set_t \>",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_warp_active\nm_warp_at_barrier",fontname="FreeSans"];
+  Node3 [label="bitset\< WARP_PER_CTA_MAX \>",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_max_cta_per_core\nm_max_warps_per_core",fontname="FreeSans"];
+  Node4 [label="unsigned",height=0.2,width=0.4,color="grey75"];
+}
