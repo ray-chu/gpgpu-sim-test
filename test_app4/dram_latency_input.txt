@@ -1,0 +1,10 @@
+  mf: uid=     7, sid01:w00, part=0, addr=0x0, load , size=64, CONST    status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0038 w00[11111111111111111111111111111111]: VecCpy PC=0x038 (_1.ptx:70) ld.param.u64 %rd3, [__cudaparm__Z6VecCpyPfS_S_S_i_A];
+core1's cycle: 200 
+  mf: uid=     9, sid01:w00, part=2, addr=0x80000000, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0048 w00[11111111111111111111111111111111]: VecCpy PC=0x048 (_1.ptx:72) ld.global.f32 %f1, [%rd4+0];
+core1's cycle: 372 
+  mf: uid=    13, sid01:w00, part=3, addr=0x80000100, load , size=128, GLOBAL_R status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0060 w00[11111111111111111111111111111111]: VecCpy PC=0x060 (_1.ptx:76) ld.global.f32 %f2, [%rd6+0];
+core1's cycle: 389 
+  mf: uid=    19, sid01:w00, part=5, addr=0x80000300, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x0088 w00[11111111111111111111111111111111]: VecCpy PC=0x088 (_1.ptx:83) st.global.f32 [%rd8+0], %f3;
+core1's cycle: 567 
+  mf: uid=    80, sid01:w00, part=4, addr=0x80000200, store, size=128, GLOBAL_W status = IN_PARTITION_L2_TO_DRAM_QUEUE (0), 0x03c8 w00[11111111111111111111111111111111]: VecCpy PC=0x3c8 (_1.ptx:189) st.global.f32 [%rd10+0], %f104;
+core1's cycle: 2672 

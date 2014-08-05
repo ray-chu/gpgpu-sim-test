@@ -545,75 +545,80 @@ void shader_core_stats::visualizer_print( gzFile visualizer_file )
     gzprintf(visualizer_file, "gpgpu_n_shmem_bkconflict: %d\n", gpgpu_n_shmem_bkconflict);     
 
 
-   // instruction count per shader core
-   gzprintf(visualizer_file, "shaderinsncount:  ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_num_sim_insn[i] );
-   gzprintf(visualizer_file, "\n");
-   // warp instruction count per shader core
-   gzprintf(visualizer_file, "shaderwarpinsncount:  ");
-   for (unsigned i=0;i<m_config->num_shader();i++)
-      gzprintf(visualizer_file, "%u ", m_num_sim_winsn[i] );
-   gzprintf(visualizer_file, "\n");
-   // warp divergence per shader core
-   gzprintf(visualizer_file, "shaderwarpdiv: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_n_diverge[i] );
-   gzprintf(visualizer_file, "\n");
-   //SP load per core
-   gzprintf(visualizer_file, "shader_sp_unit_load: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_sp_unit_load[i] );
-   gzprintf(visualizer_file, "\n");
+   // // instruction count per shader core
+   // gzprintf(visualizer_file, "shaderinsncount:  ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_num_sim_insn[i] );
+   // gzprintf(visualizer_file, "\n");
+   // // warp instruction count per shader core
+   // gzprintf(visualizer_file, "shaderwarpinsncount:  ");
+   // for (unsigned i=0;i<m_config->num_shader();i++)
+   //    gzprintf(visualizer_file, "%u ", m_num_sim_winsn[i] );
+   // gzprintf(visualizer_file, "\n");
+   // // warp divergence per shader core
+   // gzprintf(visualizer_file, "shaderwarpdiv: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_n_diverge[i] );
+   // gzprintf(visualizer_file, "\n");
+   // //SP load per core
+   // gzprintf(visualizer_file, "shader_sp_unit_load: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_sp_unit_load[i] );
+   // gzprintf(visualizer_file, "\n");
 
-   gzprintf(visualizer_file, "sp0_load: ");
-   gzprintf(visualizer_file, "%u ", m_sp_unit_load[1] );
-   gzprintf(visualizer_file, "\n");
-   //SFU load per core
-   gzprintf(visualizer_file, "shader_sfu_unit_load: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_sfu_unit_load[i] );
-   gzprintf(visualizer_file, "\n");
+   // gzprintf(visualizer_file, "sp0_load: ");
+   // gzprintf(visualizer_file, "%u ", m_sp_unit_load[1] );
+   // gzprintf(visualizer_file, "\n");
+   // //SFU load per core
+   // gzprintf(visualizer_file, "shader_sfu_unit_load: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_sfu_unit_load[i] );
+   // gzprintf(visualizer_file, "\n");
 
-   gzprintf(visualizer_file, "sfu0_load: ");
-   gzprintf(visualizer_file, "%u ", m_sfu_unit_load[1] );
-   gzprintf(visualizer_file, "\n");
-   //ldst load per core
-   gzprintf(visualizer_file, "shader_ldst_unit_load: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_ldst_unit_load[i] );
-   gzprintf(visualizer_file, "\n");
+   // gzprintf(visualizer_file, "sfu0_load: ");
+   // gzprintf(visualizer_file, "%u ", m_sfu_unit_load[1] );
+   // gzprintf(visualizer_file, "\n");
+   // //ldst load per core
+   // gzprintf(visualizer_file, "shader_ldst_unit_load: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_ldst_unit_load[i] );
+   // gzprintf(visualizer_file, "\n");
 
-   gzprintf(visualizer_file, "ldst0_load: ");
-   gzprintf(visualizer_file, "%u ", m_ldst_unit_load[1] );
-   gzprintf(visualizer_file, "\n");
-   //SP latency per core
-   gzprintf(visualizer_file, "shader_sp_unit_tp: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_sp_unit_tp[i] );
-   gzprintf(visualizer_file, "\n");
+   // gzprintf(visualizer_file, "ldst0_load: ");
+   // gzprintf(visualizer_file, "%u ", m_ldst_unit_load[1] );
+   // gzprintf(visualizer_file, "\n");
+   // //SP latency per core
+   // gzprintf(visualizer_file, "shader_sp_unit_tp: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_sp_unit_tp[i] );
+   // gzprintf(visualizer_file, "\n");
 
-   gzprintf(visualizer_file, "sp0_tp: ");
-   gzprintf(visualizer_file, "%u ", m_sp_unit_tp[1] );
-   gzprintf(visualizer_file, "\n");
-   //SFU latency per core
-   gzprintf(visualizer_file, "shader_sfu_unit_tp: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_sfu_unit_tp[i] );
-   gzprintf(visualizer_file, "\n");
+   // gzprintf(visualizer_file, "sp0_tp: ");
+   // gzprintf(visualizer_file, "%u ", m_sp_unit_tp[1] );
+   // gzprintf(visualizer_file, "\n");
+   // //SFU latency per core
+   // gzprintf(visualizer_file, "shader_sfu_unit_tp: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_sfu_unit_tp[i] );
+   // gzprintf(visualizer_file, "\n");
 
-   gzprintf(visualizer_file, "sfu0_tp: ");
-   gzprintf(visualizer_file, "%u ", m_sfu_unit_tp[1] );
+   // gzprintf(visualizer_file, "sfu0_tp: ");
+   // gzprintf(visualizer_file, "%u ", m_sfu_unit_tp[1] );
+   // gzprintf(visualizer_file, "\n");
+   // //ldst latency per core
+   // gzprintf(visualizer_file, "shader_ldst_unit_tp: ");
+   // for (unsigned i=0;i<m_config->num_shader();i++) 
+   //    gzprintf(visualizer_file, "%u ", m_ldst_unit_tp[i] );
+   // gzprintf(visualizer_file, "\n");
+   
+   gzprintf(visualizer_file, "shader1_warp_status: ");
+   for (unsigned i=0; i<m_config->max_warps_per_shader;i++)
+	   gzprintf(visualizer_file, "%u ", m_warp_stats[i]);
    gzprintf(visualizer_file, "\n");
-   //ldst latency per core
-   gzprintf(visualizer_file, "shader_ldst_unit_tp: ");
-   for (unsigned i=0;i<m_config->num_shader();i++) 
-      gzprintf(visualizer_file, "%u ", m_ldst_unit_tp[i] );
-   gzprintf(visualizer_file, "\n");
-
-   gzprintf(visualizer_file, "ldst0_tp: ");
-   gzprintf(visualizer_file, "%u ", m_ldst_unit_tp[1] );
-   gzprintf(visualizer_file, "\n");
+   
+   // gzprintf(visualizer_file, "ldst0_tp: ");
+   // gzprintf(visualizer_file, "%u ", m_ldst_unit_tp[1] );
+   // gzprintf(visualizer_file, "\n");
 
 }
 
@@ -882,6 +887,10 @@ void scheduler_unit::cycle()
         unsigned checked=0;
         unsigned issued=0;
         unsigned max_issue = m_shader->m_config->gpgpu_max_insn_issue_per_warp;
+
+	//if warp wait for barrier or mem barrier, set up warp stats 1. If warp's ibuffer empty, set up warp stats 0;
+	// if(warp(warp_id).waiting()){m_stats->m_warp_stats[warp_id]=1;}
+	// else if(warp(warp_id).ibuffer_empty()){m_stats->m_warp_stats[warp_id]=0;}
         while( !warp(warp_id).waiting() && !warp(warp_id).ibuffer_empty() && (checked < max_issue) && (checked <= issued) && (issued < max_issue) ) {
             const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
             bool valid = warp(warp_id).ibuffer_next_valid();
@@ -899,6 +908,8 @@ void scheduler_unit::cycle()
                     // control hazard
                     warp(warp_id).set_next_pc(pc);
                     warp(warp_id).ibuffer_flush();
+		    //if warp control hazard flush
+//		    m_stats->m_warp_stats[warp_id]=2;
                 } else {
                     // valid_inst = true;
 		    // FILE *pFile;
@@ -915,12 +926,25 @@ void scheduler_unit::cycle()
                         ready_inst = true;
                         const active_mask_t &active_mask = m_simt_stack[warp_id]->get_active_mask();
                         assert( warp(warp_id).inst_in_pipeline() );
+
+			// FILE *pFile;
+			// pFile = fopen("scheduler_next_cycle_prioritized_warps.txt","a");
+			// if(pFile!=NULL){
+			// 	fprintf(pFile,"warp%u's next instruction is ",warp_id);
+			// 	pI->print(pFile);
+			// 	//ptx_print_insn(pI->pc,pFile);
+			// 	fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
+			// 	fclose(pFile);
+			// }
+
                         if ( (pI->op == LOAD_OP) || (pI->op == STORE_OP) || (pI->op == MEMORY_BARRIER_OP) ) {
                             if( m_mem_out->has_free() ) {
                                 m_shader->issue_warp(*m_mem_out,pI,active_mask,warp_id);
                                 issued++;
                                 issued_inst=true;
                                 warp_inst_issued = true;
+				//if warp issue a memory OP
+				//m_stats->m_warp_stats[warp_id]=3;
                             }
                         } else {
                             bool sp_pipe_avail = m_sp_out->has_free();
@@ -931,27 +955,24 @@ void scheduler_unit::cycle()
                                 issued++;
                                 issued_inst=true;
                                 warp_inst_issued = true;
+				//if warp issue a computing OP
+				//m_stats->m_warp_stats[warp_id]=2;
                             } else if ( (pI->op == SFU_OP) || (pI->op == ALU_SFU_OP) ) {
                                 if( sfu_pipe_avail ) {
                                     m_shader->issue_warp(*m_sfu_out,pI,active_mask,warp_id);
                                     issued++;
                                     issued_inst=true;
                                     warp_inst_issued = true;
+				    //m_stats->m_warp_stats[warp_id]=2;
                                 }
                             } 
                         }
-			// FILE *pFile;
-			// pFile = fopen("scheduler_next_cycle_prioritized_warps.txt","a");
-			// if(pFile!=NULL){
-			// 	fprintf(pFile,"warp%u's next instruction is ",warp_id);
-			// 	ptx_print_insn(pI->pc,pFile);
-			// 	fprintf(pFile,"core%u's cycle: %llu \n",m_shader->get_sid(),gpu_sim_cycle+gpu_tot_sim_cycle);
-			// 	fclose(pFile);
-			// }
 			
                     } else {
                         SCHED_DPRINTF( "Warp (warp_id %u, dynamic_warp_id %u) fails scoreboard\n",
                                        (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id() );
+			//if warp has to wait a register free.
+			//m_stats->m_warp_stats[warp_id]=6;
 			// FILE *pFile;
 			// pFile = fopen("warps_inst_fails_scoreboard.txt","a");
 			// if(pFile!=NULL){
@@ -968,6 +989,8 @@ void scheduler_unit::cycle()
                               (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id() );
                warp(warp_id).set_next_pc(pc);
                warp(warp_id).ibuffer_flush();
+	       //if warp meets a return instruction
+	       //m_stats->m_warp_stats[warp_id]=5;
             }
             if(warp_inst_issued) {
                 SCHED_DPRINTF( "Warp (warp_id %u, dynamic_warp_id %u) issued %u instructions\n",
@@ -979,6 +1002,7 @@ void scheduler_unit::cycle()
             checked++;
         }
         if ( issued ) {
+	     m_stats->m_warp_stats[warp_id]=10;
             // This might be a bit inefficient, but we need to maintain
             // two ordered list for proper scheduler execution.
             // We could remove the need for this loop by associating a
@@ -1078,29 +1102,35 @@ two_level_active_scheduler::do_on_warp_issued( unsigned warp_id,
 
 void two_level_active_scheduler::order_warps()
 {
-    //Move waiting warps to m_pending_warps
     unsigned num_demoted = 0;
     for (   std::vector< shd_warp_t* >::iterator iter = m_next_cycle_prioritized_warps.begin();
-            iter != m_next_cycle_prioritized_warps.end(); ) {
-        bool waiting = (*iter)->waiting();
-        for (int i=0; i<4; i++){
-            const warp_inst_t* inst = (*iter)->ibuffer_next_inst();
-            //Is the instruction waiting on a long operation?
-            if ( inst && inst->in[i] > 0 && this->m_scoreboard->islongop((*iter)->get_warp_id(), inst->in[i])){
-                waiting = true;
-            }
-        }
+	iter != m_next_cycle_prioritized_warps.end(); ) {
+	    bool waiting = (*iter)->waiting();
+	    //warps waiting for barrier
+	    //m_stats->m_warp_stats[(*iter)->get_warp_id()]=4;
+	    for (int i=0; i<4; i++){
+		    const warp_inst_t* inst = (*iter)->ibuffer_next_inst();
+		    //Is the instruction waiting on a long operation?
+		    if ( inst && inst->in[i] > 0 && this->m_scoreboard->islongop((*iter)->get_warp_id(), inst->in[i])){
+			    //warps waiting for barrier or long mem ops
+			    //m_stats->m_warp_stats[(*iter)->get_warp_id()]=5;        
+			    waiting = true;
+		    }
+	    }
 
-        if( waiting ) {
-            m_pending_warps.push_back(*iter);
-            iter = m_next_cycle_prioritized_warps.erase(iter);
-            SCHED_DPRINTF( "DEMOTED warp_id=%d, dynamic_warp_id=%d\n",
-                           (*iter)->get_warp_id(),
-                           (*iter)->get_dynamic_warp_id() );
-            ++num_demoted;
-        } else {
-            ++iter;
-        }
+	    if( waiting ) {
+		    m_pending_warps.push_back(*iter);
+		    iter = m_next_cycle_prioritized_warps.erase(iter);
+		    //following print is wrong? iter now points to element following "erased" iter
+		    SCHED_DPRINTF( "DEMOTED warp_id=%d, dynamic_warp_id=%d\n",
+				   (*iter)->get_warp_id(),
+				   (*iter)->get_dynamic_warp_id() );
+		    ++num_demoted;
+	    } else {
+		    //warps in priorittized queue but not be selected.
+		    //m_stats->m_warp_stats[(*iter)->get_warp_id()]=1;
+		    ++iter;
+	    }
     }
 
     //If there is space in m_next_cycle_prioritized_warps, promote the next m_pending_warps
@@ -1109,6 +1139,7 @@ void two_level_active_scheduler::order_warps()
         while ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) {
             m_next_cycle_prioritized_warps.push_back(m_pending_warps.front());
             m_pending_warps.pop_front();
+	    //m_stats->m_warp_stats[(m_next_cycle_prioritized_warps.back())->get_warp_id()]=1;
             SCHED_DPRINTF( "PROMOTED warp_id=%d, dynamic_warp_id=%d\n",
                            (m_next_cycle_prioritized_warps.back())->get_warp_id(),
                            (m_next_cycle_prioritized_warps.back())->get_dynamic_warp_id() );
@@ -1121,7 +1152,98 @@ void two_level_active_scheduler::order_warps()
         abort();
     }
     assert( num_promoted == num_demoted );
+
+    if(m_shader->get_sid()==1){
+    	    for (   std::vector< shd_warp_t* >::iterator iter = m_next_cycle_prioritized_warps.begin();
+    		    iter != m_next_cycle_prioritized_warps.end(); iter++) {
+    		    unsigned warp_id = (*iter)->get_warp_id();
+		    if(warp_id>=m_shader->m_config->max_warps_per_shader)
+			    break;
+		    //unsigned dynamic_warp_id=(*iter)->get_dynamic_warp_id();
+		    // if(!warp(warp_id).ibuffer_empty())
+    		    const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+		    //printf("warp_id=%u\n",warp_id);
+
+    		    if((*iter)->functional_done())
+    		    	    m_stats->m_warp_stats[warp_id]=7;
+    		    else if(m_shader->warp_waiting_at_barrier(warp_id)||m_shader->warp_waiting_at_mem_barrier(warp_id))
+    		    	    m_stats->m_warp_stats[warp_id]=8;
+    		    else if(!warp(warp_id).ibuffer_empty()){
+			    if(!m_scoreboard->checkCollision(warp_id, pI))
+				    m_stats->m_warp_stats[warp_id]=5;
+			    else{
+				    bool long_mem_op=false;
+				    for (int i=0; i<4; i++){
+					    //Is the instruction waiting on a long operation?
+					    if ( pI && pI->in[i] > 0 && this->m_scoreboard->islongop(warp_id, pI->in[i])){
+						    //warps waiting for long mem ops
+						    long_mem_op=true;
+						    break;
+					    }
+				    }
+				    if(long_mem_op)
+					    m_stats->m_warp_stats[warp_id]=9;
+				    else
+					    m_stats->m_warp_stats[warp_id]=6;
+			    }
+		    }
+		    else
+			    m_stats->m_warp_stats[warp_id]=0; 
+	    }
+
+    	    for(std::deque<shd_warp_t*>::iterator pending_iter=m_pending_warps.begin();pending_iter!=m_pending_warps.end(); pending_iter++){
+    	    	    unsigned warp_id = (*pending_iter)->get_warp_id();
+	    	    if(warp_id>=m_shader->m_config->max_warps_per_shader)
+	    		    break;
+    	    	    const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+
+    	    	    if((*pending_iter)->functional_done())
+    	    		    m_stats->m_warp_stats[warp_id]=4;
+    	    	    else if(m_shader->warp_waiting_at_barrier(warp_id)||m_shader->warp_waiting_at_mem_barrier(warp_id))
+    	    		    m_stats->m_warp_stats[warp_id]=3;
+    	    	    else if(!warp(warp_id).ibuffer_empty()){
+			    if(!m_scoreboard->checkCollision(warp_id, pI))
+				    m_stats->m_warp_stats[warp_id]=1;
+			    else{
+				    bool long_mem_op=false;
+				    for (int i=0; i<4; i++){
+					    //Is the instruction waiting on a long operation?
+					    if ( pI && pI->in[i] > 0 && this->m_scoreboard->islongop(warp_id, pI->in[i])){
+						    //warps waiting for long mem ops
+						    long_mem_op=true;
+						    break;
+					    }
+				    }
+				    if(long_mem_op)
+					    m_stats->m_warp_stats[warp_id]=2;
+			    }
+		    }
+		    else
+			    m_stats->m_warp_stats[warp_id]=0;
+    	    }
+    }
 }
+
+// void
+// two_level_prioritization_scheduler::do_on_warp_issued( unsigned warp_id,
+//                                                unsigned num_issued,
+//                                                const std::vector< shd_warp_t* >::const_iterator& prioritized_iter )
+// {
+//     scheduler_unit::do_on_warp_issued( warp_id, num_issued, prioritized_iter );
+//     if ( SCHEDULER_PRIORITIZATION_LRR == m_inner_level_prioritization ) {
+//         std::vector< shd_warp_t* > new_active; 
+//         order_lrr( new_active,
+//                    m_next_cycle_prioritized_warps,
+//                    prioritized_iter,
+//                    m_next_cycle_prioritized_warps.size() );
+//         m_next_cycle_prioritized_warps = new_active;
+//     } else {
+//         fprintf( stderr,
+//                  "Unimplemented m_inner_level_prioritization: %d\n",
+//                  m_inner_level_prioritization );
+//         abort();
+//     }
+// }
 
 swl_scheduler::swl_scheduler ( shader_core_stats* stats, shader_core_ctx* shader,
                                Scoreboard* scoreboard, simt_stack** simt,
@@ -2417,7 +2539,8 @@ void warp_inst_t::print( FILE *fout ) const
         fprintf(fout, "%c", (active(j)?'1':'0') );
     fprintf(fout, "]: ");
     ptx_print_insn( pc, fout );
-//    fprintf(fout, " initiation_interval: %d", initiation_interval);
+    fprintf(fout, " initiation_interval: %u", initiation_interval);
+    fprintf(fout, " latency is %u", latency);
     fprintf(fout, "\n");
 }
 void shader_core_ctx::incexecstat(warp_inst_t *&inst)

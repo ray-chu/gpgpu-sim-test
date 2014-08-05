@@ -459,6 +459,61 @@ private:
 	unsigned m_max_active_warps;
 };
 
+/* class two_level_prioritization_scheduler : public scheduler_unit { */
+/* public: */
+/* 	two_level_prioritization_scheduler ( shader_core_stats* stats, shader_core_ctx* shader, */
+/*                           Scoreboard* scoreboard, simt_stack** simt, */
+/*                           std::vector<shd_warp_t>* warp, */
+/*                           register_set* sp_out, */
+/*                           register_set* sfu_out, */
+/*                           register_set* mem_out, */
+/*                           int id, */
+/*                           char* config_str ) */
+/* 		: scheduler_unit ( stats, shader, scoreboard, simt, warp, sp_out, sfu_out, mem_out, id ), */
+/* 		m_pending_warps()  */
+/*     { */
+/*         unsigned inner_level_readin; */
+/*         unsigned outer_level_readin;  */
+/*         int ret = sscanf( config_str, */
+/*                           "two_level_prioritized:%d:%d:%d", */
+/*                           &issue_group_size, */
+/*                           &inner_level_readin, */
+/*                           &outer_level_readin); */
+/*         assert( 3 == ret ); */
+/*         m_inner_level_prioritization=(scheduler_prioritization_type)inner_level_readin; */
+/*         m_outer_level_prioritization=(scheduler_prioritization_type)outer_level_readin; */
+/*     } */
+/* 	virtual ~two_level_active_scheduler () {} */
+/*     virtual void order_warps(); */
+/* 	void add_supervised_warp_id(int i) { */
+/*         /\* if ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) { *\/ */
+/*         /\*     m_next_cycle_prioritized_warps.push_back( &warp(i) ); *\/ */
+/*         /\* } else { *\/ */
+/* 	/\* 	    m_pending_warps.push_back(&warp(i)); *\/ */
+/*         /\* } *\/ */
+/* 		warp(i).set_issue_group_id(i/issue_group_size); */
+/* 		warp(i).set_id_in_issue_group(i%issue_group_size); */
+/* 		m_supervised_warps.push_back(&warp(i)); */
+/* 	} */
+/*     virtual void done_adding_supervised_warps() { */
+/*         m_last_supervised_issued = m_supervised_warps.begin(); */
+/* 	num_of_issue_groups=(m_supervised_waprs.size()+issue_group_size-1)/issue_group_size; */
+/*     } */
+
+/* protected: */
+/*     virtual void do_on_warp_issued( unsigned warp_id, */
+/*                                     unsigned num_issued, */
+/*                                     const std::vector< shd_warp_t* >::const_iterator& prioritized_iter ); */
+
+/* private: */
+/* 	std::deque< shd_warp_t* > m_pending_warps; */
+/*     scheduler_prioritization_type m_inner_level_prioritization; */
+/*     scheduler_prioritization_type m_outer_level_prioritization; */
+/* 	unsigned issue_group_size; */
+/* 	unsigned num_of_issue_groups; */
+/* 	unsigned m_max_active_warps; */
+/* }; */
+
 // Static Warp Limiting Scheduler
 class swl_scheduler : public scheduler_unit {
 public:
@@ -1376,6 +1431,7 @@ struct shader_core_stats_pod {
 	unsigned *m_sp_unit_tp;
 	unsigned *m_sfu_unit_load;
 	unsigned *m_sfu_unit_tp;
+	unsigned *m_warp_stats;
     unsigned *m_n_diverge;    // number of divergence occurring in this shader
     unsigned gpgpu_n_load_insn;
     unsigned gpgpu_n_store_insn;
@@ -1467,6 +1523,8 @@ public:
         m_n_diverge = (unsigned*) calloc(config->num_shader(),sizeof(unsigned));
         shader_cycle_distro = (unsigned*) calloc(config->warp_size+3, sizeof(unsigned));
         last_shader_cycle_distro = (unsigned*) calloc(m_config->warp_size+3, sizeof(unsigned));
+
+	m_warp_stats=(unsigned*) calloc(config->max_warps_per_shader,sizeof(unsigned));
 
         n_simt_to_mem = (long *)calloc(config->num_shader(), sizeof(long));
         n_mem_to_simt = (long *)calloc(config->num_shader(), sizeof(long));
@@ -1778,6 +1836,7 @@ private:
     
     void issue();
     friend class scheduler_unit; //this is needed to use private issue warp.
+    friend class two_level_active_scheduler;
     friend class TwoLevelScheduler;
     friend class LooseRoundRobbinScheduler;
     void issue_warp( register_set& warp, const warp_inst_t *pI, const active_mask_t &active_mask, unsigned warp_id );

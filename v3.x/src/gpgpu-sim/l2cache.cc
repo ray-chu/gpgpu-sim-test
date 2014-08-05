@@ -290,7 +290,7 @@ void memory_partition_unit::dram_cycle()
 		    mem_fetch *mf = m_sub_partition[spid]->L2_dram_queue_top();
 		    // if(mf&&(mf->get_sid()==1)&&!(mf->get_inst().empty())){
 		    // 	    FILE *pFile;
-		    // 	    pFile = fopen("mem_flow.txt","a");
+		    // 	    pFile = fopen("dram_latency_input.txt","a");
 		    // 	    if(pFile!=NULL){
 		    // 		    mf->print(pFile,true);
 		    // 		    //fprintf(pFile,"sh \n",m_id);

@@ -213,6 +213,7 @@ def parseMe(filename):
         'dramTmp0': vc.variable('dram_tmp0', 2, 0, 'idxVec'),
         'dramTmp1': vc.variable('dram_tmp1', 2, 0, 'idxVec'),
         'dram_lq_sm1': vc.variable('dram_lq_sm1', 1, 0, 'scalar'),
+        'shader1_warp_status': vc.variable('shader1_warp_status',2,0,'impVec'),
         'CFLOG' : CFLOG
     }
 
