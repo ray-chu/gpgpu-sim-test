@@ -216,6 +216,12 @@ public:
     unsigned get_dynamic_warp_id() const { return m_dynamic_warp_id; }
     unsigned get_warp_id() const { return m_warp_id; }
 
+    void set_issue_group_id(unsigned group_id) {m_issue_group_id=group_id;}
+    void set_id_in_issue_group(unsigned id_in_group) {m_id_in_group=id_in_group;}
+
+    unsigned get_issue_group_id() const{return m_issue_group_id;}
+    unsigned get_id_in_issue_group() const{return m_id_in_group;}
+
 private:
     static const unsigned IBUFFER_SIZE=2;
     class shader_core_ctx *m_shader;
@@ -223,6 +229,9 @@ private:
     unsigned m_warp_id;
     unsigned m_warp_size;
     unsigned m_dynamic_warp_id;
+
+    unsigned m_issue_group_id;
+    unsigned m_id_in_group;
 
     address_type m_next_pc;
     unsigned n_completed;          // number of threads in warp completed
@@ -281,6 +290,7 @@ enum concrete_scheduler
     CONCRETE_SCHEDULER_LRR = 0,
     CONCRETE_SCHEDULER_GTO,
     CONCRETE_SCHEDULER_TWO_LEVEL_ACTIVE,
+    CONCRETE_SCHEDULER_TWO_LEVEL_RR,
     CONCRETE_SCHEDULER_WARP_LIMITING,
     NUM_CONCRETE_SCHEDULERS
 };
@@ -386,7 +396,7 @@ public:
 	: scheduler_unit ( stats, shader, scoreboard, simt, warp, sp_out, sfu_out, mem_out, id ){}
 	virtual ~lrr_scheduler () {}
 	virtual void order_warps ();
-    virtual void done_adding_supervised_warps() {
+    virtual void done_adding_supervised_warps() {	  
         m_last_supervised_issued = m_supervised_warps.end();
     }
 };
@@ -436,13 +446,13 @@ public:
     }
 	virtual ~two_level_active_scheduler () {}
     virtual void order_warps();
-	void add_supervised_warp_id(int i) {
-        if ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) {
-            m_next_cycle_prioritized_warps.push_back( &warp(i) );
-        } else {
+    void add_supervised_warp_id(int i) {
+	    if ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) {
+		    m_next_cycle_prioritized_warps.push_back( &warp(i) );
+	    } else {
 		    m_pending_warps.push_back(&warp(i));
-        }
-	}
+	    }
+    }
     virtual void done_adding_supervised_warps() {
         m_last_supervised_issued = m_supervised_warps.begin();
     }
@@ -453,66 +463,102 @@ protected:
                                     const std::vector< shd_warp_t* >::const_iterator& prioritized_iter );
 
 private:
-	std::deque< shd_warp_t* > m_pending_warps;
+    std::deque< shd_warp_t* > m_pending_warps;
     scheduler_prioritization_type m_inner_level_prioritization;
     scheduler_prioritization_type m_outer_level_prioritization;
-	unsigned m_max_active_warps;
+    unsigned m_max_active_warps;
 };
 
-/* class two_level_prioritization_scheduler : public scheduler_unit { */
-/* public: */
-/* 	two_level_prioritization_scheduler ( shader_core_stats* stats, shader_core_ctx* shader, */
-/*                           Scoreboard* scoreboard, simt_stack** simt, */
-/*                           std::vector<shd_warp_t>* warp, */
-/*                           register_set* sp_out, */
-/*                           register_set* sfu_out, */
-/*                           register_set* mem_out, */
-/*                           int id, */
-/*                           char* config_str ) */
-/* 		: scheduler_unit ( stats, shader, scoreboard, simt, warp, sp_out, sfu_out, mem_out, id ), */
-/* 		m_pending_warps()  */
-/*     { */
-/*         unsigned inner_level_readin; */
-/*         unsigned outer_level_readin;  */
-/*         int ret = sscanf( config_str, */
-/*                           "two_level_prioritized:%d:%d:%d", */
-/*                           &issue_group_size, */
-/*                           &inner_level_readin, */
-/*                           &outer_level_readin); */
-/*         assert( 3 == ret ); */
-/*         m_inner_level_prioritization=(scheduler_prioritization_type)inner_level_readin; */
-/*         m_outer_level_prioritization=(scheduler_prioritization_type)outer_level_readin; */
-/*     } */
-/* 	virtual ~two_level_active_scheduler () {} */
-/*     virtual void order_warps(); */
-/* 	void add_supervised_warp_id(int i) { */
-/*         /\* if ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) { *\/ */
-/*         /\*     m_next_cycle_prioritized_warps.push_back( &warp(i) ); *\/ */
-/*         /\* } else { *\/ */
-/* 	/\* 	    m_pending_warps.push_back(&warp(i)); *\/ */
-/*         /\* } *\/ */
-/* 		warp(i).set_issue_group_id(i/issue_group_size); */
-/* 		warp(i).set_id_in_issue_group(i%issue_group_size); */
-/* 		m_supervised_warps.push_back(&warp(i)); */
-/* 	} */
-/*     virtual void done_adding_supervised_warps() { */
-/*         m_last_supervised_issued = m_supervised_warps.begin(); */
-/* 	num_of_issue_groups=(m_supervised_waprs.size()+issue_group_size-1)/issue_group_size; */
-/*     } */
+class two_level_rr_scheduler : public scheduler_unit {
+public:
+    typedef struct{
+	    unsigned group_id;
+	    std::vector<shd_warp_t*> active_warps_queue;
+	    std::vector<shd_warp_t*> pending_warps_queue;	    
+    } issue_group_queue;
 
-/* protected: */
-/*     virtual void do_on_warp_issued( unsigned warp_id, */
-/*                                     unsigned num_issued, */
-/*                                     const std::vector< shd_warp_t* >::const_iterator& prioritized_iter ); */
+    two_level_rr_scheduler ( shader_core_stats* stats, shader_core_ctx* shader,
+                          Scoreboard* scoreboard, simt_stack** simt,
+                          std::vector<shd_warp_t>* warp,
+                          register_set* sp_out,
+                          register_set* sfu_out,
+                          register_set* mem_out,
+                          int id,
+                          char* config_str )
+	    : scheduler_unit ( stats, shader, scoreboard, simt, warp, sp_out, sfu_out, mem_out, id ),
+	    m_issue_warps_matrix()
+    {
+	    unsigned inner_level_readin;
+	    unsigned outer_level_readin;
+	    int ret = sscanf( config_str,
+			      "two_level_rr:%d:%d:%d:%d",
+			      &m_max_active_warps,
+			      &m_issue_group_size,
+			      &inner_level_readin,
+			      &outer_level_readin);
+	    assert( 4 == ret );
+	    m_inner_level_prioritization=(scheduler_prioritization_type)inner_level_readin;
+	    m_outer_level_prioritization=(scheduler_prioritization_type)outer_level_readin;
+    }
+    virtual ~two_level_rr_scheduler () {}
+    virtual void order_warps();
 
-/* private: */
-/* 	std::deque< shd_warp_t* > m_pending_warps; */
-/*     scheduler_prioritization_type m_inner_level_prioritization; */
-/*     scheduler_prioritization_type m_outer_level_prioritization; */
-/* 	unsigned issue_group_size; */
-/* 	unsigned num_of_issue_groups; */
-/* 	unsigned m_max_active_warps; */
-/* }; */
+    void add_supervised_warp_id(int i) {
+	    /* if ( m_next_cycle_prioritized_warps.size() < m_max_active_warps ) { */
+	    /*     m_next_cycle_prioritized_warps.push_back( &warp(i) ); */
+	    /* } else { */
+	    /* 	    m_pending_warps.push_back(&warp(i)); */
+	    /* } */
+	    unsigned issue_group_id=i/m_issue_group_size;
+	    unsigned id_in_issue_group=i%m_issue_group_size;
+	    warp(i).set_issue_group_id(issue_group_id);
+	    warp(i).set_id_in_issue_group(id_in_issue_group);
+	    m_supervised_warps.push_back(&warp(i));
+	    //m_issue_group_matrix[issue_group_id].push_back(&warp(i));
+    }
+
+    virtual void done_adding_supervised_warps() {
+	    /* for(unsigned i = 0; i<m_supervised_warps.size();i++) */
+	    /* 	    printf("warp %u supervised\n", warp(i).get_warp_id()); */
+	    if(!m_max_active_warps)
+		    m_max_active_warps=m_supervised_warps.size();
+	    m_num_of_issue_groups=(m_supervised_warps.size()+m_issue_group_size-1)/m_issue_group_size;
+	    m_issue_warps_matrix.resize(m_num_of_issue_groups);
+	    for(std::vector<shd_warp_t*>::iterator iter= m_supervised_warps.begin();
+		iter!=m_supervised_warps.end();iter++){
+		    m_issue_warps_matrix[(*iter)->get_issue_group_id()].active_warps_queue.push_back((*iter));
+	    }
+	    
+	    for(unsigned i=0;i<m_num_of_issue_groups;i++){
+		    m_issue_warps_matrix[i].group_id=i;
+		    //printf("group_id assigned %u \n",m_issue_warps_matrix[i].group_id);
+	    }
+	    /* int i=0; */
+	    /* for(std::deque<issue_group_queue>::iterator tmp_iter=m_issue_warps_matrix.begin(); */
+	    /* 	tmp_iter!= m_issue_warps_matrix.end();tmp_iter++){ */
+	    /* 	    tmp_iter->group_id=i; */
+	    /* 	    i++; */
+	    /* } */	    
+	    m_supervised_warps.clear();
+	    m_last_supervised_issued = m_supervised_warps.begin();
+    }
+
+protected:
+    virtual void do_on_warp_issued( unsigned warp_id,
+                                    unsigned num_issued,
+                                    const std::vector< shd_warp_t* >::const_iterator& prioritized_iter );
+
+private:
+    std::vector<issue_group_queue> m_issue_warps_matrix;
+    //std::vector<unsigned> m_priority_tags;
+    scheduler_prioritization_type m_inner_level_prioritization;
+    scheduler_prioritization_type m_outer_level_prioritization;
+    unsigned m_issue_group_size;
+    //   unsigned m_num_of_warps;
+    unsigned m_num_of_issue_groups;
+    unsigned m_max_active_warps;
+    //unsigned m_priority_group;  //record the highest prirority issue group id. Other groups are arranged following id sequeuence in m_issue_group_matrix.
+};
 
 // Static Warp Limiting Scheduler
 class swl_scheduler : public scheduler_unit {
@@ -1837,6 +1883,7 @@ private:
     void issue();
     friend class scheduler_unit; //this is needed to use private issue warp.
     friend class two_level_active_scheduler;
+    friend class two_level_rr_scheduler;
     friend class TwoLevelScheduler;
     friend class LooseRoundRobbinScheduler;
     void issue_warp( register_set& warp, const warp_inst_t *pI, const active_mask_t &active_mask, unsigned warp_id );

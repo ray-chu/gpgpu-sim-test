@@ -132,6 +132,8 @@ shader_core_ctx::shader_core_ctx( class gpgpu_sim *gpu,
                                          CONCRETE_SCHEDULER_LRR :
                                          sched_config.find("two_level_active") != std::string::npos ?
                                          CONCRETE_SCHEDULER_TWO_LEVEL_ACTIVE :
+	                                 sched_config.find("two_level_rr") !=std::string::npos ?	      
+	                                 CONCRETE_SCHEDULER_TWO_LEVEL_RR:
                                          sched_config.find("gto") != std::string::npos ?
                                          CONCRETE_SCHEDULER_GTO :
                                          sched_config.find("warp_limiting") != std::string::npos ?
@@ -159,6 +161,21 @@ shader_core_ctx::shader_core_ctx( class gpgpu_sim *gpu,
             case CONCRETE_SCHEDULER_TWO_LEVEL_ACTIVE:
                 schedulers.push_back(
                     new two_level_active_scheduler( m_stats,
+                                                    this,
+                                                    m_scoreboard,
+                                                    m_simt_stack,
+                                                    &m_warp,
+                                                    &m_pipeline_reg[ID_OC_SP],
+                                                    &m_pipeline_reg[ID_OC_SFU],
+                                                    &m_pipeline_reg[ID_OC_MEM],
+                                                    i,
+                                                    config->gpgpu_scheduler_string
+                                                  )
+                );
+                break;
+	    case CONCRETE_SCHEDULER_TWO_LEVEL_RR:
+                schedulers.push_back(
+                    new two_level_rr_scheduler( m_stats,
                                                     this,
                                                     m_scoreboard,
                                                     m_simt_stack,
@@ -336,6 +353,7 @@ void shader_core_ctx::init_warps( unsigned cta_id, unsigned start_thread, unsign
                 }
             }
             m_simt_stack[i]->launch(start_pc,active_threads);
+	    //printf("warp %u initial at %llu cycle\n", i, gpu_sim_cycle+gpu_tot_sim_cycle);
             m_warp[i].init(start_pc,cta_id,i,active_threads, m_dynamic_warp_id);
             ++m_dynamic_warp_id;
             m_not_completed += n_active;
@@ -967,7 +985,6 @@ void scheduler_unit::cycle()
                                 }
                             } 
                         }
-			
                     } else {
                         SCHED_DPRINTF( "Warp (warp_id %u, dynamic_warp_id %u) fails scoreboard\n",
                                        (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id() );
@@ -997,6 +1014,10 @@ void scheduler_unit::cycle()
                                (*iter)->get_warp_id(),
                                (*iter)->get_dynamic_warp_id(),
                                issued );
+		// printf( "Warp (warp_id %u, dynamic_warp_id %u) issued %u instructions\n",
+                //                (*iter)->get_warp_id(),
+                //                (*iter)->get_dynamic_warp_id(),
+                //                issued);
                 do_on_warp_issued( warp_id, issued, iter );
             }
             checked++;
@@ -1115,6 +1136,8 @@ void two_level_active_scheduler::order_warps()
 			    //warps waiting for barrier or long mem ops
 			    //m_stats->m_warp_stats[(*iter)->get_warp_id()]=5;        
 			    waiting = true;
+			    inst->print(stdout);
+			    printf("warp%u is wait long ops. Global cycle is %llu\n",(*iter)->get_warp_id(), gpu_sim_cycle+gpu_tot_sim_cycle);
 		    }
 	    }
 
@@ -1224,26 +1247,165 @@ void two_level_active_scheduler::order_warps()
     }
 }
 
-// void
-// two_level_prioritization_scheduler::do_on_warp_issued( unsigned warp_id,
-//                                                unsigned num_issued,
-//                                                const std::vector< shd_warp_t* >::const_iterator& prioritized_iter )
-// {
-//     scheduler_unit::do_on_warp_issued( warp_id, num_issued, prioritized_iter );
-//     if ( SCHEDULER_PRIORITIZATION_LRR == m_inner_level_prioritization ) {
-//         std::vector< shd_warp_t* > new_active; 
-//         order_lrr( new_active,
-//                    m_next_cycle_prioritized_warps,
-//                    prioritized_iter,
-//                    m_next_cycle_prioritized_warps.size() );
-//         m_next_cycle_prioritized_warps = new_active;
-//     } else {
-//         fprintf( stderr,
-//                  "Unimplemented m_inner_level_prioritization: %d\n",
-//                  m_inner_level_prioritization );
-//         abort();
-//     }
-// }
+void two_level_rr_scheduler::order_warps()
+{
+
+    m_next_cycle_prioritized_warps.clear();
+
+    unsigned group_iter_counter=0;
+
+    for(std::vector<issue_group_queue>::iterator group_iter=m_issue_warps_matrix.begin();
+    	(group_iter!= m_issue_warps_matrix.end())&&(m_next_cycle_prioritized_warps.size()<m_max_active_warps)&&(group_iter_counter<m_num_of_issue_groups);){
+    	    //all warps in one issue group are long stalled. demote the group(pop out the issue_matrix's front, put corresponding pending group into issue_matrix's back and increase the highest priority issue group number).	    
+    	    if((group_iter->active_warps_queue).empty()){
+
+		    //move pending queue into active queue and then push new group queue into end of whole matrix
+		    issue_group_queue cache_queue;
+		    cache_queue.group_id=group_iter->group_id;
+		    cache_queue.active_warps_queue=group_iter->pending_warps_queue;
+		    cache_queue.pending_warps_queue.clear();
+		    
+		    group_iter=m_issue_warps_matrix.erase(group_iter);
+		    m_issue_warps_matrix.push_back(cache_queue);
+		    group_iter_counter++;
+    	    }
+    	    else{
+    	    	    for(std::vector<shd_warp_t*>::iterator iter=(group_iter->active_warps_queue).begin();
+    	    		(iter!=(group_iter->active_warps_queue).end())&&(m_next_cycle_prioritized_warps.size()<m_max_active_warps);){
+			    
+    	    		    bool waiting= (*iter)->waiting();			    
+    	    		    for (int i=0; i<4; i++){
+    	    			    const warp_inst_t* inst = (*iter)->ibuffer_next_inst();
+    	    			    //Is the instruction waiting on a long operation?
+    	    			    if ( inst && inst->in[i] > 0 && this->m_scoreboard->islongop((*iter)->get_warp_id(), inst->in[i])){        
+    	    				    waiting = true;
+    	    			    }
+    	    		    }
+
+    	    		    if( waiting ) {
+    	    			    (group_iter->pending_warps_queue).push_back(*iter);
+    	    			    iter = (group_iter->active_warps_queue).erase(iter);
+    	    		    } else {
+    	    			    m_next_cycle_prioritized_warps.push_back(*iter);
+    	    			    ++iter;
+    	    		    }
+    	    	    }
+    	    	    ++group_iter;
+		    ++group_iter_counter;
+    	    }
+    }
+
+    if(m_shader->get_sid()==1){
+
+    	    for(std::vector<issue_group_queue>::iterator group_iter=m_issue_warps_matrix.begin();
+    		group_iter!= m_issue_warps_matrix.end();group_iter++){
+    		    for(std::vector<shd_warp_t*>::iterator iter=(group_iter->active_warps_queue).begin();
+    			iter!=(group_iter->active_warps_queue).end();iter++){
+    			    unsigned warp_id = (*iter)->get_warp_id();
+    			    if(warp_id>=m_shader->m_config->max_warps_per_shader)
+    				    break;
+    			    const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+
+    			    if((*iter)->functional_done())
+    				    m_stats->m_warp_stats[warp_id]=7;
+    			    else if(m_shader->warp_waiting_at_barrier(warp_id)||m_shader->warp_waiting_at_mem_barrier(warp_id))
+    				    m_stats->m_warp_stats[warp_id]=8;
+    			    else if(!warp(warp_id).ibuffer_empty()){
+    				    if(!m_scoreboard->checkCollision(warp_id, pI))
+    					    m_stats->m_warp_stats[warp_id]=5;
+    				    else{
+    					    bool long_mem_op=false;
+    					    for (int i=0; i<4; i++){
+    						    //Is the instruction waiting on a long operation?
+    						    if ( pI && pI->in[i] > 0 && this->m_scoreboard->islongop(warp_id, pI->in[i])){
+    							    //warps waiting for long mem ops
+    							    long_mem_op=true;
+    							    break;
+    						    }
+    					    }
+    					    if(long_mem_op)
+    						    m_stats->m_warp_stats[warp_id]=9;
+    					    else
+    						    m_stats->m_warp_stats[warp_id]=6;
+    				    }
+    			    }
+    			    else
+    				    m_stats->m_warp_stats[warp_id]=0; 
+    		    }
+
+    		    for(std::vector<shd_warp_t*>::iterator pending_iter=(group_iter->pending_warps_queue).begin();
+    			pending_iter!=(group_iter->pending_warps_queue).end();pending_iter++){
+    			    unsigned warp_id = (*pending_iter)->get_warp_id();
+    			    if(warp_id>=m_shader->m_config->max_warps_per_shader)
+    				    break;
+    			    const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+
+    			    if((*pending_iter)->functional_done())
+    				    m_stats->m_warp_stats[warp_id]=4;
+    			    else if(m_shader->warp_waiting_at_barrier(warp_id)||m_shader->warp_waiting_at_mem_barrier(warp_id))
+    				    m_stats->m_warp_stats[warp_id]=3;
+    			    else if(!warp(warp_id).ibuffer_empty()){
+    				    if(!m_scoreboard->checkCollision(warp_id, pI))
+    					    m_stats->m_warp_stats[warp_id]=1;
+    				    else{
+    					    bool long_mem_op=false;
+    					    for (int i=0; i<4; i++){
+    						    //Is the instruction waiting on a long operation?
+    						    if ( pI && pI->in[i] > 0 && this->m_scoreboard->islongop(warp_id, pI->in[i])){
+    							    //warps waiting for long mem ops
+    							    long_mem_op=true;
+    							    break;
+    						    }
+    					    }
+    					    if(long_mem_op)
+    						    m_stats->m_warp_stats[warp_id]=2;
+    				    }
+    			    }
+    			    else
+    				    m_stats->m_warp_stats[warp_id]=0;
+    		    }
+	    }
+    }
+}
+
+void
+two_level_rr_scheduler::do_on_warp_issued( unsigned warp_id,
+                                               unsigned num_issued,
+                                               const std::vector< shd_warp_t* >::const_iterator& prioritized_iter )
+{
+    scheduler_unit::do_on_warp_issued( warp_id, num_issued, prioritized_iter );
+    unsigned issue_group_id=warp(warp_id).get_issue_group_id();
+    unsigned tmp_group_id=0;
+
+    //It's not efficient. But Truely can find the issue group in issue_warps_matrix;
+    for(std::vector<issue_group_queue>::iterator tmp_iter=m_issue_warps_matrix.begin();
+	(tmp_iter!= m_issue_warps_matrix.end())&&(issue_group_id!=tmp_iter->group_id);tmp_iter++)
+	    tmp_group_id++;
+   
+    if ( SCHEDULER_PRIORITIZATION_LRR == m_inner_level_prioritization ) {
+        std::vector< shd_warp_t* > new_active;
+	std::vector< shd_warp_t* >::const_iterator iter_finder;
+
+	//scheduler::cycle use prioritized queue to check. It's different from the supervised matrix we used. And the prioritized_iter is point to the elements of prioritized queue, not the elements of supervised matrix. So we need to find corresponding iter in supervised matrix.
+	for ( std::vector< shd_warp_t* >::const_iterator issue_iter = m_issue_warps_matrix[tmp_group_id].active_warps_queue.begin();
+	      issue_iter != m_issue_warps_matrix[tmp_group_id].active_warps_queue.end();
+	      ++issue_iter ) {
+                if ( *prioritized_iter == *issue_iter ) {
+			iter_finder = issue_iter;
+                }
+	}
+        order_lrr( new_active,
+                   m_issue_warps_matrix[tmp_group_id].active_warps_queue,
+                   iter_finder,
+                   m_issue_warps_matrix[tmp_group_id].active_warps_queue.size() );
+	m_issue_warps_matrix[tmp_group_id].active_warps_queue=new_active;
+    } else {
+        fprintf( stderr,
+                 "Unimplemented m_inner_level_prioritization: %d\n",
+                 m_inner_level_prioritization );
+        abort();
+    }
+}
 
 swl_scheduler::swl_scheduler ( shader_core_stats* stats, shader_core_ctx* shader,
                                Scoreboard* scoreboard, simt_stack** simt,
@@ -2020,16 +2182,21 @@ void ldst_unit::writeback()
                         unsigned still_pending = --m_pending_writes[m_next_wb.warp_id()][m_next_wb.out[r]];
                         if( !still_pending ) {
                             m_pending_writes[m_next_wb.warp_id()].erase(m_next_wb.out[r]);
+			    // printf("m_next_wb is");
+			    // m_next_wb.print(stdout);
+			    // printf("core cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
                             m_scoreboard->releaseRegister( m_next_wb.warp_id(), m_next_wb.out[r] );
                             insn_completed = true; 
                         }
                     } else { // shared 
-                        m_scoreboard->releaseRegister( m_next_wb.warp_id(), m_next_wb.out[r] );
+			    m_scoreboard->releaseRegister( m_next_wb.warp_id(), m_next_wb.out[r] );
+			    //m_scoreboard->releaseRegisters(&m_next_wb);
                         insn_completed = true; 
                     }
                 }
             }
             if( insn_completed ) {
+		    //m_scoreboard->releaseRegisters(&m_next_wb);
                 m_core->warp_inst_complete(m_next_wb);
             }
             m_next_wb.clear();
@@ -2148,10 +2315,10 @@ void ldst_unit::cycle()
        // 	   FILE *pFile;
        // 	   pFile = fopen("mem_flow.txt","a");
        // 	   if(pFile!=NULL){
-       // 		   mf->print(pFile);
-       // 		   fprintf(pFile,"return L1 of core%u \n",m_core->get_sid());
-       // 		   fprintf(pFile,"core cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
-       // 		   fclose(pFile);
+       // 	   	   mf->print(pFile);
+       // 	   	   fprintf(pFile,"return L1 of core%u \n",m_core->get_sid());
+       // 	   	   fprintf(pFile,"core cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
+       // 	   	   fclose(pFile);
        // 	   }
        // }
        if (mf->istexture()) {
@@ -2263,6 +2430,9 @@ void ldst_unit::cycle()
                    }
                }
                if( !pending_requests ) {
+		       //printf("Pipe_reg is cache hit.");
+		       //pipe_reg.print(stdout);
+       		   //printf("core cycle: %llu \n",gpu_sim_cycle+gpu_tot_sim_cycle);
                    m_core->warp_inst_complete(*m_dispatch_reg);
                    m_scoreboard->releaseRegisters(m_dispatch_reg);
                }
